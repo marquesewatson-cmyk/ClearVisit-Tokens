@@ -1,0 +1,439 @@
+{
+  "color": {
+    "$type": "color",
+    "text": {
+      "primary": {
+        "$value": "{color.slate.900}",
+        "$description": "Body copy, headings, data."
+      },
+      "secondary": {
+        "$value": "{color.slate.700}",
+        "$description": "Supporting copy, table headers, meta."
+      },
+      "muted": {
+        "$value": "{color.slate.600}",
+        "$description": "Placeholders, timestamps. Still meets 4.5:1 on default and subtle surfaces."
+      },
+      "disabled": {
+        "$value": "{color.slate.400}",
+        "$description": "Disabled text. Exempt from WCAG 1.4.3 but always paired with a disabled container."
+      },
+      "inverse": {
+        "$value": "{color.slate.50}",
+        "$description": "Text on inverse surfaces (tooltips, toasts)."
+      },
+      "link": {
+        "$value": "{color.blue.700}"
+      },
+      "link-hover": {
+        "$value": "{color.blue.800}"
+      }
+    },
+    "surface": {
+      "app": {
+        "$value": "{color.slate.50}",
+        "$description": "Page/app background."
+      },
+      "default": {
+        "$value": "{color.white}",
+        "$description": "Cards, tables, inputs."
+      },
+      "elevated": {
+        "$value": "{color.white}",
+        "$description": "Menus, modals, sheets. In dark mode elevation is expressed by lightness."
+      },
+      "subtle": {
+        "$value": "{color.slate.100}",
+        "$description": "Table headers, search fields, off-hours calendar cells."
+      },
+      "selected": {
+        "$value": "{color.blue.50}",
+        "$description": "Selected rows, active nav items."
+      },
+      "inverse": {
+        "$value": "{color.slate.900}"
+      },
+      "overlay": {
+        "$value": "{color.slate-alpha.48}",
+        "$description": "Modal scrim."
+      }
+    },
+    "border": {
+      "subtle": {
+        "$value": "{color.slate.100}",
+        "$description": "Dividers inside a surface. Decorative."
+      },
+      "default": {
+        "$value": "{color.slate.200}",
+        "$description": "Card and container edges. Decorative; containers are also separated by surface color."
+      },
+      "strong": {
+        "$value": "{color.slate.500}",
+        "$description": "Boundaries of interactive controls (inputs, checkboxes, chips). Meets 3:1 (WCAG 1.4.11)."
+      },
+      "hover": {
+        "$value": "{color.slate.600}"
+      },
+      "focus": {
+        "$value": "{color.blue.600}",
+        "$description": "Focus ring color. Meets 3:1 against all surfaces."
+      },
+      "error": {
+        "$value": "{color.red.600}"
+      },
+      "selected": {
+        "$value": "{color.blue.600}"
+      }
+    },
+    "action": {
+      "primary": {
+        "bg": {
+          "$value": "{color.blue.600}"
+        },
+        "bg-hover": {
+          "$value": "{color.blue.700}"
+        },
+        "bg-pressed": {
+          "$value": "{color.blue.800}"
+        },
+        "fg": {
+          "$value": "{color.white}"
+        }
+      },
+      "secondary": {
+        "bg": {
+          "$value": "{color.white}"
+        },
+        "bg-hover": {
+          "$value": "{color.blue.50}"
+        },
+        "bg-pressed": {
+          "$value": "{color.blue.100}"
+        },
+        "fg": {
+          "$value": "{color.blue.700}"
+        },
+        "border": {
+          "$value": "{color.blue.600}"
+        }
+      },
+      "tertiary": {
+        "bg": {
+          "$value": "{color.transparent}"
+        },
+        "bg-hover": {
+          "$value": "{color.slate.100}"
+        },
+        "bg-pressed": {
+          "$value": "{color.slate.200}"
+        },
+        "fg": {
+          "$value": "{color.blue.700}"
+        }
+      },
+      "destructive": {
+        "bg": {
+          "$value": "{color.red.600}"
+        },
+        "bg-hover": {
+          "$value": "{color.red.700}"
+        },
+        "bg-pressed": {
+          "$value": "{color.red.800}"
+        },
+        "fg": {
+          "$value": "{color.white}"
+        }
+      }
+    },
+    "interaction": {
+      "hover": {
+        "$value": "{color.slate.100}",
+        "$description": "Hover fill for rows, list items, ghost controls."
+      },
+      "pressed": {
+        "$value": "{color.slate.200}"
+      },
+      "selected": {
+        "bg": {
+          "$value": "{color.blue.50}"
+        },
+        "fg": {
+          "$value": "{color.blue.800}"
+        },
+        "border": {
+          "$value": "{color.blue.600}"
+        }
+      },
+      "focus": {
+        "ring": {
+          "$value": "{color.border.focus}"
+        },
+        "offset": {
+          "$value": "{color.surface.default}",
+          "$description": "Gap between control and ring so the ring reads on any fill."
+        }
+      },
+      "disabled": {
+        "bg": {
+          "$value": "{color.slate.100}"
+        },
+        "fg": {
+          "$value": "{color.text.disabled}"
+        },
+        "border": {
+          "$value": "{color.slate.200}"
+        }
+      }
+    },
+    "status": {
+      "$description": "Appointment statuses. Color is never the only cue: every status ships with a text label and a distinct icon (see $extensions).",
+      "available": {
+        "fg": {
+          "$value": "{color.green.800}"
+        },
+        "bg": {
+          "$value": "{color.green.50}"
+        },
+        "border": {
+          "$value": "{color.green.200}"
+        },
+        "icon": {
+          "$value": "{color.green.600}"
+        },
+        "$description": "Open slot a patient can book.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Available",
+            "icon": "calendar-plus"
+          }
+        }
+      },
+      "confirmed": {
+        "fg": {
+          "$value": "{color.blue.800}"
+        },
+        "bg": {
+          "$value": "{color.blue.50}"
+        },
+        "border": {
+          "$value": "{color.blue.200}"
+        },
+        "icon": {
+          "$value": "{color.blue.600}"
+        },
+        "$description": "Booked and confirmed by practice and patient.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Confirmed",
+            "icon": "check-circle"
+          }
+        }
+      },
+      "pending": {
+        "fg": {
+          "$value": "{color.amber.800}"
+        },
+        "bg": {
+          "$value": "{color.amber.50}"
+        },
+        "border": {
+          "$value": "{color.amber.200}"
+        },
+        "icon": {
+          "$value": "{color.amber.600}"
+        },
+        "$description": "Requested or held; awaiting confirmation. Rendered with dashed outline on calendars.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Pending",
+            "icon": "clock"
+          }
+        }
+      },
+      "completed": {
+        "fg": {
+          "$value": "{color.slate.700}"
+        },
+        "bg": {
+          "$value": "{color.slate.100}"
+        },
+        "border": {
+          "$value": "{color.slate.300}"
+        },
+        "icon": {
+          "$value": "{color.slate.500}"
+        },
+        "$description": "Visit has happened. De-emphasised on purpose.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Completed",
+            "icon": "check-double"
+          }
+        }
+      },
+      "cancelled": {
+        "fg": {
+          "$value": "{color.red.800}"
+        },
+        "bg": {
+          "$value": "{color.red.50}"
+        },
+        "border": {
+          "$value": "{color.red.200}"
+        },
+        "icon": {
+          "$value": "{color.red.600}"
+        },
+        "$description": "Cancelled by patient or practice. Time text is struck through.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Cancelled",
+            "icon": "x-circle"
+          }
+        }
+      },
+      "rescheduled": {
+        "fg": {
+          "$value": "{color.violet.800}"
+        },
+        "bg": {
+          "$value": "{color.violet.50}"
+        },
+        "border": {
+          "$value": "{color.violet.200}"
+        },
+        "icon": {
+          "$value": "{color.violet.600}"
+        },
+        "$description": "Moved to a new time; links to the new appointment.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Rescheduled",
+            "icon": "arrow-path"
+          }
+        }
+      }
+    },
+    "feedback": {
+      "success": {
+        "fg": {
+          "$value": "{color.green.800}"
+        },
+        "bg": {
+          "$value": "{color.green.50}"
+        },
+        "border": {
+          "$value": "{color.green.200}"
+        },
+        "icon": {
+          "$value": "{color.green.600}"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "icon": "check-circle"
+          }
+        }
+      },
+      "warning": {
+        "fg": {
+          "$value": "{color.amber.800}"
+        },
+        "bg": {
+          "$value": "{color.amber.50}"
+        },
+        "border": {
+          "$value": "{color.amber.200}"
+        },
+        "icon": {
+          "$value": "{color.amber.600}"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "icon": "exclamation-triangle"
+          }
+        }
+      },
+      "error": {
+        "fg": {
+          "$value": "{color.red.800}"
+        },
+        "bg": {
+          "$value": "{color.red.50}"
+        },
+        "border": {
+          "$value": "{color.red.200}"
+        },
+        "icon": {
+          "$value": "{color.red.600}"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "icon": "exclamation-circle"
+          }
+        }
+      },
+      "info": {
+        "fg": {
+          "$value": "{color.blue.800}"
+        },
+        "bg": {
+          "$value": "{color.blue.50}"
+        },
+        "border": {
+          "$value": "{color.blue.200}"
+        },
+        "icon": {
+          "$value": "{color.blue.600}"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "icon": "information-circle"
+          }
+        }
+      }
+    },
+    "accent": {
+      "bg": {
+        "$value": "{color.teal.50}"
+      },
+      "fg": {
+        "$value": "{color.teal.800}"
+      },
+      "border": {
+        "$value": "{color.teal.200}"
+      },
+      "solid": {
+        "$value": "{color.teal.600}",
+        "$description": "Graphic accents, the calendar 'now' line."
+      }
+    },
+    "chart": {
+      "series-1": {
+        "$value": "{color.blue.600}"
+      },
+      "series-2": {
+        "$value": "{color.teal.500}"
+      },
+      "series-3": {
+        "$value": "{color.violet.500}"
+      },
+      "series-4": {
+        "$value": "{color.amber.500}"
+      }
+    }
+  },
+  "elevation": {
+    "$type": "shadow",
+    "$description": "Theme-aware elevation. Dark theme uses stronger shadows plus lighter surfaces.",
+    "raised": {
+      "$value": "{shadow.soft.1}"
+    },
+    "popover": {
+      "$value": "{shadow.soft.2}"
+    },
+    "overlay": {
+      "$value": "{shadow.soft.3}"
+    }
+  }
+}

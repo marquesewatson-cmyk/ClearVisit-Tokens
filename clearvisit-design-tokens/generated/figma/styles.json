@@ -1,0 +1,3301 @@
+{
+  "textStyles": [
+    {
+      "token": "typography.display",
+      "styleName": "typography/display",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 40,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": -0.4,
+          "unit": "px"
+        },
+        "lineHeight": 1.2
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 40,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": -0.4,
+          "unit": "px"
+        },
+        "lineHeight": 1.2
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.900}",
+        "fontWeight": "{font.weight.bold}",
+        "letterSpacing": "{font.letter-spacing.tight}",
+        "lineHeight": "{font.line-height.tight}"
+      }
+    },
+    {
+      "token": "typography.heading.xl",
+      "styleName": "typography/heading/xl",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 32,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": -0.4,
+          "unit": "px"
+        },
+        "lineHeight": 1.2
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 32,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": -0.4,
+          "unit": "px"
+        },
+        "lineHeight": 1.2
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.800}",
+        "fontWeight": "{font.weight.bold}",
+        "letterSpacing": "{font.letter-spacing.tight}",
+        "lineHeight": "{font.line-height.tight}"
+      }
+    },
+    {
+      "token": "typography.heading.lg",
+      "styleName": "typography/heading/lg",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 28,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": -0.4,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 28,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": -0.4,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.700}",
+        "fontWeight": "{font.weight.bold}",
+        "letterSpacing": "{font.letter-spacing.tight}",
+        "lineHeight": "{font.line-height.snug}"
+      }
+    },
+    {
+      "token": "typography.heading.md",
+      "styleName": "typography/heading/md",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 24,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 24,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.600}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.snug}"
+      }
+    },
+    {
+      "token": "typography.heading.sm",
+      "styleName": "typography/heading/sm",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.500}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.snug}"
+      }
+    },
+    {
+      "token": "typography.heading.xs",
+      "styleName": "typography/heading/xs",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.400}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.snug}"
+      }
+    },
+    {
+      "token": "typography.body.lg",
+      "styleName": "typography/body/lg",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.6
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.6
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.400}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.relaxed}"
+      }
+    },
+    {
+      "token": "typography.body.md",
+      "styleName": "typography/body/md",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.300}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.normal}"
+      }
+    },
+    {
+      "token": "typography.body.md-strong",
+      "styleName": "typography/body/md-strong",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.300}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.normal}"
+      }
+    },
+    {
+      "token": "typography.body.sm",
+      "styleName": "typography/body/sm",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.200}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.normal}"
+      }
+    },
+    {
+      "token": "typography.body.sm-strong",
+      "styleName": "typography/body/sm-strong",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.200}",
+        "fontWeight": "{font.weight.semibold}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.normal}"
+      }
+    },
+    {
+      "token": "typography.label.lg",
+      "styleName": "typography/label/lg",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.300}",
+        "fontWeight": "{font.weight.medium}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.snug}"
+      }
+    },
+    {
+      "token": "typography.label.md",
+      "styleName": "typography/label/md",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.200}",
+        "fontWeight": "{font.weight.medium}",
+        "letterSpacing": "{font.letter-spacing.normal}",
+        "lineHeight": "{font.line-height.snug}"
+      }
+    },
+    {
+      "token": "typography.label.sm",
+      "styleName": "typography/label/sm",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.100}",
+        "fontWeight": "{font.weight.medium}",
+        "letterSpacing": "{font.letter-spacing.wide}",
+        "lineHeight": "{font.line-height.snug}"
+      }
+    },
+    {
+      "token": "typography.caption",
+      "styleName": "typography/caption",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.100}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{font.letter-spacing.wide}",
+        "lineHeight": "{font.line-height.normal}"
+      }
+    },
+    {
+      "token": "text-style.page-title",
+      "styleName": "text-style/page-title",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 28,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": -0.4,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 24,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.section-title",
+      "styleName": "text-style/section-title",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.card-title",
+      "styleName": "text-style/card-title",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.provider-name",
+      "styleName": "text-style/provider-name",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 18,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.body",
+      "styleName": "text-style/body",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.body-strong",
+      "styleName": "text-style/body-strong",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.supporting",
+      "styleName": "text-style/supporting",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.label",
+      "styleName": "text-style/label",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.input",
+      "styleName": "text-style/input",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.button",
+      "styleName": "text-style/button",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.caption",
+      "styleName": "text-style/caption",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.badge",
+      "styleName": "text-style/badge",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.appointment-time",
+      "styleName": "text-style/appointment-time",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.table-cell",
+      "styleName": "text-style/table-cell",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.table-header",
+      "styleName": "text-style/table-header",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.calendar-event",
+      "styleName": "text-style/calendar-event",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 500,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.calendar-time",
+      "styleName": "text-style/calendar-time",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 12,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0.2,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.metric-value",
+      "styleName": "text-style/metric-value",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 20,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.3
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 32,
+          "unit": "px"
+        },
+        "fontWeight": 700,
+        "letterSpacing": {
+          "value": -0.4,
+          "unit": "px"
+        },
+        "lineHeight": 1.2
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.alert-title",
+      "styleName": "text-style/alert-title",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 600,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    },
+    {
+      "token": "text-style.alert-body",
+      "styleName": "text-style/alert-body",
+      "mobile": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 16,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "desktop": {
+        "fontFamily": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "fontSize": {
+          "value": 14,
+          "unit": "px"
+        },
+        "fontWeight": 400,
+        "letterSpacing": {
+          "value": 0,
+          "unit": "px"
+        },
+        "lineHeight": 1.45
+      },
+      "bindVariables": null
+    }
+  ],
+  "effectStyles": [
+    {
+      "token": "shadow.soft.1",
+      "styleName": "shadow/soft/1",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "shadow.soft.2",
+      "styleName": "shadow/soft/2",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "shadow.soft.3",
+      "styleName": "shadow/soft/3",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.16,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 16,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 32,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.16,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 16,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 32,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "shadow.strong.1",
+      "styleName": "shadow/strong/1",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "shadow.strong.2",
+      "styleName": "shadow/strong/2",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "shadow.strong.3",
+      "styleName": "shadow/strong/3",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.72,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 16,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 32,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.72,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 16,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 32,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "elevation.raised",
+      "styleName": "elevation/raised",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "elevation.popover",
+      "styleName": "elevation/popover",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "elevation.overlay",
+      "styleName": "elevation/overlay",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.16,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 16,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 32,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.72,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 16,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 32,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "dropdown.menu-shadow",
+      "styleName": "dropdown/menu-shadow",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "card.shadow",
+      "styleName": "card/shadow",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "modal.shadow",
+      "styleName": "modal/shadow",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.16,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 16,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 32,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 8,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.72,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 16,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 32,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          }
+        }
+      ]
+    },
+    {
+      "token": "booking-card.shadow",
+      "styleName": "booking-card/shadow",
+      "light": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.08,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0706,
+              0.0941,
+              0.1176
+            ],
+            "alpha": 0.12,
+            "hex": "#12181E"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ],
+      "dark": [
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.32,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        {
+          "color": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "alpha": 0.48,
+            "hex": "#000000"
+          },
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 12,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          }
+        }
+      ]
+    }
+  ]
+}

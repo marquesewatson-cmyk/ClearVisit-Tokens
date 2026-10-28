@@ -1,0 +1,1318 @@
+{
+  "space": {
+    "inline": {
+      "xs": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/4"
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/8"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/12"
+          }
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/16"
+          }
+        }
+      }
+    },
+    "stack": {
+      "xs": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/4"
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/8"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/16"
+          }
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/24"
+          }
+        }
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": {
+          "value": 32,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/32"
+          }
+        }
+      }
+    },
+    "inset": {
+      "xs": {
+        "$type": "dimension",
+        "$value": {
+          "value": 4,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/4"
+          }
+        }
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 8,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/8"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/12"
+          }
+        }
+      },
+      "control-x": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/16"
+          }
+        }
+      },
+      "card": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/16"
+          }
+        }
+      },
+      "modal": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/20"
+          }
+        }
+      },
+      "cell-x": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/16"
+          }
+        },
+        "$description": "Table/list cell horizontal padding."
+      },
+      "page": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "space/16"
+          }
+        }
+      }
+    },
+    "section": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "space/24"
+        }
+      }
+    }
+  },
+  "radius": {
+    "xs": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "radius/4"
+        }
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "radius/6"
+        }
+      }
+    },
+    "pill": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "radius/full"
+        }
+      }
+    },
+    "control": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "radius/12"
+        }
+      }
+    },
+    "card": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "radius/16"
+        }
+      }
+    },
+    "modal": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "radius/24"
+        }
+      },
+      "$description": "Mobile modals render as bottom sheets (top corners only)."
+    }
+  },
+  "stroke": {
+    "default": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "border-width/1"
+        }
+      }
+    },
+    "focus": {
+      "$type": "dimension",
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "border-width/2"
+        }
+      },
+      "$description": "Focus ring thickness (≥2px CSS px for WCAG 2.4.13-style visibility)."
+    },
+    "indicator": {
+      "$type": "dimension",
+      "$value": {
+        "value": 3,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "border-width/3"
+        }
+      },
+      "$description": "Active tab underline, calendar event status bar."
+    }
+  },
+  "focus-ring": {
+    "offset": {
+      "$type": "dimension",
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "space/2"
+        }
+      }
+    }
+  },
+  "size": {
+    "badge": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/24"
+        }
+      }
+    },
+    "status-dot": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/8"
+        }
+      }
+    },
+    "tooltip-max": {
+      "$type": "dimension",
+      "$value": {
+        "value": 280,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/280"
+        }
+      }
+    },
+    "control": {
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 36,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "size/36"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 48,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "size/48"
+          }
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 56,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "size/56"
+          }
+        }
+      }
+    },
+    "touch-target": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/48"
+        }
+      },
+      "$description": "Minimum hit area. Mobile 48 exceeds WCAG 2.5.8 (24) and matches platform HIG guidance; desktop uses the 24px AA minimum for pointer input."
+    },
+    "icon": {
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "size/16"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "size/24"
+          }
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 32,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "size/32"
+          }
+        }
+      }
+    },
+    "avatar": {
+      "$type": "dimension",
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/56"
+        }
+      }
+    },
+    "selection-control": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/24"
+        }
+      },
+      "$description": "Checkbox/radio visual size (hit area is touch-target)."
+    },
+    "nav-bar": {
+      "$type": "dimension",
+      "$value": {
+        "value": 64,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/64"
+        }
+      },
+      "$description": "Mobile bottom nav height / desktop top bar height."
+    },
+    "table-row": {
+      "$type": "dimension",
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/56"
+        }
+      }
+    },
+    "table-header": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/48"
+        }
+      }
+    },
+    "day-cell": {
+      "$type": "dimension",
+      "$value": {
+        "value": 44,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/44"
+        }
+      },
+      "$description": "Date picker day."
+    },
+    "time-slot": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/48"
+        }
+      }
+    },
+    "modal-max": {
+      "$type": "dimension",
+      "$value": {
+        "value": 600,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/600"
+        }
+      }
+    }
+  },
+  "motion": {
+    "tooltip-delay": {
+      "$type": "duration",
+      "$value": {
+        "value": 0.4,
+        "unit": "s"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "duration/400"
+        }
+      }
+    }
+  },
+  "opacity": {
+    "disabled-media": {
+      "$type": "number",
+      "$value": 0.38,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "opacity/38"
+        }
+      },
+      "$description": "Images/avatars inside disabled rows. Never used for text."
+    }
+  },
+  "layer": {
+    "sticky": {
+      "$type": "number",
+      "$value": 100,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "z-index/sticky"
+        }
+      }
+    },
+    "dropdown": {
+      "$type": "number",
+      "$value": 1000,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "z-index/dropdown"
+        }
+      }
+    },
+    "overlay": {
+      "$type": "number",
+      "$value": 1200,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "z-index/overlay"
+        }
+      }
+    },
+    "modal": {
+      "$type": "number",
+      "$value": 1300,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "z-index/modal"
+        }
+      }
+    },
+    "toast": {
+      "$type": "number",
+      "$value": 1400,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "z-index/toast"
+        }
+      }
+    },
+    "tooltip": {
+      "$type": "number",
+      "$value": 1500,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "z-index/tooltip"
+        }
+      }
+    }
+  },
+  "layout": {
+    "columns": {
+      "$type": "number",
+      "$value": 4,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "grid/columns/4"
+        }
+      }
+    },
+    "gutter": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "space/16"
+        }
+      }
+    },
+    "margin": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "space/16"
+        }
+      }
+    }
+  },
+  "type-role": {
+    "page-title": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 28,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 36.4,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 700
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": -0.4,
+          "unit": "px"
+        }
+      }
+    },
+    "section-title": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 26.0,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "card-title": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 18,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 23.4,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "provider-name": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 18,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 23.4,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "body": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 23.2,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "body-strong": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 23.2,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "supporting": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20.3,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "label": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20.8,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "input": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 23.2,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "button": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20.8,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "caption": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 17.4,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.2,
+          "unit": "px"
+        }
+      }
+    },
+    "badge": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 15.6,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.2,
+          "unit": "px"
+        }
+      }
+    },
+    "appointment-time": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 26.0,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "table-cell": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 23.2,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "table-header": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 18.2,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "calendar-event": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 18.2,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 500
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "calendar-time": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 17.4,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0.2,
+          "unit": "px"
+        }
+      }
+    },
+    "metric-value": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 26.0,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "alert-title": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 23.2,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 600
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    },
+    "alert-body": {
+      "font-size": {
+        "$type": "dimension",
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "line-height": {
+        "$type": "dimension",
+        "$value": {
+          "value": 23.2,
+          "unit": "px"
+        },
+        "$description": "Pixel line height for Figma (DTCG source stores a unitless multiplier)."
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": 400
+      },
+      "letter-spacing": {
+        "$type": "dimension",
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      }
+    }
+  }
+}

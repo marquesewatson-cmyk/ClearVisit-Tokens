@@ -1,0 +1,24 @@
+{
+  "opacity": {
+    "$type": "number",
+    "$description": "Opacity multipliers 0–1.",
+    "0": {
+      "$value": 0
+    },
+    "8": {
+      "$value": 0.08
+    },
+    "16": {
+      "$value": 0.16
+    },
+    "38": {
+      "$value": 0.38
+    },
+    "64": {
+      "$value": 0.64
+    },
+    "100": {
+      "$value": 1
+    }
+  }
+}

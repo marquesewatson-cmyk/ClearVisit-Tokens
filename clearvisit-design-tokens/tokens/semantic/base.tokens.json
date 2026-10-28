@@ -1,0 +1,153 @@
+{
+  "space": {
+    "inline": {
+      "$description": "Horizontal gaps between siblings.",
+      "xs": {
+        "$value": "{space.4}"
+      },
+      "sm": {
+        "$value": "{space.8}"
+      },
+      "md": {
+        "$value": "{space.12}"
+      },
+      "lg": {
+        "$value": "{space.16}"
+      }
+    },
+    "stack": {
+      "$description": "Vertical rhythm between stacked elements.",
+      "xs": {
+        "$value": "{space.4}"
+      },
+      "sm": {
+        "$value": "{space.8}"
+      },
+      "md": {
+        "$value": "{space.16}"
+      },
+      "lg": {
+        "$value": "{space.24}"
+      },
+      "xl": {
+        "$value": "{space.32}"
+      }
+    },
+    "inset": {
+      "xs": {
+        "$value": "{space.4}"
+      },
+      "sm": {
+        "$value": "{space.8}"
+      },
+      "md": {
+        "$value": "{space.12}"
+      }
+    }
+  },
+  "radius": {
+    "xs": {
+      "$value": "{radius.4}"
+    },
+    "sm": {
+      "$value": "{radius.6}"
+    },
+    "pill": {
+      "$value": "{radius.full}"
+    }
+  },
+  "stroke": {
+    "default": {
+      "$value": "{border-width.1}"
+    },
+    "focus": {
+      "$value": "{border-width.2}",
+      "$description": "Focus ring thickness (≥2px CSS px for WCAG 2.4.13-style visibility)."
+    },
+    "indicator": {
+      "$value": "{border-width.3}",
+      "$description": "Active tab underline, calendar event status bar."
+    }
+  },
+  "focus-ring": {
+    "$root": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.interaction.focus.ring}",
+        "width": "{stroke.focus}",
+        "style": "{stroke-style.solid}"
+      },
+      "$description": "Focus indicator for every interactive element. Applied as an outline with an offset."
+    },
+    "offset": {
+      "$value": "{space.2}"
+    }
+  },
+  "size": {
+    "badge": {
+      "$value": "{size.24}"
+    },
+    "status-dot": {
+      "$value": "{size.8}"
+    },
+    "tooltip-max": {
+      "$value": "{size.280}"
+    }
+  },
+  "motion": {
+    "control": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.150}",
+        "delay": "{duration.0}",
+        "timingFunction": "{easing.standard}"
+      },
+      "$description": "Hover/press/selection feedback. Reduced-motion users get duration 0 (see CSS)."
+    },
+    "enter": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.300}",
+        "delay": "{duration.0}",
+        "timingFunction": "{easing.decelerate}"
+      }
+    },
+    "exit": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.200}",
+        "delay": "{duration.0}",
+        "timingFunction": "{easing.accelerate}"
+      }
+    },
+    "tooltip-delay": {
+      "$value": "{duration.400}"
+    }
+  },
+  "opacity": {
+    "disabled-media": {
+      "$value": "{opacity.38}",
+      "$description": "Images/avatars inside disabled rows. Never used for text."
+    }
+  },
+  "layer": {
+    "sticky": {
+      "$value": "{z-index.sticky}"
+    },
+    "dropdown": {
+      "$value": "{z-index.dropdown}"
+    },
+    "overlay": {
+      "$value": "{z-index.overlay}"
+    },
+    "modal": {
+      "$value": "{z-index.modal}"
+    },
+    "toast": {
+      "$value": "{z-index.toast}"
+    },
+    "tooltip": {
+      "$value": "{z-index.tooltip}"
+    }
+  }
+}

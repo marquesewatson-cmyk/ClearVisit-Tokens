@@ -1,0 +1,380 @@
+{
+  "button": {
+    "$description": "Primary/secondary/tertiary/destructive buttons. Variant colors come straight from color.action.*; only geometry is tokenised here.",
+    "height": {
+      "sm": {
+        "$value": "{size.control.sm}"
+      },
+      "md": {
+        "$value": "{size.control.md}"
+      },
+      "lg": {
+        "$value": "{size.control.lg}"
+      }
+    },
+    "padding-x": {
+      "$value": "{space.inset.control-x}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "text-style": {
+      "$value": "{text-style.button}"
+    },
+    "min-target": {
+      "$value": "{size.touch-target}"
+    },
+    "transition": {
+      "$value": "{motion.control}"
+    }
+  },
+  "field": {
+    "$description": "Shared by text input, search field and dropdown trigger.",
+    "height": {
+      "$value": "{size.control.md}"
+    },
+    "padding-x": {
+      "$value": "{space.inset.control-x}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "text-style": {
+      "$value": "{text-style.input}"
+    },
+    "label-style": {
+      "$value": "{text-style.label}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "fg": {
+      "$value": "{color.text.primary}"
+    },
+    "placeholder": {
+      "$value": "{color.text.muted}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "border-hover": {
+      "$value": "{color.border.hover}"
+    },
+    "border-focus": {
+      "$value": "{color.border.focus}"
+    },
+    "border-error": {
+      "$value": "{color.border.error}"
+    },
+    "helper": {
+      "$value": "{color.text.secondary}"
+    },
+    "error-text": {
+      "$value": "{color.feedback.error.fg}"
+    },
+    "label-gap": {
+      "$value": "{space.stack.xs}"
+    }
+  },
+  "search": {
+    "bg": {
+      "$value": "{color.surface.subtle}"
+    },
+    "icon": {
+      "$value": "{color.text.secondary}"
+    },
+    "radius": {
+      "$value": "{radius.pill}"
+    },
+    "height": {
+      "$value": "{size.control.lg}"
+    }
+  },
+  "dropdown": {
+    "menu-bg": {
+      "$value": "{color.surface.elevated}"
+    },
+    "menu-shadow": {
+      "$value": "{elevation.popover}"
+    },
+    "menu-radius": {
+      "$value": "{radius.control}"
+    },
+    "menu-layer": {
+      "$value": "{layer.dropdown}"
+    },
+    "option-height": {
+      "$value": "{size.control.md}"
+    },
+    "option-hover": {
+      "$value": "{color.interaction.hover}"
+    },
+    "option-selected-bg": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "option-selected-fg": {
+      "$value": "{color.interaction.selected.fg}"
+    }
+  },
+  "checkbox": {
+    "size": {
+      "$value": "{size.selection-control}"
+    },
+    "radius": {
+      "$value": "{radius.xs}"
+    },
+    "target": {
+      "$value": "{size.touch-target}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "checked-bg": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "checked-fg": {
+      "$value": "{color.action.primary.fg}"
+    }
+  },
+  "radio": {
+    "size": {
+      "$value": "{size.selection-control}"
+    },
+    "target": {
+      "$value": "{size.touch-target}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "checked": {
+      "$value": "{color.action.primary.bg}"
+    }
+  },
+  "badge": {
+    "$description": "Status badge = icon + label on tinted fill. Colors read directly from color.status.<status>.* (no per-status component tokens; they would duplicate the semantic layer).",
+    "height": {
+      "$value": "{size.badge}"
+    },
+    "padding-x": {
+      "$value": "{space.inset.sm}"
+    },
+    "gap": {
+      "$value": "{space.inline.xs}"
+    },
+    "radius": {
+      "$value": "{radius.pill}"
+    },
+    "text-style": {
+      "$value": "{text-style.badge}"
+    },
+    "icon-size": {
+      "$value": "{size.icon.sm}"
+    }
+  },
+  "card": {
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "border-hover": {
+      "$value": "{color.border.hover}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "gap": {
+      "$value": "{space.stack.sm}"
+    },
+    "shadow": {
+      "$value": "{elevation.raised}"
+    }
+  },
+  "tabs": {
+    "height": {
+      "$value": "{size.control.md}"
+    },
+    "gap": {
+      "$value": "{space.inline.lg}"
+    },
+    "text-style": {
+      "$value": "{text-style.label}"
+    },
+    "fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "fg-selected": {
+      "$value": "{color.text.primary}"
+    },
+    "indicator": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "indicator-height": {
+      "$value": "{stroke.indicator}"
+    },
+    "divider": {
+      "$value": "{color.border.default}"
+    }
+  },
+  "alert": {
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "gap": {
+      "$value": "{space.inline.md}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "border-width": {
+      "$value": "{stroke.default}"
+    },
+    "icon-size": {
+      "$value": "{size.icon.md}"
+    },
+    "title-style": {
+      "$value": "{text-style.alert-title}"
+    },
+    "body-style": {
+      "$value": "{text-style.alert-body}"
+    }
+  },
+  "modal": {
+    "bg": {
+      "$value": "{color.surface.elevated}"
+    },
+    "scrim": {
+      "$value": "{color.surface.overlay}"
+    },
+    "radius": {
+      "$value": "{radius.modal}"
+    },
+    "padding": {
+      "$value": "{space.inset.modal}"
+    },
+    "shadow": {
+      "$value": "{elevation.overlay}"
+    },
+    "max-width": {
+      "$value": "{size.modal-max}"
+    },
+    "layer": {
+      "$value": "{layer.modal}"
+    },
+    "enter": {
+      "$value": "{motion.enter}"
+    }
+  },
+  "tooltip": {
+    "bg": {
+      "$value": "{color.surface.inverse}"
+    },
+    "fg": {
+      "$value": "{color.text.inverse}"
+    },
+    "radius": {
+      "$value": "{radius.sm}"
+    },
+    "padding-x": {
+      "$value": "{space.inset.sm}"
+    },
+    "padding-y": {
+      "$value": "{space.inset.xs}"
+    },
+    "text-style": {
+      "$value": "{text-style.caption}"
+    },
+    "max-width": {
+      "$value": "{size.tooltip-max}"
+    },
+    "delay": {
+      "$value": "{motion.tooltip-delay}"
+    },
+    "layer": {
+      "$value": "{layer.tooltip}"
+    }
+  },
+  "nav-item": {
+    "height": {
+      "$value": "{size.control.md}"
+    },
+    "gap": {
+      "$value": "{space.inline.md}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "fg-active": {
+      "$value": "{color.interaction.selected.fg}"
+    },
+    "bg-hover": {
+      "$value": "{color.interaction.hover}"
+    },
+    "bg-active": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "icon-size": {
+      "$value": "{size.icon.md}"
+    }
+  },
+  "date-picker": {
+    "day-size": {
+      "$value": "{size.day-cell}"
+    },
+    "day-radius": {
+      "$value": "{radius.pill}"
+    },
+    "day-target": {
+      "$value": "{size.touch-target}"
+    },
+    "day-fg": {
+      "$value": "{color.text.primary}"
+    },
+    "day-muted": {
+      "$value": "{color.text.muted}"
+    },
+    "day-unavailable": {
+      "$value": "{color.text.disabled}"
+    },
+    "day-selected-bg": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "day-selected-fg": {
+      "$value": "{color.action.primary.fg}"
+    },
+    "today-ring": {
+      "$value": "{color.border.selected}"
+    },
+    "availability-dot": {
+      "$value": "{color.status.available.icon}"
+    }
+  },
+  "time-selector": {
+    "$description": "Time picker list (admin) / wheel (mobile). Slot buttons are a separate mobile component.",
+    "option-height": {
+      "$value": "{size.control.md}"
+    },
+    "text-style": {
+      "$value": "{text-style.input}"
+    },
+    "option-selected-bg": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "option-selected-fg": {
+      "$value": "{color.interaction.selected.fg}"
+    }
+  }
+}

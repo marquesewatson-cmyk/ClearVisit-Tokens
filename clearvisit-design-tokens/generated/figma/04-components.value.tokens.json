@@ -1,0 +1,3140 @@
+{
+  "button": {
+    "height": {
+      "sm": {
+        "$type": "dimension",
+        "$value": {
+          "value": 28,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Platform",
+            "targetVariableName": "size/control/sm"
+          }
+        }
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": {
+          "value": 36,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Platform",
+            "targetVariableName": "size/control/md"
+          }
+        }
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": {
+          "value": 44,
+          "unit": "px"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Platform",
+            "targetVariableName": "size/control/lg"
+          }
+        }
+      }
+    },
+    "padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/control-x"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/sm"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/control"
+        }
+      }
+    },
+    "min-target": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/touch-target"
+        }
+      }
+    }
+  },
+  "field": {
+    "height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 36,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/control/md"
+        }
+      }
+    },
+    "padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/control-x"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/sm"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/control"
+        }
+      }
+    },
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1765,
+          0.2118,
+          0.251
+        ],
+        "hex": "#2D3640"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/primary"
+        }
+      }
+    },
+    "placeholder": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3647,
+          0.4196,
+          0.4745
+        ],
+        "hex": "#5D6B79"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/muted"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4549,
+          0.5098,
+          0.5686
+        ],
+        "hex": "#748291"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/strong"
+        }
+      }
+    },
+    "border-hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3647,
+          0.4196,
+          0.4745
+        ],
+        "hex": "#5D6B79"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/hover"
+        }
+      }
+    },
+    "border-focus": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/focus"
+        }
+      }
+    },
+    "border-error": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7451,
+          0.1333,
+          0.1647
+        ],
+        "hex": "#BE222A"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/error"
+        }
+      }
+    },
+    "helper": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "error-text": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5569,
+          0.0314,
+          0.0863
+        ],
+        "hex": "#8E0816"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/feedback/error/fg"
+        }
+      }
+    },
+    "label-gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/stack/xs"
+        }
+      }
+    }
+  },
+  "search": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/subtle"
+        }
+      }
+    },
+    "icon": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/pill"
+        }
+      }
+    },
+    "height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 44,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/control/lg"
+        }
+      }
+    }
+  },
+  "dropdown": {
+    "menu-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/elevated"
+        }
+      }
+    },
+    "menu-radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/control"
+        }
+      }
+    },
+    "menu-layer": {
+      "$type": "number",
+      "$value": 1000,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "layer/dropdown"
+        }
+      }
+    },
+    "option-height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 36,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/control/md"
+        }
+      }
+    },
+    "option-hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/hover"
+        }
+      }
+    },
+    "option-selected-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/bg"
+        }
+      }
+    },
+    "option-selected-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.2941,
+          0.5412
+        ],
+        "hex": "#004B8A"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/fg"
+        }
+      }
+    }
+  },
+  "checkbox": {
+    "size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/selection-control"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/xs"
+        }
+      }
+    },
+    "target": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/touch-target"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4549,
+          0.5098,
+          0.5686
+        ],
+        "hex": "#748291"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/strong"
+        }
+      }
+    },
+    "checked-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/bg"
+        }
+      }
+    },
+    "checked-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/fg"
+        }
+      }
+    }
+  },
+  "radio": {
+    "size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/selection-control"
+        }
+      }
+    },
+    "target": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/touch-target"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4549,
+          0.5098,
+          0.5686
+        ],
+        "hex": "#748291"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/strong"
+        }
+      }
+    },
+    "checked": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/bg"
+        }
+      }
+    }
+  },
+  "badge": {
+    "height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/badge"
+        }
+      }
+    },
+    "padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/sm"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/xs"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/pill"
+        }
+      }
+    },
+    "icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/icon/sm"
+        }
+      }
+    }
+  },
+  "card": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8392,
+          0.8667,
+          0.898
+        ],
+        "hex": "#D6DDE5"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/default"
+        }
+      }
+    },
+    "border-hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3647,
+          0.4196,
+          0.4745
+        ],
+        "hex": "#5D6B79"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/hover"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/card"
+        }
+      }
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/card"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/stack/sm"
+        }
+      }
+    }
+  },
+  "tabs": {
+    "height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 36,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/control/md"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/lg"
+        }
+      }
+    },
+    "fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "fg-selected": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1765,
+          0.2118,
+          0.251
+        ],
+        "hex": "#2D3640"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/primary"
+        }
+      }
+    },
+    "indicator": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/bg"
+        }
+      }
+    },
+    "indicator-height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 3,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "stroke/indicator"
+        }
+      }
+    },
+    "divider": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8392,
+          0.8667,
+          0.898
+        ],
+        "hex": "#D6DDE5"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/default"
+        }
+      }
+    }
+  },
+  "alert": {
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/card"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/md"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/control"
+        }
+      }
+    },
+    "border-width": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "stroke/default"
+        }
+      }
+    },
+    "icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/icon/md"
+        }
+      }
+    }
+  },
+  "modal": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/elevated"
+        }
+      }
+    },
+    "scrim": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0706,
+          0.0941,
+          0.1176
+        ],
+        "alpha": 0.48,
+        "hex": "#12181E"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/overlay"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/modal"
+        }
+      }
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/modal"
+        }
+      }
+    },
+    "max-width": {
+      "$type": "dimension",
+      "$value": {
+        "value": 560,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/modal-max"
+        }
+      }
+    },
+    "layer": {
+      "$type": "number",
+      "$value": 1300,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "layer/modal"
+        }
+      }
+    }
+  },
+  "tooltip": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1765,
+          0.2118,
+          0.251
+        ],
+        "hex": "#2D3640"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/inverse"
+        }
+      }
+    },
+    "fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9608,
+          0.9686,
+          0.9765
+        ],
+        "hex": "#F5F7F9"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/inverse"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/sm"
+        }
+      }
+    },
+    "padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/sm"
+        }
+      }
+    },
+    "padding-y": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/xs"
+        }
+      }
+    },
+    "max-width": {
+      "$type": "dimension",
+      "$value": {
+        "value": 280,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/tooltip-max"
+        }
+      }
+    },
+    "delay": {
+      "$type": "duration",
+      "$value": {
+        "value": 0.4,
+        "unit": "s"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "motion/tooltip-delay"
+        }
+      }
+    },
+    "layer": {
+      "$type": "number",
+      "$value": 1500,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "layer/tooltip"
+        }
+      }
+    }
+  },
+  "nav-item": {
+    "height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 36,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/control/md"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/md"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/control"
+        }
+      }
+    },
+    "fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "fg-active": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.2941,
+          0.5412
+        ],
+        "hex": "#004B8A"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/fg"
+        }
+      }
+    },
+    "bg-hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/hover"
+        }
+      }
+    },
+    "bg-active": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/bg"
+        }
+      }
+    },
+    "icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/icon/md"
+        }
+      }
+    }
+  },
+  "date-picker": {
+    "day-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/day-cell"
+        }
+      }
+    },
+    "day-radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/pill"
+        }
+      }
+    },
+    "day-target": {
+      "$type": "dimension",
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/touch-target"
+        }
+      }
+    },
+    "day-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1765,
+          0.2118,
+          0.251
+        ],
+        "hex": "#2D3640"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/primary"
+        }
+      }
+    },
+    "day-muted": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3647,
+          0.4196,
+          0.4745
+        ],
+        "hex": "#5D6B79"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/muted"
+        }
+      }
+    },
+    "day-unavailable": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6,
+          0.651,
+          0.7059
+        ],
+        "hex": "#99A6B4"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/disabled"
+        }
+      }
+    },
+    "day-selected-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/bg"
+        }
+      }
+    },
+    "day-selected-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/fg"
+        }
+      }
+    },
+    "today-ring": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/selected"
+        }
+      }
+    },
+    "availability-dot": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4941,
+          0.2471
+        ],
+        "hex": "#007E3F"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/status/available/icon"
+        }
+      }
+    }
+  },
+  "time-selector": {
+    "option-height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 36,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/control/md"
+        }
+      }
+    },
+    "option-selected-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/bg"
+        }
+      }
+    },
+    "option-selected-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.2941,
+          0.5412
+        ],
+        "hex": "#004B8A"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/fg"
+        }
+      }
+    }
+  },
+  "provider-card": {
+    "avatar-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/avatar"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/md"
+        }
+      }
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/card"
+        }
+      }
+    },
+    "meta-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "next-available-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.3529,
+          0.1686
+        ],
+        "hex": "#005A2B"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/status/available/fg"
+        }
+      }
+    },
+    "next-available-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9333,
+          0.9843,
+          0.9451
+        ],
+        "hex": "#EEFBF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/status/available/bg"
+        }
+      }
+    }
+  },
+  "availability-card": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8392,
+          0.8667,
+          0.898
+        ],
+        "hex": "#D6DDE5"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/default"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/card"
+        }
+      }
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/card"
+        }
+      }
+    },
+    "slot-gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/sm"
+        }
+      }
+    }
+  },
+  "booking-card": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/elevated"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/card"
+        }
+      }
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/card"
+        }
+      }
+    },
+    "section-gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/section"
+        }
+      }
+    }
+  },
+  "date-strip": {
+    "item-width": {
+      "$type": "dimension",
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/56"
+        }
+      }
+    },
+    "item-height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 72,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/72"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/control"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/sm"
+        }
+      }
+    },
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4549,
+          0.5098,
+          0.5686
+        ],
+        "hex": "#748291"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/strong"
+        }
+      }
+    },
+    "selected-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/bg"
+        }
+      }
+    },
+    "selected-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/fg"
+        }
+      }
+    },
+    "availability-dot": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4941,
+          0.2471
+        ],
+        "hex": "#007E3F"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/status/available/icon"
+        }
+      }
+    },
+    "unavailable-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6,
+          0.651,
+          0.7059
+        ],
+        "hex": "#99A6B4"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/disabled"
+        }
+      }
+    }
+  },
+  "time-slot": {
+    "height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/time-slot"
+        }
+      }
+    },
+    "min-width": {
+      "$type": "dimension",
+      "$value": {
+        "value": 88,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/88"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/control"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/sm"
+        }
+      }
+    },
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.3686,
+          0.6706
+        ],
+        "hex": "#005EAB"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/secondary/fg"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4549,
+          0.5098,
+          0.5686
+        ],
+        "hex": "#748291"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/strong"
+        }
+      }
+    },
+    "bg-hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/secondary/bg-hover"
+        }
+      }
+    },
+    "selected-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/bg"
+        }
+      }
+    },
+    "selected-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/action/primary/fg"
+        }
+      }
+    },
+    "disabled-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/disabled/bg"
+        }
+      }
+    },
+    "disabled-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6,
+          0.651,
+          0.7059
+        ],
+        "hex": "#99A6B4"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/disabled/fg"
+        }
+      }
+    },
+    "disabled-border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8392,
+          0.8667,
+          0.898
+        ],
+        "hex": "#D6DDE5"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/disabled/border"
+        }
+      }
+    }
+  },
+  "summary-card": {
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/subtle"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/card"
+        }
+      }
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/card"
+        }
+      }
+    },
+    "row-gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/stack/sm"
+        }
+      }
+    },
+    "divider": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8392,
+          0.8667,
+          0.898
+        ],
+        "hex": "#D6DDE5"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/default"
+        }
+      }
+    },
+    "label-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    }
+  },
+  "bottom-nav": {
+    "height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/nav-bar"
+        }
+      }
+    },
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/elevated"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8392,
+          0.8667,
+          0.898
+        ],
+        "hex": "#D6DDE5"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/default"
+        }
+      }
+    },
+    "fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "fg-active": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.2941,
+          0.5412
+        ],
+        "hex": "#004B8A"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/fg"
+        }
+      }
+    },
+    "indicator": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/bg"
+        }
+      }
+    },
+    "icon-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/icon/md"
+        }
+      }
+    },
+    "layer": {
+      "$type": "number",
+      "$value": 100,
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "layer/sticky"
+        }
+      }
+    }
+  },
+  "calendar-cell": {
+    "slot-height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/48"
+        }
+      }
+    },
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "bg-off-hours": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/subtle"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/subtle"
+        }
+      }
+    },
+    "today-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/selected"
+        }
+      }
+    },
+    "time-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "now-line": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4745,
+          0.4627
+        ],
+        "hex": "#007976"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/accent/solid"
+        }
+      }
+    }
+  },
+  "calendar-event": {
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/sm"
+        }
+      }
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/xs"
+        }
+      }
+    },
+    "bar-width": {
+      "$type": "dimension",
+      "$value": {
+        "value": 3,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "stroke/indicator"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/xs"
+        }
+      }
+    }
+  },
+  "table": {
+    "row-height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/table-row"
+        }
+      }
+    },
+    "header-height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/table-header"
+        }
+      }
+    },
+    "cell-padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/cell-x"
+        }
+      }
+    },
+    "header-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/subtle"
+        }
+      }
+    },
+    "header-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "row-border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/subtle"
+        }
+      }
+    },
+    "row-hover": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137,
+          0.9294,
+          0.9451
+        ],
+        "hex": "#E9EDF1"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/hover"
+        }
+      }
+    },
+    "row-selected": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/bg"
+        }
+      }
+    }
+  },
+  "status-indicator": {
+    "dot-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/status-dot"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/sm"
+        }
+      }
+    }
+  },
+  "filter-chip": {
+    "height": {
+      "$type": "dimension",
+      "$value": {
+        "value": 28,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/control/sm"
+        }
+      }
+    },
+    "padding-x": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/md"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/pill"
+        }
+      }
+    },
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4549,
+          0.5098,
+          0.5686
+        ],
+        "hex": "#748291"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/strong"
+        }
+      }
+    },
+    "selected-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/bg"
+        }
+      }
+    },
+    "selected-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.2941,
+          0.5412
+        ],
+        "hex": "#004B8A"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/fg"
+        }
+      }
+    },
+    "selected-border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.4157,
+          0.7451
+        ],
+        "hex": "#006ABE"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/border"
+        }
+      }
+    }
+  },
+  "pagination": {
+    "item-size": {
+      "$type": "dimension",
+      "$value": {
+        "value": 28,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "size/control/sm"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/control"
+        }
+      }
+    },
+    "gap": {
+      "$type": "dimension",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inline/xs"
+        }
+      }
+    },
+    "fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "current-bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9451,
+          0.9725,
+          1.0
+        ],
+        "hex": "#F1F8FF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/bg"
+        }
+      }
+    },
+    "current-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.2941,
+          0.5412
+        ],
+        "hex": "#004B8A"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/interaction/selected/fg"
+        }
+      }
+    }
+  },
+  "metric-card": {
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/card"
+        }
+      }
+    },
+    "radius": {
+      "$type": "dimension",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "radius/card"
+        }
+      }
+    },
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8392,
+          0.8667,
+          0.898
+        ],
+        "hex": "#D6DDE5"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/default"
+        }
+      }
+    },
+    "label-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    },
+    "delta-up": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0,
+          0.3529,
+          0.1686
+        ],
+        "hex": "#005A2B"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/feedback/success/fg"
+        }
+      }
+    },
+    "delta-down": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5569,
+          0.0314,
+          0.0863
+        ],
+        "hex": "#8E0816"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/feedback/error/fg"
+        }
+      }
+    }
+  },
+  "sidebar": {
+    "width": {
+      "$type": "dimension",
+      "$value": {
+        "value": 256,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Primitives",
+          "targetVariableName": "size/256"
+        }
+      }
+    },
+    "bg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/surface/default"
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8392,
+          0.8667,
+          0.898
+        ],
+        "hex": "#D6DDE5"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/border/default"
+        }
+      }
+    },
+    "padding": {
+      "$type": "dimension",
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Platform",
+          "targetVariableName": "space/inset/md"
+        }
+      }
+    },
+    "section-fg": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3255,
+          0.3725,
+          0.4235
+        ],
+        "hex": "#535F6C"
+      },
+      "$extensions": {
+        "com.figma.aliasData": {
+          "targetVariableSetName": "Theme",
+          "targetVariableName": "color/text/secondary"
+        }
+      }
+    }
+  }
+}

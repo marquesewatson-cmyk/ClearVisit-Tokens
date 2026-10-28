@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ClearVisit Design System — token reference</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;500;600;700&family=Atkinson+Hyperlegible+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+{{TOKENS_CSS}}
+{{DARK_CSS}}
+{{COMPONENTS_CSS}}
+
+/* ===== Documentation chrome (also token-driven) ===== */
+:root { box-sizing: border-box; padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 72px); }
+html, body { margin: 0; background: var(--cv-color-surface-app); color: var(--cv-color-text-primary); }
+body { font-family: var(--cv-font-family-sans); font-size: 1rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--cv-color-surface-default); }
+a { color: var(--cv-color-text-link); }
+a:hover { color: var(--cv-color-text-link-hover); }
+code, pre, .mono { font-family: "Atkinson Hyperlegible Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+code { font-size: 0.875em; background: var(--cv-color-surface-subtle); padding: 0.1em 0.35em; border-radius: var(--cv-radius-xs); overflow-wrap: anywhere; }
+:focus-visible { outline: var(--cv-focus-ring); outline-offset: var(--cv-focus-ring-offset); }
+h1, h2, h3, h4 { margin: 0; line-height: 1.2; text-wrap: balance; }
+p { margin: 0; }
+
+.doc-top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; display: flex; align-items: center; gap: 16px; padding: 12px clamp(16px, 4vw, 32px); background: var(--cv-color-surface-default); border-bottom: 1px solid var(--cv-color-border-default); }
+.doc-brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.05rem; text-decoration: none; color: var(--cv-color-text-primary); }
+.doc-brand svg { width: 28px; height: 28px; }
+.doc-brand span { font-weight: 400; color: var(--cv-color-text-secondary); }
+.doc-top__spacer { flex: 1; }
+.doc-tag { font-size: 0.8125rem; color: var(--cv-color-text-secondary); }
+.doc-seg { display: inline-flex; padding: 3px; gap: 2px; background: var(--cv-color-surface-subtle); border-radius: var(--cv-radius-pill); }
+.doc-seg button { all: unset; cursor: pointer; padding: 6px 12px; border-radius: var(--cv-radius-pill); font-size: 0.875rem; font-weight: 500; color: var(--cv-color-text-secondary); }
+.doc-seg button[aria-pressed="true"] { background: var(--cv-color-surface-default); color: var(--cv-color-text-primary); box-shadow: var(--cv-elevation-raised); font-weight: 600; }
+.doc-seg button:focus-visible { outline: var(--cv-focus-ring); outline-offset: 1px; }
+
+.doc-shell { display: grid; grid-template-columns: 236px minmax(0, 1fr); max-width: 1440px; margin: 0 auto; }
+.doc-nav { position: sticky; top: 61px; align-self: start; height: calc(100vh - 61px); overflow-y: auto; padding: 24px 12px 24px 24px; }
+.doc-nav ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; counter-reset: s; }
+.doc-nav a { display: flex; gap: 10px; padding: 7px 10px; border-radius: var(--cv-radius-sm); text-decoration: none; color: var(--cv-color-text-secondary); font-size: 0.9rem; counter-increment: s; }
+.doc-nav a::before { content: counter(s); min-width: 1.2em; color: var(--cv-color-text-muted); font-variant-numeric: tabular-nums; }
+.doc-nav a:hover { background: var(--cv-color-interaction-hover); color: var(--cv-color-text-primary); }
+.doc-nav a.is-active { background: var(--cv-color-interaction-selected-bg); color: var(--cv-color-interaction-selected-fg); font-weight: 600; }
+.doc-main { padding: 0 clamp(16px, 4vw, 48px) 96px; min-width: 0; }
+
+.doc-hero { padding: 48px 0 40px; display: grid; gap: 28px; }
+.doc-hero h1 { font-size: clamp(2rem, 4.4vw, 3.25rem); font-weight: 700; letter-spacing: -0.02em; max-width: 24ch; }
+.doc-hero__lede { font-size: 1.15rem; color: var(--cv-color-text-secondary); max-width: 62ch; }
+.doc-demo { border: 1px solid var(--cv-color-border-default); border-radius: 20px; background: var(--cv-color-surface-default); overflow: hidden; }
+.doc-demo__bar { display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: center; padding: 16px 20px; border-bottom: 1px solid var(--cv-color-border-default); }
+.doc-demo__bar fieldset { border: 0; margin: 0; padding: 0; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.doc-demo__bar legend { float: left; font-size: 0.875rem; font-weight: 600; margin-right: 4px; }
+.doc-demo__stage { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 28px; padding: 28px; align-items: start; background: var(--cv-color-surface-app); }
+.doc-chain { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; padding: 16px 20px; border-top: 1px solid var(--cv-color-border-default); font-size: 0.875rem; }
+.doc-chain__node { display: inline-flex; align-items: center; gap: 8px; padding: 5px 10px; border-radius: var(--cv-radius-sm); background: var(--cv-color-surface-subtle); }
+.doc-chain__node code { background: none; padding: 0; }
+.doc-chain__sw { width: 14px; height: 14px; border-radius: 4px; background: var(--cv-color-action-primary-bg); box-shadow: inset 0 0 0 1px var(--cv-color-slate-alpha-16); }
+.doc-chain__arrow { color: var(--cv-color-text-muted); }
+.doc-chain__fanout { display: flex; flex-wrap: wrap; gap: 6px; }
+.doc-chain__ratio { margin-left: auto; color: var(--cv-color-text-secondary); }
+
+.doc-section { padding-top: 64px; display: grid; gap: 28px; }
+.doc-section > header { display: grid; gap: 10px; max-width: 72ch; }
+.doc-section > header > h2 { font-size: clamp(1.6rem, 2.6vw, 2.1rem); letter-spacing: -0.01em; }
+.doc-block > h3, .doc-section > header > h3 { font-size: 1.2rem; }
+.doc-lede { color: var(--cv-color-text-secondary); font-size: 1.05rem; }
+.doc-block { display: grid; gap: 16px; }
+.doc-block > p, .doc-prose p { max-width: 72ch; }
+.doc-prose { display: grid; gap: 12px; }
+.doc-panel { background: var(--cv-color-surface-default); border: 1px solid var(--cv-color-border-default); border-radius: 12px; padding: 20px; }
+.doc-grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(min(280px, 100%), 1fr)); }
+.doc-spec { display: grid; gap: 14px; align-content: start; }
+.doc-spec__title { font-size: 1rem; font-weight: 600; }
+.doc-spec__tokens { font-size: 0.8rem; color: var(--cv-color-text-secondary); display: flex; flex-wrap: wrap; gap: 4px 8px; }
+.doc-spec__tokens code { font-size: 0.78rem; }
+.doc-row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.doc-note { font-size: 0.875rem; color: var(--cv-color-text-secondary); max-width: 72ch; }
+.doc-scroll { position: relative; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.doc-table { border-collapse: collapse; width: 100%; font-size: 0.875rem; }
+.doc-table th { text-align: left; font-weight: 600; color: var(--cv-color-text-secondary); padding: 10px 12px; border-bottom: 1px solid var(--cv-color-border-strong); white-space: nowrap; }
+.doc-table td { padding: 10px 12px; border-bottom: 1px solid var(--cv-color-border-subtle); vertical-align: middle; }
+.doc-table td code { white-space: nowrap; }
+.doc-sw { display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.doc-sw i { width: 22px; height: 22px; border-radius: 6px; flex: none; box-shadow: inset 0 0 0 1px var(--cv-color-slate-alpha-16); }
+
+/* Principles */
+.doc-principles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 0; border-top: 1px solid var(--cv-color-border-default); }
+.doc-principle { padding: 20px 24px 20px 0; border-bottom: 1px solid var(--cv-color-border-default); display: grid; gap: 6px; align-content: start; }
+.doc-principle h3 { font-size: 1.05rem; }
+.doc-principle p { color: var(--cv-color-text-secondary); font-size: 0.95rem; }
+.doc-principle .doc-evidence { font-size: 0.85rem; color: var(--cv-color-text-primary); }
+
+/* Architecture diagram */
+.doc-arch { display: grid; grid-template-columns: repeat(4, minmax(170px, 1fr)); gap: 0; align-items: stretch; min-width: 820px; }
+.doc-arch__col { padding: 18px; display: grid; gap: 10px; align-content: start; position: relative; }
+.doc-arch__col + .doc-arch__col { border-left: 1px dashed var(--cv-color-border-strong); }
+.doc-arch__col h3 { font-size: 1rem; }
+.doc-arch__col p { font-size: 0.85rem; color: var(--cv-color-text-secondary); }
+.doc-arch__box { border: 1px solid var(--cv-color-border-default); background: var(--cv-color-surface-default); border-radius: 8px; padding: 10px 12px; font-size: 0.85rem; display: grid; gap: 2px; }
+.doc-arch__box strong { font-weight: 600; }
+.doc-arch__box small { color: var(--cv-color-text-secondary); font-size: 0.78rem; }
+.doc-arch__box--mod { border-style: dashed; border-color: var(--cv-color-border-selected); background: var(--cv-color-surface-selected); }
+.doc-arch__flow { font-size: 0.8rem; color: var(--cv-color-text-secondary); display: flex; gap: 6px; align-items: center; }
+
+/* Palette */
+.doc-palette { display: grid; grid-template-columns: 84px repeat(14, minmax(52px, 1fr)); gap: 3px; min-width: 900px; font-size: 0.72rem; }
+.doc-palette__name { align-self: center; font-weight: 600; font-size: 0.85rem; }
+.doc-palette__cell { height: 58px; border-radius: 6px; padding: 5px; display: flex; flex-direction: column; justify-content: flex-end; line-height: 1.15; font-variant-numeric: tabular-nums; }
+.doc-palette__cell.is-empty { background: transparent !important; }
+.doc-palette__hd { text-align: center; color: var(--cv-color-text-secondary); font-size: 0.75rem; }
+
+/* Type */
+.doc-type-specimen { display: grid; gap: 8px; }
+.doc-type-specimen .big { font-size: clamp(2.6rem, 7vw, 5rem); font-weight: 700; letter-spacing: -0.02em; line-height: 1; }
+.doc-type-specimen .glyphs { font-size: clamp(1.4rem, 3vw, 2rem); color: var(--cv-color-text-secondary); font-variant-numeric: tabular-nums; }
+
+/* Spacing */
+.doc-space { display: grid; gap: 6px; }
+.doc-space__row { display: grid; grid-template-columns: 90px 54px minmax(0, 1fr); align-items: center; gap: 12px; font-size: 0.85rem; }
+.doc-space__bar { max-width: 100%; height: 14px; background: var(--cv-color-chart-series-1); border-radius: 3px; }
+.doc-elev { display: flex; flex-wrap: wrap; gap: 24px; }
+.doc-elev > div { width: 160px; height: 96px; border-radius: 12px; background: var(--cv-color-surface-elevated); display: grid; place-items: center; font-size: 0.85rem; text-align: center; }
+.doc-radius { display: flex; flex-wrap: wrap; gap: 16px; }
+.doc-radius > div { width: 76px; height: 76px; border: 2px solid var(--cv-color-border-strong); display: grid; place-items: end start; padding: 6px; font-size: 0.75rem; background: var(--cv-color-surface-default); }
+
+/* Device frames */
+.doc-phones { display: flex; gap: 32px; flex-wrap: wrap; align-items: flex-start; }
+.doc-phone-wrap { display: grid; gap: 14px; width: 360px; max-width: 100%; }
+.doc-phone { width: 360px; max-width: 100%; border-radius: 40px; padding: 10px; background: var(--cv-color-slate-900); box-shadow: var(--cv-elevation-overlay); }
+[data-theme="dark"] .doc-phone, .doc-phone[data-theme="dark"] { background: var(--cv-color-slate-850); }
+.doc-phone__screen { border-radius: 30px; overflow: hidden; background: var(--cv-color-surface-app); height: 720px; display: grid; grid-template-rows: auto 1fr auto; position: relative; }
+.doc-phone__status { display: flex; justify-content: space-between; padding: 12px 24px 4px; font-size: 0.8rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.doc-phone__body { overflow-y: auto; padding: 8px 16px 20px; display: grid; gap: 20px; align-content: start; grid-auto-rows: max-content; }
+.doc-phone__caption { display: grid; gap: 4px; }
+.doc-phone__caption h3 { font-size: 1.05rem; }
+.doc-phone__caption p { font-size: 0.9rem; color: var(--cv-color-text-secondary); }
+.m-title { font-family: var(--cv-text-style-page-title-font-family); font-size: var(--cv-text-style-page-title-font-size); font-weight: var(--cv-text-style-page-title-font-weight); line-height: var(--cv-text-style-page-title-line-height); letter-spacing: var(--cv-text-style-page-title-letter-spacing); margin: 0; }
+.m-section { font-size: var(--cv-text-style-section-title-font-size); font-weight: var(--cv-text-style-section-title-font-weight); line-height: var(--cv-text-style-section-title-line-height); margin: 0; }
+.m-between { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.m-hscroll { display: flex; gap: 8px; overflow-x: auto; margin: 0 -16px; padding: 0 16px 2px; }
+.m-time { font-size: var(--cv-text-style-appointment-time-font-size); font-weight: var(--cv-text-style-appointment-time-font-weight); line-height: var(--cv-text-style-appointment-time-line-height); margin: 0; }
+.m-sticky { padding: 12px 16px; background: var(--cv-color-surface-elevated); border-top: 1px solid var(--cv-color-border-default); display: grid; gap: 8px; }
+.m-back { display: flex; align-items: center; gap: 4px; color: var(--cv-color-text-link); font-weight: 600; font-size: 0.95rem; }
+
+.doc-desktop { border: 1px solid var(--cv-color-border-default); border-radius: 14px; overflow: hidden; box-shadow: var(--cv-elevation-popover); background: var(--cv-color-surface-app); min-width: 1080px; }
+.doc-desktop__chrome { display: flex; gap: 6px; align-items: center; padding: 10px 14px; background: var(--cv-color-surface-subtle); border-bottom: 1px solid var(--cv-color-border-default); }
+.doc-desktop__chrome i { width: 10px; height: 10px; border-radius: 50%; background: var(--cv-color-border-strong); }
+.doc-desktop__app { display: grid; grid-template-columns: auto 1fr; min-height: 620px; }
+.a-main { display: grid; gap: 20px; padding: 24px 28px; align-content: start; min-width: 0; }
+.a-top { display: flex; align-items: center; gap: 12px; }
+.a-top h1 { font-size: var(--cv-text-style-page-title-font-size); font-weight: var(--cv-text-style-page-title-font-weight); line-height: var(--cv-text-style-page-title-line-height); margin-right: auto; }
+.a-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.a-toolbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.a-panel { background: var(--cv-color-surface-default); border: 1px solid var(--cv-color-border-default); border-radius: var(--cv-radius-card); overflow: hidden; }
+.a-panel__foot { display: flex; justify-content: space-between; align-items: center; padding: 10px 12px; font-size: var(--cv-text-style-supporting-font-size); color: var(--cv-color-text-secondary); }
+.a-legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.85rem; }
+
+pre.doc-code { margin: 0; padding: 16px 18px; background: var(--cv-color-surface-subtle); border: 1px solid var(--cv-color-border-default); border-radius: 10px; font-size: 0.8rem; line-height: 1.55; overflow-x: auto; color: var(--cv-color-text-primary); }
+.doc-code .k { color: var(--cv-color-status-rescheduled-fg); } .doc-code .s { color: var(--cv-color-status-available-fg); } .doc-code .c { color: var(--cv-color-text-muted); }
+.doc-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; counter-reset: st; }
+.doc-steps li { counter-increment: st; padding: 14px 16px; border-radius: 10px; background: var(--cv-color-surface-default); border: 1px solid var(--cv-color-border-default); display: grid; gap: 4px; font-size: 0.875rem; color: var(--cv-color-text-secondary); }
+.doc-steps li strong { color: var(--cv-color-text-primary); font-size: 0.95rem; }
+.doc-steps li strong::before { content: counter(st) ". "; color: var(--cv-color-text-link); }
+.doc-foot { margin-top: 80px; padding-top: 24px; border-top: 1px solid var(--cv-color-border-default); font-size: 0.875rem; color: var(--cv-color-text-secondary); display: grid; gap: 6px; }
+
+@media (max-width: 1000px) {
+  .doc-shell { grid-template-columns: 1fr; }
+  .doc-nav { position: sticky; top: 61px; z-index: 15; height: auto; padding: 8px 16px; background: var(--cv-color-surface-default); border-bottom: 1px solid var(--cv-color-border-default); overflow-x: auto; }
+  .doc-nav ol { display: flex; width: max-content; }
+  .doc-nav a { white-space: nowrap; }
+  .doc-demo__stage { grid-template-columns: 1fr; }
+  html { scroll-padding-top: calc(env(safe-area-inset-top, 0px) + 120px); }
+}
+@media (min-width: 900px) { .doc-span-2 { grid-column: span 2; } }
+@media (max-width: 640px) {
+  .doc-tag, .doc-brand span { display: none; }
+  .doc-top { gap: 8px; }
+  .doc-seg button { padding: 6px 9px; }
+  .doc-demo__stage { padding: 16px; }
+  .doc-phone { width: 100%; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .doc-chain__sw, .cv-btn, .cv-slot, .cv-strip__day, .cv-tab, .cv-choice__box { transition: background-color var(--cv-duration-300) var(--cv-easing-standard), border-color var(--cv-duration-300) var(--cv-easing-standard); }
+}
+</style>
+</head>
+<body class="cv">
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">{{ICONS}}</svg>
+
+<header class="doc-top">
+  <a class="doc-brand" href="#overview" aria-label="ClearVisit design system, back to top">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--cv-color-action-primary-bg)"/><path d="M9 16.5l4.5 4.5L23 11" fill="none" stroke="var(--cv-color-action-primary-fg)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    ClearVisit <span>Design system</span>
+  </a>
+  <span class="doc-top__spacer"></span>
+  <span class="doc-tag">Concept project, v0.1</span>
+  <div class="doc-seg" role="group" aria-label="Page theme">
+    <button type="button" data-set-theme="auto" aria-pressed="true">Auto</button>
+    <button type="button" data-set-theme="light" aria-pressed="false">Light</button>
+    <button type="button" data-set-theme="dark" aria-pressed="false">Dark</button>
+  </div>
+</header>
+
+<div class="doc-shell">
+<nav class="doc-nav" aria-label="Sections">
+  <ol>
+    <li><a href="#overview">Overview and principles</a></li>
+    <li><a href="#architecture">Token architecture</a></li>
+    <li><a href="#color">Color</a></li>
+    <li><a href="#typography">Typography</a></li>
+    <li><a href="#spacing">Spacing and sizing</a></li>
+    <li><a href="#shared">Shared components</a></li>
+    <li><a href="#patient">Patient mobile</a></li>
+    <li><a href="#admin">Scheduling admin</a></li>
+    <li><a href="#implementation">JSON and implementation</a></li>
+    <li><a href="#governance">Governance</a></li>
+  </ol>
+</nav>
+
+<main class="doc-main">
+
+<!-- ================= HERO / LIVE DEMO ================= -->
+<section class="doc-hero" id="overview" aria-labelledby="hero-title">
+  <h1 id="hero-title">One set of decisions, two very different products</h1>
+  <p class="doc-hero__lede">ClearVisit’s patients book on a phone; its coordinators run a dense scheduling desk. Both read the same semantic tokens. Change the primary action color below and watch the booking flow and the admin calendar follow, with label contrast re-checked as you go.</p>
+
+  <div class="doc-demo" id="demo" data-theme="light">
+    <div class="doc-demo__bar">
+      <fieldset>
+        <legend>Primary action</legend>
+        <div class="doc-seg" role="group" aria-label="Primary action color">
+          <button type="button" data-hue="blue" aria-pressed="true">Harbor blue</button>
+          <button type="button" data-hue="teal" aria-pressed="false">Teal</button>
+          <button type="button" data-hue="violet" aria-pressed="false">Violet</button>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Theme</legend>
+        <div class="doc-seg" role="group" aria-label="Demo theme">
+          <button type="button" data-demo-theme="light" aria-pressed="true">Light</button>
+          <button type="button" data-demo-theme="dark" aria-pressed="false">Dark</button>
+        </div>
+      </fieldset>
+    </div>
+    <div class="doc-demo__stage">
+      <!-- mobile booking fragment -->
+      <div data-platform="mobile" class="doc-card-m" style="width:320px;max-width:100%;display:grid;gap:16px;background:var(--cv-color-surface-default);border-radius:var(--cv-radius-card);padding:var(--cv-space-inset-card);box-shadow:var(--cv-elevation-raised);">
+        <div class="cv-provider">
+          <div class="cv-avatar" aria-hidden="true">AO</div>
+          <div><p class="cv-provider__name">Dr. Amara Okafor</p><p class="cv-provider__meta">Family medicine, Northgate Clinic</p></div>
+        </div>
+        <div class="cv-strip" role="listbox" aria-label="Choose a date">
+          <button class="cv-strip__day has-slots" role="option" aria-selected="false"><span class="cv-strip__wd">Mon</span><span class="cv-strip__d">26</span></button>
+          <button class="cv-strip__day has-slots" role="option" aria-selected="true"><span class="cv-strip__wd">Tue</span><span class="cv-strip__d">27</span></button>
+          <button class="cv-strip__day" role="option" aria-selected="false" aria-disabled="true"><span class="cv-strip__wd">Wed</span><span class="cv-strip__d">28</span></button>
+          <button class="cv-strip__day has-slots" role="option" aria-selected="false"><span class="cv-strip__wd">Thu</span><span class="cv-strip__d">29</span></button>
+        </div>
+        <div class="cv-slots" role="group" aria-label="Available times">
+          <button class="cv-slot" aria-pressed="false">9:00</button>
+          <button class="cv-slot" aria-pressed="false" aria-disabled="true" aria-label="9:30, booked">9:30</button>
+          <button class="cv-slot" aria-pressed="true"><svg class="cv-icon"><use href="#i-check"/></svg>10:30</button>
+        </div>
+        <button class="cv-btn cv-btn--block">Book Tue 27, 10:30 AM</button>
+      </div>
+      <!-- admin fragment -->
+      <div data-platform="desktop" style="display:grid;gap:14px;min-width:0;">
+        <div class="a-top"><h1 style="font-size:var(--cv-text-style-section-title-font-size);white-space:nowrap">Today at Northgate</h1><button class="cv-btn cv-btn--secondary">Export</button><button class="cv-btn"><svg class="cv-icon cv-icon--sm"><use href="#i-plus"/></svg>New appointment</button></div>
+        <div class="cv-tabs" role="tablist"><button class="cv-tab" role="tab" aria-selected="true">Calendar</button><button class="cv-tab" role="tab" aria-selected="false">Appointments</button><button class="cv-tab" role="tab" aria-selected="false">Requests</button></div>
+        <div class="doc-scroll"><table class="cv-table" style="background:var(--cv-color-surface-default)">
+          <thead><tr><th style="width:40px"><span class="cv-visually-hidden">Select</span></th><th>Time</th><th>Patient</th><th>Provider</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr aria-selected="true"><td><span class="cv-choice is-checked" aria-hidden="true"><span class="cv-choice__box"><svg class="cv-icon cv-icon--sm"><use href="#i-check"/></svg></span></span></td><td class="is-num">10:30 AM</td><td>Jordan Ellis</td><td>Dr. Okafor</td><td><span class="cv-badge" data-status="pending"><svg class="cv-icon"><use href="#i-clock"/></svg>Pending</span></td></tr>
+            <tr><td><span class="cv-choice" aria-hidden="true"><span class="cv-choice__box"></span></span></td><td class="is-num">11:00 AM</td><td>Priya Raman</td><td>Dr. Reyes</td><td><span class="cv-badge" data-status="confirmed"><svg class="cv-icon"><use href="#i-check-circle"/></svg>Confirmed</span></td></tr>
+          </tbody>
+        </table></div>
+      </div>
+    </div>
+    <div class="doc-chain" aria-live="polite">
+      <span class="doc-chain__node"><i class="doc-chain__sw"></i><code id="chain-prim">color.blue.600</code></span>
+      <span class="doc-chain__arrow" aria-hidden="true">→</span>
+      <span class="doc-chain__node"><code>color.action.primary.bg</code></span>
+      <span class="doc-chain__arrow" aria-hidden="true">→</span>
+      <span class="doc-chain__fanout"><code>button</code><code>time-slot.selected-bg</code><code>date-strip.selected-bg</code><code>checkbox.checked-bg</code><code>tabs.indicator</code><code>date-picker.day-selected-bg</code></span>
+      <span class="doc-chain__ratio" id="chain-ratio"></span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 1 OVERVIEW ================= -->
+<section class="doc-section" aria-labelledby="s1">
+  <header>
+    <h2 id="s1">Overview and principles</h2>
+    <p class="doc-lede">A patient checking for a Thursday opening and a coordinator untangling a double-booking need different densities, but they must never disagree about what “pending” looks like or which button commits a booking.</p>
+  </header>
+  <div class="doc-prose">
+    <p>Without a shared foundation, the consumer app and the admin platform drift: two blues for “confirmed”, a status chip that relies on color alone, a 32px tap target that was fine with a mouse. Each fix lands in one product and not the other. This system makes those decisions once, as named tokens, and lets each platform choose only what genuinely differs: size and density.</p>
+  </div>
+  <div class="doc-principles">
+    <div class="doc-principle"><h3>Clarity before decoration</h3><p>Every color, size and weight has a stated job. If it doesn’t help someone find, book or manage an appointment, it doesn’t ship.</p><p class="doc-evidence">Semantic names describe role (<code>color.text.secondary</code>), never appearance.</p></div>
+    <div class="doc-principle"><h3>Never color alone</h3><p>Status meaning survives grayscale, color-blindness and a glance in sunlight.</p><p class="doc-evidence">Each status ships a label and icon; pending is dashed, cancelled is struck through.</p></div>
+    <div class="doc-principle"><h3>Calm, then confident</h3><p>Neutrals carry most of the interface so the one decisive action stands out.</p><p class="doc-evidence">Blue is reserved for action and selection; status hues stay on tinted fills.</p></div>
+    <div class="doc-principle"><h3>One language, two densities</h3><p>Patients get touch-first sizing; coordinators get data-dense layouts. The vocabulary is identical.</p><p class="doc-evidence">47 platform tokens share names; <code>size.control.md</code> is 48px on mobile, 36px on desktop.</p></div>
+    <div class="doc-principle"><h3>Accessible by construction</h3><p>Contrast is a build requirement, not a review comment.</p><p class="doc-evidence">The build fails if any audited pair drops below WCAG 2.2 AA.</p></div>
+    <div class="doc-principle"><h3>Change in one place</h3><p>A brand or accessibility decision updates every product surface without a hunt.</p><p class="doc-evidence">Components never reference primitive colors; the build enforces it.</p></div>
+    <div class="doc-principle"><h3>Efficiency for operators</h3><p>Coordinators scan hundreds of rows a day. Density and alignment serve speed.</p><p class="doc-evidence">40px table rows, tabular figures, 12px minimum in calendar events.</p></div>
+  </div>
+</section>
+
+<!-- ================= 2 ARCHITECTURE ================= -->
+<section class="doc-section" id="architecture" aria-labelledby="s2">
+  <header>
+    <h2 id="s2">Token architecture</h2>
+    <p class="doc-lede">Three layers, two modifiers. Values flow left to right; nothing flows back.</p>
+  </header>
+  <div class="doc-scroll doc-panel" style="padding:0">
+    <div class="doc-arch">
+      <div class="doc-arch__col">
+        <h3>Primitives</h3><p>Raw, context-free values. Named by what they are.</p>
+        <div class="doc-arch__box"><strong>color.blue.600</strong><small>#006ABE, OKLCH L 0.52</small></div>
+        <div class="doc-arch__box"><strong>space.16, size.48</strong><small>4px grid</small></div>
+        <div class="doc-arch__box"><strong>typography.body.md</strong><small>16 / 1.45, regular</small></div>
+        {{INV_PRIM}}
+      </div>
+      <div class="doc-arch__col">
+        <h3>Semantic</h3><p>Named by purpose. Two orthogonal modifiers swap values; names never change.</p>
+        <div class="doc-arch__box doc-arch__box--mod"><strong>theme</strong><small>light or dark: color, elevation</small></div>
+        <div class="doc-arch__box doc-arch__box--mod"><strong>platform</strong><small>mobile or desktop: size, space, radius, text style</small></div>
+        <div class="doc-arch__box"><strong>base</strong><small>space rhythm, focus ring, motion, layers</small></div>
+        {{INV_SEM}}
+      </div>
+      <div class="doc-arch__col">
+        <h3>Component</h3><p>Only where a component makes a decision the semantic layer can’t express.</p>
+        <div class="doc-arch__box"><strong>time-slot.selected-bg</strong><small>→ color.action.primary.bg</small></div>
+        <div class="doc-arch__box"><strong>table.row-height</strong><small>→ size.table-row</small></div>
+        <div class="doc-arch__box"><strong>calendar-event.pending-style</strong><small>→ stroke-style.dashed</small></div>
+        {{INV_COMP}}
+      </div>
+      <div class="doc-arch__col">
+        <h3>Outputs</h3><p>Generated, never hand-edited.</p>
+        <div class="doc-arch__box"><strong>CSS custom properties</strong><small>clearvisit.css, clearvisit.dark.css</small></div>
+        <div class="doc-arch__box"><strong>Figma variable imports</strong><small>4 collections, 1 file per mode</small></div>
+        <div class="doc-arch__box"><strong>Resolved DTCG bundles</strong><small>4 permutations + bundled resolver</small></div>
+        <div class="doc-arch__box"><strong>Reports</strong><small>validation, contrast, mapping</small></div>
+      </div>
+    </div>
+  </div>
+  <div class="doc-grid" style="grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr))">
+    <div class="doc-block">
+      <h3>Shared or platform-specific?</h3>
+      <p class="doc-note">The rule: if a patient and a coordinator should perceive the same meaning, the token is shared. If the difference comes from input method or information density, it is platform-specific.</p>
+      <div class="doc-scroll"><table class="doc-table">
+        <thead><tr><th>Shared across platforms</th><th>Varies by platform</th></tr></thead>
+        <tbody>
+          <tr><td>All color: text, surface, action, status, feedback</td><td>Control heights and touch targets</td></tr>
+          <tr><td>Status labels and icons</td><td>Text-style roles (body 16 vs 14)</td></tr>
+          <tr><td>Focus ring, stroke widths</td><td>Card, page and cell padding</td></tr>
+          <tr><td>Motion and easing</td><td>Radius (12 vs 6 on controls)</td></tr>
+          <tr><td>Spacing rhythm (inline, stack)</td><td>Grid columns, gutters, margins</td></tr>
+          <tr><td>Elevation, z-index layers</td><td>Table row height, avatar size</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+    <div class="doc-block">
+      <h3>Scoped re-resolution</h3>
+      <p class="doc-note">CSS custom properties resolve where they’re declared, not where they’re used. If <code>--cv-button-height-md</code> were declared only on <code>:root</code>, a <code>[data-platform="mobile"]</code> subtree would inherit the desktop answer. The build re-declares base-semantic and component tokens on every <code>[data-theme]</code> and <code>[data-platform]</code> scope, which is why the hero demo can run a dark mobile phone next to a light desktop table on one page. A Playwright test checks this in Chromium.</p>
+      <pre class="doc-code"><span class="c">/* generated/clearvisit.css */</span>
+:root, [data-theme], [data-platform] {
+  --cv-button-height-md: var(--cv-size-control-md);
+}
+[data-platform="mobile"] {
+  --cv-size-control-md: var(--cv-size-48);
+}</pre>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3 COLOR ================= -->
+<section class="doc-section" id="color" aria-labelledby="s3">
+  <header>
+    <h2 id="s3">Color</h2>
+    <p class="doc-lede">Seven hue families generated on one OKLCH lightness ladder. Because every 600 shares a lightness, “600 on white passes 4.5:1” is true for blue, green, red and violet alike, which made the semantic mapping predictable.</p>
+  </header>
+  <div class="doc-block">
+    <h3>Primitive palette</h3>
+    <div class="doc-scroll">{{PALETTE}}</div>
+    <p class="doc-note">Slate has extra dark steps (850, 925, 975) so dark-theme surfaces can layer without reaching for transparency. Violet is an assumed addition for the “rescheduled” status; the brief’s palette list didn’t include a sixth status hue.</p>
+  </div>
+  <div class="doc-block">
+    <h3>Appointment statuses</h3>
+    <p class="doc-note">Each status is a tinted fill, a darker label, an icon, and a text label. In grayscale the icons and words still separate all six. On calendars, pending adds a dashed outline and cancelled strikes through the time.</p>
+    <div class="doc-scroll">{{STATUS_TABLE}}</div>
+  </div>
+  <div class="doc-block">
+    <h3>Semantic color</h3>
+    <div class="doc-scroll">{{SEMANTIC_TABLE}}</div>
+  </div>
+  <div class="doc-block">
+    <h3>Contrast, enforced at build time</h3>
+    {{CONTRAST}}
+  </div>
+</section>
+
+<!-- ================= 4 TYPOGRAPHY ================= -->
+<section class="doc-section" id="typography" aria-labelledby="s4">
+  <header>
+    <h2 id="s4">Typography</h2>
+    <p class="doc-lede">Atkinson Hyperlegible Next, designed by the Braille Institute for low-vision readers. In a product built on names, times and dates, distinguishable characters matter more than personality.</p>
+  </header>
+  <div class="doc-type-specimen doc-panel">
+    <div class="big">Aa Rr 10:30</div>
+    <div class="glyphs">Il1 0O 8B 5S, Dr. Ilona Ollis, room 101</div>
+    <p class="doc-note">Capital I, lowercase l and numeral 1 are all distinct; so are 0 and O. Mobile body text stays at 16px so iOS doesn’t zoom form fields on focus.</p>
+  </div>
+  <div class="doc-scroll">{{TYPE_TABLE}}</div>
+</section>
+
+<!-- ================= 5 SPACING ================= -->
+<section class="doc-section" id="spacing" aria-labelledby="s5">
+  <header>
+    <h2 id="s5">Spacing and sizing</h2>
+    <p class="doc-lede">A 4px grid shared by both products. What changes per platform is which step a role picks.</p>
+  </header>
+  <div class="doc-grid" style="grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr))">
+    <div class="doc-block"><h3>Spacing scale</h3>{{SPACING}}</div>
+    <div class="doc-block"><h3>Platform sizing</h3><div class="doc-scroll">{{PLATFORM_TABLE}}</div>
+      <p class="doc-note">Mobile touch targets are 48px, above WCAG 2.5.8’s 24px minimum. Desktop controls can be smaller because pointer input is precise, but never below 24px.</p></div>
+  </div>
+  <div class="doc-grid" style="grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr))">
+    <div class="doc-block"><h3>Radius</h3><div class="doc-radius">
+      <div style="border-radius:var(--cv-radius-xs)">xs 4</div><div style="border-radius:var(--cv-radius-sm)">sm 6</div><div style="border-radius:var(--cv-radius-6)">control desktop 6</div><div style="border-radius:var(--cv-radius-12)">control mobile 12</div><div style="border-radius:var(--cv-radius-16)">card mobile 16</div><div style="border-radius:var(--cv-radius-pill)">pill</div></div></div>
+    <div class="doc-block"><h3>Elevation</h3><div class="doc-elev">
+      <div style="box-shadow:var(--cv-elevation-raised)">raised<br>cards</div><div style="box-shadow:var(--cv-elevation-popover)">popover<br>menus</div><div style="box-shadow:var(--cv-elevation-overlay)">overlay<br>modals</div></div>
+      <p class="doc-note">Dark theme swaps to stronger shadows and lighter surfaces, since shadows alone barely read on dark backgrounds.</p></div>
+  </div>
+  <div class="doc-block"><h3>Motion</h3>
+    <div class="doc-scroll"><table class="doc-table"><thead><tr><th>Token</th><th>Value</th><th>Used for</th></tr></thead><tbody>
+      <tr><td><code>motion.control</code></td><td>150ms standard (0.2, 0, 0, 1)</td><td>Hover, press and selection feedback</td></tr>
+      <tr><td><code>motion.enter</code></td><td>300ms decelerate</td><td>Sheets, modals and menus appearing</td></tr>
+      <tr><td><code>motion.exit</code></td><td>200ms accelerate</td><td>Anything leaving</td></tr>
+      <tr><td><code>motion.tooltip-delay</code></td><td>400ms</td><td>Prevents tooltip flicker while scanning tables</td></tr>
+    </tbody></table></div>
+    <p class="doc-note">With <code>prefers-reduced-motion</code>, the CSS collapses every duration primitive to near zero, so every transition built on them follows without per-component overrides.</p>
+  </div>
+</section>
+
+<!-- ================= 6 SHARED COMPONENTS ================= -->
+<section class="doc-section" id="shared" aria-labelledby="s6">
+  <header>
+    <h2 id="s6">Shared components</h2>
+    <p class="doc-lede">Fifteen components used by both products. Switch the density to see the same markup resolve to mobile or desktop sizing.</p>
+  </header>
+  <div class="doc-row"><div class="doc-seg" role="group" aria-label="Component density"><button type="button" data-density="mobile" aria-pressed="false">Mobile</button><button type="button" data-density="desktop" aria-pressed="true">Desktop</button></div></div>
+  <div id="gallery" data-platform="desktop" class="doc-grid">
+    <div class="doc-panel doc-spec" style="grid-column:1/-1">
+      <div class="doc-spec__title">Buttons</div>
+      <div class="doc-scroll"><table class="doc-table" style="width:auto"><thead><tr><th></th><th>Default</th><th>Hover</th><th>Pressed</th><th>Focus</th><th>Disabled</th></tr></thead><tbody>
+        <tr><th scope="row">Primary</th><td><button class="cv-btn">Book visit</button></td><td><button class="cv-btn is-hover">Book visit</button></td><td><button class="cv-btn is-pressed">Book visit</button></td><td><button class="cv-btn is-focus">Book visit</button></td><td><button class="cv-btn" disabled>Book visit</button></td></tr>
+        <tr><th scope="row">Secondary</th><td><button class="cv-btn cv-btn--secondary">Reschedule</button></td><td><button class="cv-btn cv-btn--secondary is-hover">Reschedule</button></td><td><button class="cv-btn cv-btn--secondary is-pressed">Reschedule</button></td><td><button class="cv-btn cv-btn--secondary is-focus">Reschedule</button></td><td><button class="cv-btn cv-btn--secondary" disabled>Reschedule</button></td></tr>
+        <tr><th scope="row">Tertiary</th><td><button class="cv-btn cv-btn--tertiary">View details</button></td><td><button class="cv-btn cv-btn--tertiary is-hover">View details</button></td><td><button class="cv-btn cv-btn--tertiary is-pressed">View details</button></td><td><button class="cv-btn cv-btn--tertiary is-focus">View details</button></td><td><button class="cv-btn cv-btn--tertiary" disabled>View details</button></td></tr>
+        <tr><th scope="row">Destructive</th><td><button class="cv-btn cv-btn--destructive">Cancel visit</button></td><td><button class="cv-btn cv-btn--destructive is-hover">Cancel visit</button></td><td><button class="cv-btn cv-btn--destructive is-pressed">Cancel visit</button></td><td><button class="cv-btn cv-btn--destructive is-focus">Cancel visit</button></td><td><button class="cv-btn cv-btn--destructive" disabled>Cancel visit</button></td></tr>
+      </tbody></table></div>
+      <div class="doc-spec__tokens"><code>button.height.*</code><code>button.radius</code><code>button.text-style</code><code>color.action.{variant}.*</code><code>focus-ring</code></div>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Text input</div>
+      <div class="cv-field"><label class="cv-field__label" for="f1">Full name</label><div class="cv-field__control"><input id="f1" placeholder="As shown on your insurance card"></div></div>
+      <div class="cv-field"><label class="cv-field__label" for="f2">Date of birth</label><div class="cv-field__control is-focus"><input id="f2" value="04/12/1988"></div></div>
+      <div class="cv-field is-error"><label class="cv-field__label" for="f3">Phone</label><div class="cv-field__control"><input id="f3" value="555-01" aria-invalid="true" aria-describedby="f3h"></div><p class="cv-field__help" id="f3h"><svg class="cv-icon cv-icon--sm"><use href="#i-error"/></svg>Enter a 10-digit phone number.</p></div>
+      <div class="cv-field is-disabled"><label class="cv-field__label" for="f4">Member ID</label><div class="cv-field__control"><input id="f4" value="Verified" disabled></div></div>
+      <div class="doc-spec__tokens"><code>field.border</code><code>field.border-focus</code><code>field.border-error</code><code>field.placeholder</code></div>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Search and dropdown</div>
+      <div class="cv-field cv-search"><label class="cv-visually-hidden" for="s1">Search</label><div class="cv-field__control"><svg class="cv-icon"><use href="#i-search"/></svg><input id="s1" placeholder="Doctor, specialty or clinic"></div></div>
+      <div class="cv-field"><span class="cv-field__label">Visit type</span><div class="cv-field__control is-focus" role="button" aria-expanded="true"><span style="flex:1">New patient visit</span><svg class="cv-icon cv-icon--sm"><use href="#i-chevron-down"/></svg></div></div>
+      <div class="cv-menu" role="listbox" aria-label="Visit type">
+        <div class="cv-menu__opt" role="option" aria-selected="true">New patient visit <svg class="cv-icon cv-icon--sm"><use href="#i-check"/></svg></div>
+        <div class="cv-menu__opt is-hover" role="option" aria-selected="false">Follow-up</div>
+        <div class="cv-menu__opt" role="option" aria-selected="false">Annual physical</div>
+      </div>
+      <div class="doc-spec__tokens"><code>search.bg</code><code>search.radius</code><code>dropdown.menu-shadow</code><code>dropdown.option-selected-*</code></div>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Checkbox and radio</div>
+      <div style="display:grid">
+        <label class="cv-choice is-checked"><span class="cv-choice__box"><svg class="cv-icon cv-icon--sm"><use href="#i-check"/></svg></span>Text me reminders</label>
+        <label class="cv-choice"><span class="cv-choice__box"></span>Email me reminders</label>
+        <label class="cv-choice is-disabled"><span class="cv-choice__box"></span>Call me (not offered by this clinic)</label>
+        <label class="cv-choice cv-choice--radio is-checked"><span class="cv-choice__box"></span>In person</label>
+        <label class="cv-choice cv-choice--radio"><span class="cv-choice__box"></span>Video visit</label>
+      </div>
+      <div class="doc-spec__tokens"><code>checkbox.size</code><code>checkbox.target</code><code>checkbox.checked-bg</code></div>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Status badges</div>
+      <div class="doc-row">{{BADGES}}</div>
+      <div class="doc-spec__tokens"><code>badge.*</code><code>color.status.{status}.*</code></div>
+    </div>
+
+    <div class="doc-panel doc-spec doc-span-2">
+      <div class="doc-spec__title">Alerts</div>
+      <div class="cv-alert" data-tone="info" role="status"><svg class="cv-icon"><use href="#i-info"/></svg><div><p class="cv-alert__title">Arrive 15 minutes early</p><p class="cv-alert__body">New patients complete a short intake form at the front desk.</p></div></div>
+      <div class="cv-alert" data-tone="success" role="status"><svg class="cv-icon"><use href="#i-check-circle"/></svg><div><p class="cv-alert__title">Appointment booked</p><p class="cv-alert__body">Tue 27 at 10:30 AM. A confirmation is on its way.</p></div></div>
+      <div class="cv-alert" data-tone="warning" role="status"><svg class="cv-icon"><use href="#i-warning"/></svg><div><p class="cv-alert__title">2 requests waiting over 24 hours</p><p class="cv-alert__body">Confirm or decline them so patients can plan.</p></div></div>
+      <div class="cv-alert" data-tone="error" role="alert"><svg class="cv-icon"><use href="#i-error"/></svg><div><p class="cv-alert__title">Dr. Reyes is double-booked at 10:00</p><p class="cv-alert__body">Move one appointment or mark it as an approved overlap.</p></div></div>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Card</div>
+      <div class="cv-card cv-card--interactive"><p class="cv-card__title">Annual physical</p><p class="cv-meta">45 minutes, in person. Covered by most plans.</p></div>
+      <div class="doc-spec__tokens"><code>card.radius</code><code>card.padding</code><code>card.shadow</code></div>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Tabs</div>
+      <div class="cv-tabs" role="tablist"><button class="cv-tab" role="tab" aria-selected="true">Upcoming</button><button class="cv-tab" role="tab" aria-selected="false">Past</button><button class="cv-tab" role="tab" aria-selected="false">Cancelled</button></div>
+      <div class="doc-spec__tokens"><code>tabs.indicator</code><code>tabs.indicator-height</code></div>
+      <p class="doc-note">Selected tab is bolder and underlined, not just recolored.</p>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Tooltip and navigation item</div>
+      <div><span class="cv-tooltip" role="tooltip">Booked by the patient online</span></div>
+      <div style="display:grid;gap:2px">
+        <a class="cv-nav-item" href="#shared" aria-current="page"><svg class="cv-icon"><use href="#i-calendar"/></svg>Schedule</a>
+        <a class="cv-nav-item" href="#shared"><svg class="cv-icon"><use href="#i-users"/></svg>Patients</a>
+      </div>
+      <div class="doc-spec__tokens"><code>tooltip.*</code><code>nav-item.bg-active</code></div>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Date picker</div>
+      <div class="cv-dp" role="grid" aria-label="October 2026">
+        <span class="cv-dp__h">M</span><span class="cv-dp__h">T</span><span class="cv-dp__h">W</span><span class="cv-dp__h">T</span><span class="cv-dp__h">F</span><span class="cv-dp__h">S</span><span class="cv-dp__h">S</span>
+        <button class="cv-dp__day is-muted">28</button><button class="cv-dp__day is-muted">29</button><button class="cv-dp__day is-muted">30</button><button class="cv-dp__day">1</button><button class="cv-dp__day has-slots">2</button><button class="cv-dp__day is-unavailable" aria-disabled="true">3</button><button class="cv-dp__day is-unavailable" aria-disabled="true">4</button>
+        <button class="cv-dp__day is-today has-slots" aria-current="date">5</button><button class="cv-dp__day has-slots" aria-selected="true">6</button><button class="cv-dp__day">7</button><button class="cv-dp__day has-slots">8</button><button class="cv-dp__day has-slots">9</button><button class="cv-dp__day is-unavailable" aria-disabled="true">10</button><button class="cv-dp__day is-unavailable" aria-disabled="true">11</button>
+      </div>
+      <p class="doc-note">Dot = openings that day. Today has a ring; unavailable days are struck through.</p>
+    </div>
+
+    <div class="doc-panel doc-spec">
+      <div class="doc-spec__title">Time selector</div>
+      <div class="cv-timelist" role="listbox" aria-label="Start time">
+        <div class="cv-timelist__opt" role="option" aria-selected="false">9:30 AM</div>
+        <div class="cv-timelist__opt" role="option" aria-selected="true">10:00 AM <svg class="cv-icon cv-icon--sm"><use href="#i-check"/></svg></div>
+        <div class="cv-timelist__opt" role="option" aria-selected="false">10:30 AM</div>
+      </div>
+      <div class="doc-spec__tokens"><code>time-selector.option-height</code></div>
+    </div>
+
+    <div class="doc-panel doc-spec doc-span-2">
+      <div class="doc-spec__title">Modal</div>
+      <div class="cv-scrim" style="border-radius:10px;min-height:280px">
+        <div class="cv-modal" role="dialog" aria-modal="false" aria-labelledby="mt">
+          <h3 id="mt" class="m-section">Cancel this appointment?</h3>
+          <p class="cv-meta">Dr. Okafor, Tue 27 at 10:30 AM. The time will be released to other patients.</p>
+          <div class="doc-row" style="justify-content:flex-end"><button class="cv-btn cv-btn--tertiary">Keep appointment</button><button class="cv-btn cv-btn--destructive">Cancel appointment</button></div>
+        </div>
+      </div>
+      <div class="doc-spec__tokens"><code>modal.radius</code><code>modal.scrim</code><code>modal.shadow</code><code>modal.enter</code></div>
+      <p class="doc-note">On mobile the modal becomes a bottom sheet: same tokens, top corners only.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 7 PATIENT MOBILE ================= -->
+<section class="doc-section" id="patient" aria-labelledby="s7">
+  <header>
+    <h2 id="s7">Patient mobile</h2>
+    <p class="doc-lede">The patient’s question is always “when can I be seen?”, so availability leads every screen. Names, clinics and times below are sample data.</p>
+  </header>
+  <div class="doc-phones">
+    {{PHONES}}
+  </div>
+</section>
+
+<!-- ================= 8 ADMIN ================= -->
+<section class="doc-section" id="admin" aria-labelledby="s8">
+  <header>
+    <h2 id="s8">Scheduling admin</h2>
+    <p class="doc-lede">Coordinators need to see conflicts and pending requests before anything else. The same status tokens the patient sees, at desktop density. Figures are illustrative.</p>
+  </header>
+  <div class="doc-scroll">{{ADMIN_CAL}}</div>
+  <div class="a-legend" aria-label="Calendar legend">{{LEGEND}}</div>
+  <div class="doc-scroll">{{ADMIN_TABLE}}</div>
+</section>
+
+<!-- ================= 9 IMPLEMENTATION ================= -->
+<section class="doc-section" id="implementation" aria-labelledby="s9">
+  <header>
+    <h2 id="s9">JSON and implementation</h2>
+    <p class="doc-lede">DTCG 2025.10 JSON is the source of truth. Everything else on this page is generated from it.</p>
+  </header>
+  <ol class="doc-steps">
+    <li><strong>Author</strong>Edit tokens/**/*.tokens.json (DTCG Format 2025.10).</li>
+    <li><strong>Resolve</strong>clearvisit.resolver.json merges sets, then the theme and platform contexts (Resolver 2025.10).</li>
+    <li><strong>Validate</strong>Types, aliases, cycles, layering, completeness and contrast across all 4 permutations.</li>
+    <li><strong>Transform</strong>CSS variables, Figma import files, resolved bundles, docs tables.</li>
+    <li><strong>Consume</strong>Components read component and semantic variables only.</li>
+  </ol>
+  <div class="doc-grid" style="grid-template-columns:repeat(auto-fit,minmax(min(340px,100%),1fr))">
+    <div class="doc-block"><h3>One decision, traced</h3>{{JSON_CHAIN}}</div>
+    <div class="doc-block"><h3>Validation results</h3>{{CHECKS}}</div>
+  </div>
+</section>
+
+<!-- ================= 10 GOVERNANCE ================= -->
+<section class="doc-section" id="governance" aria-labelledby="s10">
+  <header>
+    <h2 id="s10">Governance</h2>
+    <p class="doc-lede">Tokens are a public API. Changing one is a release, not an edit.</p>
+  </header>
+  <div class="doc-scroll"><table class="doc-table">
+    <thead><tr><th>Change</th><th>Example</th><th>Version</th><th>Required</th></tr></thead>
+    <tbody>
+      <tr><td>New token</td><td>Add <code>color.status.no-show</code></td><td>Minor</td><td>Light and dark values, label and icon, contrast pass, docs entry</td></tr>
+      <tr><td>Value change, same meaning</td><td><code>color.action.primary.bg</code> moves from blue 600 to 700</td><td>Minor</td><td>Contrast re-run, before/after screenshots in both products</td></tr>
+      <tr><td>Primitive tuning</td><td>Adjust the OKLCH ladder</td><td>Minor</td><td>Full contrast audit, every semantic consumer reviewed</td></tr>
+      <tr><td>Rename or removal</td><td><code>field.border-hover</code> → <code>field.border-interactive</code></td><td>Major</td><td><code>$deprecated</code> for one minor cycle first, with a pointer to the replacement</td></tr>
+      <tr><td>New platform or theme</td><td>High-contrast theme</td><td>Major</td><td>Complete value set; the build rejects partial contexts</td></tr>
+    </tbody>
+  </table></div>
+  <div class="doc-grid" style="grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr))">
+    <div class="doc-block">
+      <h3>Deprecating a token</h3>
+      <pre class="doc-code">{
+  <span class="k">"border-hover"</span>: {
+    <span class="k">"$value"</span>: <span class="s">"{color.border.hover}"</span>,
+    <span class="k">"$deprecated"</span>: <span class="s">"Use {field.border-interactive}. Removed in 2.0."</span>
+  }
+}</pre>
+    </div>
+    <div class="doc-block">
+      <h3>Before a token change merges</h3>
+      <div class="doc-prose doc-note">
+        <p>The build passes: no unresolved aliases, no cycles, every theme and platform complete, every audited pair at WCAG AA.</p>
+        <p>The change is described in terms of meaning (“pending should read as waiting, not warning”), not just value.</p>
+        <p>Someone checked it in both products, in both themes, and with a color-blindness simulator for any status or feedback change.</p>
+        <p>Figma variables were re-imported from the generated files, not edited by hand.</p>
+      </div>
+    </div>
+  </div>
+  <footer class="doc-foot">
+    <p>ClearVisit is a conceptual portfolio project. Provider names, clinics, patients and figures are invented sample data. No usability testing or production use is implied.</p>
+    <p>Token format: Design Tokens Community Group Format and Resolver Modules 2025.10.</p>
+  </footer>
+</section>
+
+</main>
+</div>
+
+<script>
+(function () {
+  var root = document.documentElement;
+  // ---- page theme (Auto follows OS; Light/Dark force)
+  function setPageTheme(mode) {
+    try {
+      if (mode === "auto") root.removeAttribute("data-theme"); else root.setAttribute("data-theme", mode);
+    } catch (e) {}
+    document.querySelectorAll("[data-set-theme]").forEach(function (b) { b.setAttribute("aria-pressed", String(b.dataset.setTheme === mode)); });
+    try { localStorage.setItem("cv-doc-theme", mode); } catch (e) {}
+  }
+  var saved = "auto"; try { saved = localStorage.getItem("cv-doc-theme") || "auto"; } catch (e) {}
+  setPageTheme(saved);
+  document.querySelectorAll("[data-set-theme]").forEach(function (b) { b.addEventListener("click", function () { setPageTheme(b.dataset.setTheme); }); });
+
+  // ---- hero demo: swap one semantic token on the demo scope
+  var HEX = {{HEX_JSON}};
+  var MAP = {
+    light: { bg: "600", hover: "700", pressed: "800", fg: "white" },
+    dark:  { bg: "400", hover: "300", pressed: "200", fg: "950" }
+  };
+  var demo = document.getElementById("demo");
+  var state = { hue: "blue", theme: "light" };
+  function lum(hex) {
+    var c = [1, 3, 5].map(function (i) { var v = parseInt(hex.substr(i, 2), 16) / 255; return v <= 0.04045 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4); });
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2];
+  }
+  function ratio(a, b) { var x = lum(a), y = lum(b); return (Math.max(x, y) + 0.05) / (Math.min(x, y) + 0.05); }
+  function applyDemo() {
+    var m = MAP[state.theme], h = state.hue;
+    demo.setAttribute("data-theme", state.theme);
+    var s = demo.style;
+    if (h === "blue") {
+      ["bg", "bg-hover", "bg-pressed", "fg"].forEach(function (k) { s.removeProperty("--cv-color-action-primary-" + k); });
+    } else {
+      s.setProperty("--cv-color-action-primary-bg", "var(--cv-color-" + h + "-" + m.bg + ")");
+      s.setProperty("--cv-color-action-primary-bg-hover", "var(--cv-color-" + h + "-" + m.hover + ")");
+      s.setProperty("--cv-color-action-primary-bg-pressed", "var(--cv-color-" + h + "-" + m.pressed + ")");
+      s.setProperty("--cv-color-action-primary-fg", m.fg === "white" ? "var(--cv-color-white)" : "var(--cv-color-" + h + "-" + m.fg + ")");
+    }
+    var bgHex = HEX[h][m.bg], fgHex = m.fg === "white" ? "#FFFFFF" : HEX[h][m.fg];
+    document.getElementById("chain-prim").textContent = "color." + h + "." + m.bg;
+    var r = ratio(bgHex, fgHex);
+    document.getElementById("chain-ratio").textContent = "Label contrast " + r.toFixed(2) + ":1, " + (r >= 4.5 ? "passes AA" : "fails AA");
+  }
+  document.querySelectorAll("[data-hue]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      state.hue = b.dataset.hue;
+      document.querySelectorAll("[data-hue]").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+      applyDemo();
+    });
+  });
+  document.querySelectorAll("[data-demo-theme]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      state.theme = b.dataset.demoTheme;
+      document.querySelectorAll("[data-demo-theme]").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+      applyDemo();
+    });
+  });
+  applyDemo();
+
+  // ---- component density toggle
+  var gallery = document.getElementById("gallery");
+  document.querySelectorAll("[data-density]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      gallery.setAttribute("data-platform", b.dataset.density);
+      document.querySelectorAll("[data-density]").forEach(function (x) { x.setAttribute("aria-pressed", String(x === b)); });
+    });
+  });
+
+  // ---- interactive slots and chips in the screens
+  document.querySelectorAll(".cv-slots").forEach(function (g) {
+    g.addEventListener("click", function (e) {
+      var b = e.target.closest(".cv-slot"); if (!b || b.getAttribute("aria-disabled") === "true") return;
+      g.querySelectorAll(".cv-slot").forEach(function (x) { x.setAttribute("aria-pressed", "false"); var ic = x.querySelector("svg"); if (ic) ic.remove(); });
+      b.setAttribute("aria-pressed", "true");
+      b.insertAdjacentHTML("afterbegin", '<svg class="cv-icon"><use href="#i-check"/></svg>');
+      var cta = g.closest("[data-booking]"); if (cta) { var btn = cta.querySelector("[data-cta]"); if (btn) btn.textContent = "Book " + b.textContent.trim(); }
+    });
+  });
+  document.querySelectorAll(".cv-strip").forEach(function (g) {
+    g.addEventListener("click", function (e) {
+      var b = e.target.closest(".cv-strip__day"); if (!b || b.getAttribute("aria-disabled") === "true") return;
+      g.querySelectorAll(".cv-strip__day").forEach(function (x) { x.setAttribute("aria-selected", "false"); });
+      b.setAttribute("aria-selected", "true");
+    });
+  });
+  document.querySelectorAll("[data-chips]").forEach(function (g) {
+    g.addEventListener("click", function (e) {
+      var b = e.target.closest(".cv-chip"); if (!b) return;
+      b.setAttribute("aria-pressed", String(b.getAttribute("aria-pressed") !== "true"));
+      var ic = b.querySelector("svg");
+      if (b.getAttribute("aria-pressed") === "true" && !ic) b.insertAdjacentHTML("afterbegin", '<svg class="cv-icon cv-icon--sm"><use href="#i-check"/></svg>');
+      if (b.getAttribute("aria-pressed") !== "true" && ic) ic.remove();
+    });
+  });
+
+  // ---- nav: highlight current section; honour #section links
+  var links = Array.prototype.slice.call(document.querySelectorAll(".doc-nav a"));
+  var targets = links.map(function (a) { return document.getElementById(a.getAttribute("href").slice(1)); });
+  function onScroll() {
+    var y = window.scrollY + 140, cur = 0;
+    targets.forEach(function (t, i) { if (t && t.getBoundingClientRect().top + window.scrollY <= y) cur = i; });
+    links.forEach(function (a, i) { a.classList.toggle("is-active", i === cur); if (i === cur) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current"); });
+  }
+  window.addEventListener("scroll", onScroll, { passive: true }); onScroll();
+  if (location.hash) { var el = document.getElementById(location.hash.slice(1)); if (el) setTimeout(function () { el.scrollIntoView(); }, 50); }
+})();
+</script>
+</body>
+</html>

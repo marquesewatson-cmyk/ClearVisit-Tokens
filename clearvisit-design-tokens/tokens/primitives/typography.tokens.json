@@ -1,0 +1,289 @@
+{
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "sans": {
+        "$type": "fontFamily",
+        "$value": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "$description": "Primary UI family. Atkinson Hyperlegible Next was designed by the Braille Institute for low-vision readers: distinct letterforms (Il1, 0O) reduce misreads of names, times and IDs."
+      }
+    },
+    "weight": {
+      "$type": "fontWeight",
+      "regular": {
+        "$value": 400
+      },
+      "medium": {
+        "$value": 500
+      },
+      "semibold": {
+        "$value": 600
+      },
+      "bold": {
+        "$value": 700
+      }
+    },
+    "size": {
+      "$type": "dimension",
+      "$description": "Font-size scale. Authored in px for Figma compatibility; converted to rem in CSS so text respects user font-size settings.",
+      "100": {
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "200": {
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        }
+      },
+      "300": {
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "400": {
+        "$value": {
+          "value": 18,
+          "unit": "px"
+        }
+      },
+      "500": {
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        }
+      },
+      "600": {
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        }
+      },
+      "700": {
+        "$value": {
+          "value": 28,
+          "unit": "px"
+        }
+      },
+      "800": {
+        "$value": {
+          "value": 32,
+          "unit": "px"
+        }
+      },
+      "900": {
+        "$value": {
+          "value": 40,
+          "unit": "px"
+        }
+      }
+    },
+    "line-height": {
+      "$type": "number",
+      "$description": "Unitless multipliers of font size (DTCG typography.lineHeight is a number).",
+      "tight": {
+        "$value": 1.2
+      },
+      "snug": {
+        "$value": 1.3
+      },
+      "normal": {
+        "$value": 1.45
+      },
+      "relaxed": {
+        "$value": 1.6
+      }
+    },
+    "letter-spacing": {
+      "$type": "dimension",
+      "tight": {
+        "$value": {
+          "value": -0.4,
+          "unit": "px"
+        }
+      },
+      "normal": {
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "wide": {
+        "$value": {
+          "value": 0.2,
+          "unit": "px"
+        }
+      }
+    }
+  },
+  "typography": {
+    "$description": "Context-free type ramp. Product roles (page title, table cell…) live in the semantic platform layer.",
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.900}",
+        "fontWeight": "{font.weight.bold}",
+        "letterSpacing": "{font.letter-spacing.tight}",
+        "lineHeight": "{font.line-height.tight}"
+      }
+    },
+    "heading": {
+      "xl": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.800}",
+          "fontWeight": "{font.weight.bold}",
+          "letterSpacing": "{font.letter-spacing.tight}",
+          "lineHeight": "{font.line-height.tight}"
+        }
+      },
+      "lg": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.700}",
+          "fontWeight": "{font.weight.bold}",
+          "letterSpacing": "{font.letter-spacing.tight}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "md": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.600}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "sm": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.500}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "xs": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.400}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      }
+    },
+    "body": {
+      "lg": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.400}",
+          "fontWeight": "{font.weight.regular}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.relaxed}"
+        }
+      },
+      "md": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.300}",
+          "fontWeight": "{font.weight.regular}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.normal}"
+        }
+      },
+      "md-strong": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.300}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.normal}"
+        }
+      },
+      "sm": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.200}",
+          "fontWeight": "{font.weight.regular}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.normal}"
+        }
+      },
+      "sm-strong": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.200}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.normal}"
+        }
+      }
+    },
+    "label": {
+      "lg": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.300}",
+          "fontWeight": "{font.weight.medium}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "md": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.200}",
+          "fontWeight": "{font.weight.medium}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "sm": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.100}",
+          "fontWeight": "{font.weight.medium}",
+          "letterSpacing": "{font.letter-spacing.wide}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.100}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{font.letter-spacing.wide}",
+        "lineHeight": "{font.line-height.normal}"
+      }
+    }
+  }
+}

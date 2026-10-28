@@ -1,0 +1,69 @@
+{
+  "breakpoint": {
+    "$type": "dimension",
+    "$description": "Min-width breakpoints. Patient app is designed at 360–430; admin is designed at ≥1200.",
+    "sm": {
+      "$value": {
+        "value": 600,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$value": {
+        "value": 900,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$value": {
+        "value": 1200,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$value": {
+        "value": 1440,
+        "unit": "px"
+      }
+    }
+  },
+  "grid": {
+    "columns": {
+      "$type": "number",
+      "4": {
+        "$value": 4
+      },
+      "8": {
+        "$value": 8
+      },
+      "12": {
+        "$value": 12
+      }
+    }
+  },
+  "z-index": {
+    "$type": "number",
+    "$description": "Stacking order. Unitless numbers.",
+    "base": {
+      "$value": 0
+    },
+    "sticky": {
+      "$value": 100
+    },
+    "dropdown": {
+      "$value": 1000
+    },
+    "overlay": {
+      "$value": 1200
+    },
+    "modal": {
+      "$value": 1300
+    },
+    "toast": {
+      "$value": 1400
+    },
+    "tooltip": {
+      "$value": 1500
+    }
+  }
+}

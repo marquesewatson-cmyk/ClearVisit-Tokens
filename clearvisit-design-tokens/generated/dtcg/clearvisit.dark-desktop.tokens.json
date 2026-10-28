@@ -1,0 +1,4319 @@
+{
+  "color": {
+    "$type": "color",
+    "$description": "Primitive color palette. Generated on a shared OKLCH lightness ladder; never consumed directly by components.",
+    "white": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "hex": "#FFFFFF"
+      }
+    },
+    "transparent": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "alpha": 0,
+        "hex": "#FFFFFF"
+      },
+      "$description": "Fully transparent. Used for ghost/tertiary backgrounds."
+    },
+    "blue": {
+      "$description": "Brand primary — 'Harbor blue'. Trust, primary actions, confirmed appointments.",
+      "50": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9451,
+            0.9725,
+            1.0
+          ],
+          "hex": "#F1F8FF"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.975,
+              0.0198,
+              252
+            ]
+          }
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8784,
+            0.9373,
+            1.0
+          ],
+          "hex": "#E0EFFF"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.945,
+              0.0413,
+              252
+            ]
+          }
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7686,
+            0.8745,
+            1.0
+          ],
+          "hex": "#C4DFFF"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.895,
+              0.0743,
+              252
+            ]
+          }
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5961,
+            0.7843,
+            1.0
+          ],
+          "hex": "#98C8FF"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.82,
+              0.1155,
+              252
+            ]
+          }
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3451,
+            0.6588,
+            0.9961
+          ],
+          "hex": "#58A8FE"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.72,
+              0.1485,
+              252
+            ]
+          }
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1216,
+            0.5098,
+            0.8706
+          ],
+          "hex": "#1F82DE"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.6,
+              0.165,
+              252
+            ]
+          }
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4157,
+            0.7451
+          ],
+          "hex": "#006ABE"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.52,
+              0.165,
+              252
+            ]
+          }
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.3686,
+            0.6706
+          ],
+          "hex": "#005EAB"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.48,
+              0.1568,
+              252
+            ]
+          }
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.2941,
+            0.5412
+          ],
+          "hex": "#004B8A"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.41,
+              0.1403,
+              252
+            ]
+          }
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.2118,
+            0.4
+          ],
+          "hex": "#003666"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.33,
+              0.1237,
+              252
+            ]
+          }
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.1373,
+            0.2745
+          ],
+          "hex": "#002346"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.255,
+              0.099,
+              252
+            ]
+          }
+        }
+      }
+    },
+    "teal": {
+      "$description": "Secondary / accent. Calm highlight moments, secondary data series.",
+      "50": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9294,
+            0.9804,
+            0.9765
+          ],
+          "hex": "#EDFAF9"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.975,
+              0.0138,
+              192
+            ]
+          }
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8471,
+            0.9529,
+            0.949
+          ],
+          "hex": "#D8F3F2"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.945,
+              0.0288,
+              192
+            ]
+          }
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7137,
+            0.9098,
+            0.898
+          ],
+          "hex": "#B6E8E5"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.895,
+              0.0518,
+              192
+            ]
+          }
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5137,
+            0.8353,
+            0.8196
+          ],
+          "hex": "#83D5D1"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.82,
+              0.0805,
+              192
+            ]
+          }
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2667,
+            0.7255,
+            0.7098
+          ],
+          "hex": "#44B9B5"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.72,
+              0.1035,
+              192
+            ]
+          }
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.5765,
+            0.5647
+          ],
+          "hex": "#009390"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.6,
+              0.115,
+              192
+            ]
+          }
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4745,
+            0.4627
+          ],
+          "hex": "#007976"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.52,
+              0.115,
+              192
+            ]
+          }
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4235,
+            0.4157
+          ],
+          "hex": "#006C6A"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.48,
+              0.1092,
+              192
+            ]
+          }
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.3373,
+            0.3294
+          ],
+          "hex": "#005654"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.41,
+              0.0978,
+              192
+            ]
+          }
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.2431,
+            0.2392
+          ],
+          "hex": "#003E3D"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.33,
+              0.0863,
+              192
+            ]
+          }
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.1608,
+            0.1569
+          ],
+          "hex": "#002928"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.255,
+              0.069,
+              192
+            ]
+          }
+        }
+      }
+    },
+    "slate": {
+      "$description": "Cool neutral. Text, surfaces, borders.",
+      "50": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9608,
+            0.9686,
+            0.9765
+          ],
+          "hex": "#F5F7F9"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.975,
+              0.0034,
+              250
+            ]
+          }
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9137,
+            0.9294,
+            0.9451
+          ],
+          "hex": "#E9EDF1"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.945,
+              0.007,
+              250
+            ]
+          }
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8392,
+            0.8667,
+            0.898
+          ],
+          "hex": "#D6DDE5"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.895,
+              0.0126,
+              250
+            ]
+          }
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7333,
+            0.7725,
+            0.8196
+          ],
+          "hex": "#BBC5D1"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.82,
+              0.0196,
+              250
+            ]
+          }
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6,
+            0.651,
+            0.7059
+          ],
+          "hex": "#99A6B4"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.72,
+              0.0252,
+              250
+            ]
+          }
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4549,
+            0.5098,
+            0.5686
+          ],
+          "hex": "#748291"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.6,
+              0.028,
+              250
+            ]
+          }
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3647,
+            0.4196,
+            0.4745
+          ],
+          "hex": "#5D6B79"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.52,
+              0.028,
+              250
+            ]
+          }
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3255,
+            0.3725,
+            0.4235
+          ],
+          "hex": "#535F6C"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.48,
+              0.0266,
+              250
+            ]
+          }
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2549,
+            0.298,
+            0.3412
+          ],
+          "hex": "#414C57"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.41,
+              0.0238,
+              250
+            ]
+          }
+        }
+      },
+      "850": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2157,
+            0.2549,
+            0.2941
+          ],
+          "hex": "#37414B"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.37,
+              0.0224,
+              250
+            ]
+          }
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1765,
+            0.2118,
+            0.251
+          ],
+          "hex": "#2D3640"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.33,
+              0.021,
+              250
+            ]
+          }
+        }
+      },
+      "925": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1412,
+            0.1725,
+            0.2078
+          ],
+          "hex": "#242C35"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.29,
+              0.0196,
+              250
+            ]
+          }
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1137,
+            0.1412,
+            0.1686
+          ],
+          "hex": "#1D242B"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.255,
+              0.0168,
+              250
+            ]
+          }
+        }
+      },
+      "975": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0706,
+            0.0941,
+            0.1176
+          ],
+          "hex": "#12181E"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.205,
+              0.0154,
+              250
+            ]
+          }
+        }
+      }
+    },
+    "green": {
+      "$description": "Success and appointment availability.",
+      "50": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9333,
+            0.9843,
+            0.9451
+          ],
+          "hex": "#EEFBF1"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.975,
+              0.018,
+              152
+            ]
+          }
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8588,
+            0.9608,
+            0.8824
+          ],
+          "hex": "#DBF5E1"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.945,
+              0.0375,
+              152
+            ]
+          }
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7373,
+            0.9176,
+            0.7804
+          ],
+          "hex": "#BCEAC7"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.895,
+              0.0675,
+              152
+            ]
+          }
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5608,
+            0.8471,
+            0.6392
+          ],
+          "hex": "#8FD8A3"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.82,
+              0.105,
+              152
+            ]
+          }
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3529,
+            0.7373,
+            0.4784
+          ],
+          "hex": "#5ABC7A"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.72,
+              0.135,
+              152
+            ]
+          }
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.102,
+            0.6,
+            0.3176
+          ],
+          "hex": "#1A9951"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.6,
+              0.15,
+              152
+            ]
+          }
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4941,
+            0.2471
+          ],
+          "hex": "#007E3F"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.52,
+              0.15,
+              152
+            ]
+          }
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4431,
+            0.2157
+          ],
+          "hex": "#007137"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.48,
+              0.1425,
+              152
+            ]
+          }
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.3529,
+            0.1686
+          ],
+          "hex": "#005A2B"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.41,
+              0.1275,
+              152
+            ]
+          }
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.2549,
+            0.1137
+          ],
+          "hex": "#00411D"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.33,
+              0.1125,
+              152
+            ]
+          }
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.1725,
+            0.0667
+          ],
+          "hex": "#002C11"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.255,
+              0.09,
+              152
+            ]
+          }
+        }
+      }
+    },
+    "amber": {
+      "$description": "Warning and pending states.",
+      "50": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1.0,
+            0.9608,
+            0.9137
+          ],
+          "hex": "#FFF5E9"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.975,
+              0.0192,
+              72
+            ]
+          }
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9961,
+            0.9137,
+            0.8157
+          ],
+          "hex": "#FEE9D0"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.945,
+              0.04,
+              72
+            ]
+          }
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9843,
+            0.8353,
+            0.6588
+          ],
+          "hex": "#FBD5A8"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.895,
+              0.072,
+              72
+            ]
+          }
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9451,
+            0.7216,
+            0.4353
+          ],
+          "hex": "#F1B86F"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.82,
+              0.112,
+              72
+            ]
+          }
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8588,
+            0.5804,
+            0.1412
+          ],
+          "hex": "#DB9424"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.72,
+              0.144,
+              72
+            ]
+          }
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6863,
+            0.4431,
+            0.0
+          ],
+          "hex": "#AF7100"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.6,
+              0.16,
+              72
+            ]
+          }
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5647,
+            0.3608,
+            0.0
+          ],
+          "hex": "#905C00"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.52,
+              0.16,
+              72
+            ]
+          }
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5059,
+            0.3216,
+            0.0
+          ],
+          "hex": "#815200"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.48,
+              0.152,
+              72
+            ]
+          }
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4039,
+            0.2549,
+            0.0
+          ],
+          "hex": "#674100"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.41,
+              0.136,
+              72
+            ]
+          }
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2941,
+            0.1804,
+            0.0
+          ],
+          "hex": "#4B2E00"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.33,
+              0.12,
+              72
+            ]
+          }
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2,
+            0.1176,
+            0.0
+          ],
+          "hex": "#331E00"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.255,
+              0.096,
+              72
+            ]
+          }
+        }
+      }
+    },
+    "red": {
+      "$description": "Error, destructive actions, cancellations.",
+      "50": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1.0,
+            0.9569,
+            0.9529
+          ],
+          "hex": "#FFF4F3"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.975,
+              0.0228,
+              25
+            ]
+          }
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1.0,
+            0.902,
+            0.8941
+          ],
+          "hex": "#FFE6E4"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.945,
+              0.0475,
+              25
+            ]
+          }
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1.0,
+            0.8118,
+            0.7922
+          ],
+          "hex": "#FFCFCA"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.895,
+              0.0855,
+              25
+            ]
+          }
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1.0,
+            0.6706,
+            0.6392
+          ],
+          "hex": "#FFABA3"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.82,
+              0.133,
+              25
+            ]
+          }
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9961,
+            0.451,
+            0.4235
+          ],
+          "hex": "#FE736C"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.72,
+              0.171,
+              25
+            ]
+          }
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8588,
+            0.2588,
+            0.2549
+          ],
+          "hex": "#DB4241"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.6,
+              0.19,
+              25
+            ]
+          }
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7451,
+            0.1333,
+            0.1647
+          ],
+          "hex": "#BE222A"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.52,
+              0.19,
+              25
+            ]
+          }
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6745,
+            0.0941,
+            0.1333
+          ],
+          "hex": "#AC1822"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.48,
+              0.1805,
+              25
+            ]
+          }
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5569,
+            0.0314,
+            0.0863
+          ],
+          "hex": "#8E0816"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.41,
+              0.1615,
+              25
+            ]
+          }
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4157,
+            0.0,
+            0.0431
+          ],
+          "hex": "#6A000B"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.33,
+              0.1425,
+              25
+            ]
+          }
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2863,
+            0.0,
+            0.0196
+          ],
+          "hex": "#490005"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.255,
+              0.114,
+              25
+            ]
+          }
+        }
+      }
+    },
+    "violet": {
+      "$description": "Rescheduled appointments. Extended status hue (assumption: not in original brief's palette list).",
+      "50": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9686,
+            0.9608,
+            1.0
+          ],
+          "hex": "#F7F5FF"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.975,
+              0.0198,
+              296
+            ]
+          }
+        }
+      },
+      "100": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9333,
+            0.9137,
+            1.0
+          ],
+          "hex": "#EEE9FF"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.945,
+              0.0413,
+              296
+            ]
+          }
+        }
+      },
+      "200": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8745,
+            0.8353,
+            1.0
+          ],
+          "hex": "#DFD5FF"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.895,
+              0.0743,
+              296
+            ]
+          }
+        }
+      },
+      "300": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7922,
+            0.7176,
+            1.0
+          ],
+          "hex": "#CAB7FF"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.82,
+              0.1155,
+              296
+            ]
+          }
+        }
+      },
+      "400": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6784,
+            0.5608,
+            0.9647
+          ],
+          "hex": "#AD8FF6"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.72,
+              0.1485,
+              296
+            ]
+          }
+        }
+      },
+      "500": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5451,
+            0.4039,
+            0.8392
+          ],
+          "hex": "#8B67D6"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.6,
+              0.165,
+              296
+            ]
+          }
+        }
+      },
+      "600": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4549,
+            0.3059,
+            0.7333
+          ],
+          "hex": "#744EBB"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.52,
+              0.165,
+              296
+            ]
+          }
+        }
+      },
+      "700": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4078,
+            0.2667,
+            0.6667
+          ],
+          "hex": "#6844AA"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.48,
+              0.1568,
+              296
+            ]
+          }
+        }
+      },
+      "800": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3255,
+            0.2039,
+            0.549
+          ],
+          "hex": "#53348C"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.41,
+              0.1403,
+              296
+            ]
+          }
+        }
+      },
+      "900": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.2392,
+            0.1294,
+            0.4235
+          ],
+          "hex": "#3D216C"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.33,
+              0.1237,
+              296
+            ]
+          }
+        }
+      },
+      "950": {
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1608,
+            0.0745,
+            0.298
+          ],
+          "hex": "#29134C"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "oklch": [
+              0.255,
+              0.099,
+              296
+            ]
+          }
+        }
+      }
+    },
+    "slate-alpha": {
+      "$description": "Translucent slate-975 for scrims and shadows.",
+      "8": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0706,
+            0.0941,
+            0.1176
+          ],
+          "alpha": 0.08,
+          "hex": "#12181E"
+        }
+      },
+      "12": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0706,
+            0.0941,
+            0.1176
+          ],
+          "alpha": 0.12,
+          "hex": "#12181E"
+        }
+      },
+      "16": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0706,
+            0.0941,
+            0.1176
+          ],
+          "alpha": 0.16,
+          "hex": "#12181E"
+        }
+      },
+      "24": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0706,
+            0.0941,
+            0.1176
+          ],
+          "alpha": 0.24,
+          "hex": "#12181E"
+        }
+      },
+      "48": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0706,
+            0.0941,
+            0.1176
+          ],
+          "alpha": 0.48,
+          "hex": "#12181E"
+        }
+      },
+      "64": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0706,
+            0.0941,
+            0.1176
+          ],
+          "alpha": 0.64,
+          "hex": "#12181E"
+        }
+      }
+    },
+    "black-alpha": {
+      "$description": "Translucent black for dark-theme shadows and scrims.",
+      "32": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 0.32,
+          "hex": "#000000"
+        }
+      },
+      "48": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 0.48,
+          "hex": "#000000"
+        }
+      },
+      "72": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "alpha": 0.72,
+          "hex": "#000000"
+        }
+      }
+    },
+    "text": {
+      "primary": {
+        "$value": "{color.slate.50}",
+        "$description": "Body copy, headings, data."
+      },
+      "secondary": {
+        "$value": "{color.slate.300}",
+        "$description": "Supporting copy, table headers, meta."
+      },
+      "muted": {
+        "$value": "{color.slate.400}",
+        "$description": "Placeholders, timestamps. Still meets 4.5:1 on default and subtle surfaces."
+      },
+      "disabled": {
+        "$value": "{color.slate.600}",
+        "$description": "Disabled text. Exempt from WCAG 1.4.3 but always paired with a disabled container."
+      },
+      "inverse": {
+        "$value": "{color.slate.900}",
+        "$description": "Text on inverse surfaces (tooltips, toasts)."
+      },
+      "link": {
+        "$value": "{color.blue.300}"
+      },
+      "link-hover": {
+        "$value": "{color.blue.200}"
+      }
+    },
+    "surface": {
+      "app": {
+        "$value": "{color.slate.975}",
+        "$description": "Page/app background."
+      },
+      "default": {
+        "$value": "{color.slate.950}",
+        "$description": "Cards, tables, inputs."
+      },
+      "elevated": {
+        "$value": "{color.slate.900}",
+        "$description": "Menus, modals, sheets. In dark mode elevation is expressed by lightness."
+      },
+      "subtle": {
+        "$value": "{color.slate.925}",
+        "$description": "Table headers, search fields, off-hours calendar cells."
+      },
+      "selected": {
+        "$value": "{color.blue.950}",
+        "$description": "Selected rows, active nav items."
+      },
+      "inverse": {
+        "$value": "{color.slate.100}"
+      },
+      "overlay": {
+        "$value": "{color.black-alpha.72}",
+        "$description": "Modal scrim."
+      }
+    },
+    "border": {
+      "subtle": {
+        "$value": "{color.slate.925}",
+        "$description": "Dividers inside a surface. Decorative."
+      },
+      "default": {
+        "$value": "{color.slate.850}",
+        "$description": "Card and container edges. Decorative; containers are also separated by surface color."
+      },
+      "strong": {
+        "$value": "{color.slate.500}",
+        "$description": "Boundaries of interactive controls (inputs, checkboxes, chips). Meets 3:1 (WCAG 1.4.11)."
+      },
+      "hover": {
+        "$value": "{color.slate.400}"
+      },
+      "focus": {
+        "$value": "{color.blue.300}",
+        "$description": "Focus ring color. Meets 3:1 against all surfaces."
+      },
+      "error": {
+        "$value": "{color.red.400}"
+      },
+      "selected": {
+        "$value": "{color.blue.400}"
+      }
+    },
+    "action": {
+      "primary": {
+        "bg": {
+          "$value": "{color.blue.400}"
+        },
+        "bg-hover": {
+          "$value": "{color.blue.300}"
+        },
+        "bg-pressed": {
+          "$value": "{color.blue.200}"
+        },
+        "fg": {
+          "$value": "{color.blue.950}"
+        }
+      },
+      "secondary": {
+        "bg": {
+          "$value": "{color.slate.950}"
+        },
+        "bg-hover": {
+          "$value": "{color.blue.950}"
+        },
+        "bg-pressed": {
+          "$value": "{color.blue.900}"
+        },
+        "fg": {
+          "$value": "{color.blue.200}"
+        },
+        "border": {
+          "$value": "{color.blue.400}"
+        }
+      },
+      "tertiary": {
+        "bg": {
+          "$value": "{color.transparent}"
+        },
+        "bg-hover": {
+          "$value": "{color.slate.900}"
+        },
+        "bg-pressed": {
+          "$value": "{color.slate.850}"
+        },
+        "fg": {
+          "$value": "{color.blue.300}"
+        }
+      },
+      "destructive": {
+        "bg": {
+          "$value": "{color.red.400}"
+        },
+        "bg-hover": {
+          "$value": "{color.red.300}"
+        },
+        "bg-pressed": {
+          "$value": "{color.red.200}"
+        },
+        "fg": {
+          "$value": "{color.red.950}"
+        }
+      }
+    },
+    "interaction": {
+      "hover": {
+        "$value": "{color.slate.900}",
+        "$description": "Hover fill for rows, list items, ghost controls."
+      },
+      "pressed": {
+        "$value": "{color.slate.850}"
+      },
+      "selected": {
+        "bg": {
+          "$value": "{color.blue.950}"
+        },
+        "fg": {
+          "$value": "{color.blue.100}"
+        },
+        "border": {
+          "$value": "{color.blue.400}"
+        }
+      },
+      "focus": {
+        "ring": {
+          "$value": "{color.border.focus}"
+        },
+        "offset": {
+          "$value": "{color.surface.default}",
+          "$description": "Gap between control and ring so the ring reads on any fill."
+        }
+      },
+      "disabled": {
+        "bg": {
+          "$value": "{color.slate.925}"
+        },
+        "fg": {
+          "$value": "{color.text.disabled}"
+        },
+        "border": {
+          "$value": "{color.slate.850}"
+        }
+      }
+    },
+    "status": {
+      "$description": "Appointment statuses. Color is never the only cue: every status ships with a text label and a distinct icon (see $extensions).",
+      "available": {
+        "fg": {
+          "$value": "{color.green.200}"
+        },
+        "bg": {
+          "$value": "{color.green.950}"
+        },
+        "border": {
+          "$value": "{color.green.800}"
+        },
+        "icon": {
+          "$value": "{color.green.400}"
+        },
+        "$description": "Open slot a patient can book.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Available",
+            "icon": "calendar-plus"
+          }
+        }
+      },
+      "confirmed": {
+        "fg": {
+          "$value": "{color.blue.200}"
+        },
+        "bg": {
+          "$value": "{color.blue.950}"
+        },
+        "border": {
+          "$value": "{color.blue.800}"
+        },
+        "icon": {
+          "$value": "{color.blue.400}"
+        },
+        "$description": "Booked and confirmed by practice and patient.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Confirmed",
+            "icon": "check-circle"
+          }
+        }
+      },
+      "pending": {
+        "fg": {
+          "$value": "{color.amber.200}"
+        },
+        "bg": {
+          "$value": "{color.amber.950}"
+        },
+        "border": {
+          "$value": "{color.amber.800}"
+        },
+        "icon": {
+          "$value": "{color.amber.400}"
+        },
+        "$description": "Requested or held; awaiting confirmation. Rendered with dashed outline on calendars.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Pending",
+            "icon": "clock"
+          }
+        }
+      },
+      "completed": {
+        "fg": {
+          "$value": "{color.slate.200}"
+        },
+        "bg": {
+          "$value": "{color.slate.900}"
+        },
+        "border": {
+          "$value": "{color.slate.700}"
+        },
+        "icon": {
+          "$value": "{color.slate.400}"
+        },
+        "$description": "Visit has happened. De-emphasised on purpose.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Completed",
+            "icon": "check-double"
+          }
+        }
+      },
+      "cancelled": {
+        "fg": {
+          "$value": "{color.red.200}"
+        },
+        "bg": {
+          "$value": "{color.red.950}"
+        },
+        "border": {
+          "$value": "{color.red.800}"
+        },
+        "icon": {
+          "$value": "{color.red.400}"
+        },
+        "$description": "Cancelled by patient or practice. Time text is struck through.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Cancelled",
+            "icon": "x-circle"
+          }
+        }
+      },
+      "rescheduled": {
+        "fg": {
+          "$value": "{color.violet.200}"
+        },
+        "bg": {
+          "$value": "{color.violet.950}"
+        },
+        "border": {
+          "$value": "{color.violet.800}"
+        },
+        "icon": {
+          "$value": "{color.violet.400}"
+        },
+        "$description": "Moved to a new time; links to the new appointment.",
+        "$extensions": {
+          "com.clearvisit": {
+            "label": "Rescheduled",
+            "icon": "arrow-path"
+          }
+        }
+      }
+    },
+    "feedback": {
+      "success": {
+        "fg": {
+          "$value": "{color.green.200}"
+        },
+        "bg": {
+          "$value": "{color.green.950}"
+        },
+        "border": {
+          "$value": "{color.green.800}"
+        },
+        "icon": {
+          "$value": "{color.green.400}"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "icon": "check-circle"
+          }
+        }
+      },
+      "warning": {
+        "fg": {
+          "$value": "{color.amber.200}"
+        },
+        "bg": {
+          "$value": "{color.amber.950}"
+        },
+        "border": {
+          "$value": "{color.amber.800}"
+        },
+        "icon": {
+          "$value": "{color.amber.400}"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "icon": "exclamation-triangle"
+          }
+        }
+      },
+      "error": {
+        "fg": {
+          "$value": "{color.red.200}"
+        },
+        "bg": {
+          "$value": "{color.red.950}"
+        },
+        "border": {
+          "$value": "{color.red.800}"
+        },
+        "icon": {
+          "$value": "{color.red.400}"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "icon": "exclamation-circle"
+          }
+        }
+      },
+      "info": {
+        "fg": {
+          "$value": "{color.blue.200}"
+        },
+        "bg": {
+          "$value": "{color.blue.950}"
+        },
+        "border": {
+          "$value": "{color.blue.800}"
+        },
+        "icon": {
+          "$value": "{color.blue.400}"
+        },
+        "$extensions": {
+          "com.clearvisit": {
+            "icon": "information-circle"
+          }
+        }
+      }
+    },
+    "accent": {
+      "bg": {
+        "$value": "{color.teal.950}"
+      },
+      "fg": {
+        "$value": "{color.teal.200}"
+      },
+      "border": {
+        "$value": "{color.teal.800}"
+      },
+      "solid": {
+        "$value": "{color.teal.400}",
+        "$description": "Graphic accents, the calendar 'now' line."
+      }
+    },
+    "chart": {
+      "series-1": {
+        "$value": "{color.blue.400}"
+      },
+      "series-2": {
+        "$value": "{color.teal.400}"
+      },
+      "series-3": {
+        "$value": "{color.violet.400}"
+      },
+      "series-4": {
+        "$value": "{color.amber.400}"
+      }
+    }
+  },
+  "font": {
+    "family": {
+      "$type": "fontFamily",
+      "sans": {
+        "$type": "fontFamily",
+        "$value": [
+          "Atkinson Hyperlegible Next",
+          "Atkinson Hyperlegible",
+          "system-ui",
+          "-apple-system",
+          "Segoe UI",
+          "Roboto",
+          "sans-serif"
+        ],
+        "$description": "Primary UI family. Atkinson Hyperlegible Next was designed by the Braille Institute for low-vision readers: distinct letterforms (Il1, 0O) reduce misreads of names, times and IDs."
+      }
+    },
+    "weight": {
+      "$type": "fontWeight",
+      "regular": {
+        "$value": 400
+      },
+      "medium": {
+        "$value": 500
+      },
+      "semibold": {
+        "$value": 600
+      },
+      "bold": {
+        "$value": 700
+      }
+    },
+    "size": {
+      "$type": "dimension",
+      "$description": "Font-size scale. Authored in px for Figma compatibility; converted to rem in CSS so text respects user font-size settings.",
+      "100": {
+        "$value": {
+          "value": 12,
+          "unit": "px"
+        }
+      },
+      "200": {
+        "$value": {
+          "value": 14,
+          "unit": "px"
+        }
+      },
+      "300": {
+        "$value": {
+          "value": 16,
+          "unit": "px"
+        }
+      },
+      "400": {
+        "$value": {
+          "value": 18,
+          "unit": "px"
+        }
+      },
+      "500": {
+        "$value": {
+          "value": 20,
+          "unit": "px"
+        }
+      },
+      "600": {
+        "$value": {
+          "value": 24,
+          "unit": "px"
+        }
+      },
+      "700": {
+        "$value": {
+          "value": 28,
+          "unit": "px"
+        }
+      },
+      "800": {
+        "$value": {
+          "value": 32,
+          "unit": "px"
+        }
+      },
+      "900": {
+        "$value": {
+          "value": 40,
+          "unit": "px"
+        }
+      }
+    },
+    "line-height": {
+      "$type": "number",
+      "$description": "Unitless multipliers of font size (DTCG typography.lineHeight is a number).",
+      "tight": {
+        "$value": 1.2
+      },
+      "snug": {
+        "$value": 1.3
+      },
+      "normal": {
+        "$value": 1.45
+      },
+      "relaxed": {
+        "$value": 1.6
+      }
+    },
+    "letter-spacing": {
+      "$type": "dimension",
+      "tight": {
+        "$value": {
+          "value": -0.4,
+          "unit": "px"
+        }
+      },
+      "normal": {
+        "$value": {
+          "value": 0,
+          "unit": "px"
+        }
+      },
+      "wide": {
+        "$value": {
+          "value": 0.2,
+          "unit": "px"
+        }
+      }
+    }
+  },
+  "typography": {
+    "$description": "Context-free type ramp. Product roles (page title, table cell…) live in the semantic platform layer.",
+    "display": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.900}",
+        "fontWeight": "{font.weight.bold}",
+        "letterSpacing": "{font.letter-spacing.tight}",
+        "lineHeight": "{font.line-height.tight}"
+      }
+    },
+    "heading": {
+      "xl": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.800}",
+          "fontWeight": "{font.weight.bold}",
+          "letterSpacing": "{font.letter-spacing.tight}",
+          "lineHeight": "{font.line-height.tight}"
+        }
+      },
+      "lg": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.700}",
+          "fontWeight": "{font.weight.bold}",
+          "letterSpacing": "{font.letter-spacing.tight}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "md": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.600}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "sm": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.500}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "xs": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.400}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      }
+    },
+    "body": {
+      "lg": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.400}",
+          "fontWeight": "{font.weight.regular}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.relaxed}"
+        }
+      },
+      "md": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.300}",
+          "fontWeight": "{font.weight.regular}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.normal}"
+        }
+      },
+      "md-strong": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.300}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.normal}"
+        }
+      },
+      "sm": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.200}",
+          "fontWeight": "{font.weight.regular}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.normal}"
+        }
+      },
+      "sm-strong": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.200}",
+          "fontWeight": "{font.weight.semibold}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.normal}"
+        }
+      }
+    },
+    "label": {
+      "lg": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.300}",
+          "fontWeight": "{font.weight.medium}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "md": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.200}",
+          "fontWeight": "{font.weight.medium}",
+          "letterSpacing": "{font.letter-spacing.normal}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      },
+      "sm": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{font.family.sans}",
+          "fontSize": "{font.size.100}",
+          "fontWeight": "{font.weight.medium}",
+          "letterSpacing": "{font.letter-spacing.wide}",
+          "lineHeight": "{font.line-height.snug}"
+        }
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font.family.sans}",
+        "fontSize": "{font.size.100}",
+        "fontWeight": "{font.weight.regular}",
+        "letterSpacing": "{font.letter-spacing.wide}",
+        "lineHeight": "{font.line-height.normal}"
+      }
+    }
+  },
+  "space": {
+    "$type": "dimension",
+    "$description": "4px base grid (2px half-step for hairline adjustments). Names equal pixel values.",
+    "0": {
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "2": {
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      }
+    },
+    "4": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "8": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "12": {
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "16": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "20": {
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      }
+    },
+    "24": {
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "32": {
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      }
+    },
+    "40": {
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      }
+    },
+    "48": {
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      }
+    },
+    "64": {
+      "$value": {
+        "value": 64,
+        "unit": "px"
+      }
+    },
+    "80": {
+      "$value": {
+        "value": 80,
+        "unit": "px"
+      }
+    },
+    "inline": {
+      "$description": "Horizontal gaps between siblings.",
+      "xs": {
+        "$value": "{space.4}"
+      },
+      "sm": {
+        "$value": "{space.8}"
+      },
+      "md": {
+        "$value": "{space.12}"
+      },
+      "lg": {
+        "$value": "{space.16}"
+      }
+    },
+    "stack": {
+      "$description": "Vertical rhythm between stacked elements.",
+      "xs": {
+        "$value": "{space.4}"
+      },
+      "sm": {
+        "$value": "{space.8}"
+      },
+      "md": {
+        "$value": "{space.16}"
+      },
+      "lg": {
+        "$value": "{space.24}"
+      },
+      "xl": {
+        "$value": "{space.32}"
+      }
+    },
+    "inset": {
+      "xs": {
+        "$value": "{space.4}"
+      },
+      "sm": {
+        "$value": "{space.8}"
+      },
+      "md": {
+        "$value": "{space.12}"
+      },
+      "control-x": {
+        "$value": "{space.12}"
+      },
+      "card": {
+        "$value": "{space.20}"
+      },
+      "modal": {
+        "$value": "{space.32}"
+      },
+      "cell-x": {
+        "$value": "{space.12}",
+        "$description": "Table/list cell horizontal padding."
+      },
+      "page": {
+        "$value": "{space.32}"
+      }
+    },
+    "section": {
+      "$value": "{space.32}"
+    }
+  },
+  "size": {
+    "$type": "dimension",
+    "$description": "Fixed sizes for controls, icons, targets and containers. Names equal pixel values.",
+    "8": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "12": {
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "16": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "18": {
+      "$value": {
+        "value": 18,
+        "unit": "px"
+      }
+    },
+    "20": {
+      "$value": {
+        "value": 20,
+        "unit": "px"
+      }
+    },
+    "22": {
+      "$value": {
+        "value": 22,
+        "unit": "px"
+      }
+    },
+    "24": {
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "28": {
+      "$value": {
+        "value": 28,
+        "unit": "px"
+      }
+    },
+    "32": {
+      "$value": {
+        "value": 32,
+        "unit": "px"
+      }
+    },
+    "36": {
+      "$value": {
+        "value": 36,
+        "unit": "px"
+      }
+    },
+    "40": {
+      "$value": {
+        "value": 40,
+        "unit": "px"
+      }
+    },
+    "44": {
+      "$value": {
+        "value": 44,
+        "unit": "px"
+      }
+    },
+    "48": {
+      "$value": {
+        "value": 48,
+        "unit": "px"
+      }
+    },
+    "56": {
+      "$value": {
+        "value": 56,
+        "unit": "px"
+      }
+    },
+    "64": {
+      "$value": {
+        "value": 64,
+        "unit": "px"
+      }
+    },
+    "72": {
+      "$value": {
+        "value": 72,
+        "unit": "px"
+      }
+    },
+    "88": {
+      "$value": {
+        "value": 88,
+        "unit": "px"
+      }
+    },
+    "96": {
+      "$value": {
+        "value": 96,
+        "unit": "px"
+      }
+    },
+    "256": {
+      "$value": {
+        "value": 256,
+        "unit": "px"
+      }
+    },
+    "280": {
+      "$value": {
+        "value": 280,
+        "unit": "px"
+      }
+    },
+    "560": {
+      "$value": {
+        "value": 560,
+        "unit": "px"
+      }
+    },
+    "600": {
+      "$value": {
+        "value": 600,
+        "unit": "px"
+      }
+    },
+    "badge": {
+      "$value": "{size.24}"
+    },
+    "status-dot": {
+      "$value": "{size.8}"
+    },
+    "tooltip-max": {
+      "$value": "{size.280}"
+    },
+    "control": {
+      "$description": "Control heights. Mobile = touch-first, desktop = density-first.",
+      "sm": {
+        "$value": "{size.28}"
+      },
+      "md": {
+        "$value": "{size.36}"
+      },
+      "lg": {
+        "$value": "{size.44}"
+      }
+    },
+    "touch-target": {
+      "$value": "{size.24}",
+      "$description": "Minimum hit area. Mobile 48 exceeds WCAG 2.5.8 (24) and matches platform HIG guidance; desktop uses the 24px AA minimum for pointer input."
+    },
+    "icon": {
+      "sm": {
+        "$value": "{size.16}"
+      },
+      "md": {
+        "$value": "{size.20}"
+      },
+      "lg": {
+        "$value": "{size.24}"
+      }
+    },
+    "avatar": {
+      "$value": "{size.32}"
+    },
+    "selection-control": {
+      "$value": "{size.18}",
+      "$description": "Checkbox/radio visual size (hit area is touch-target)."
+    },
+    "nav-bar": {
+      "$value": "{size.56}",
+      "$description": "Mobile bottom nav height / desktop top bar height."
+    },
+    "table-row": {
+      "$value": "{size.40}"
+    },
+    "table-header": {
+      "$value": "{size.40}"
+    },
+    "day-cell": {
+      "$value": "{size.32}",
+      "$description": "Date picker day."
+    },
+    "time-slot": {
+      "$value": "{size.32}"
+    },
+    "modal-max": {
+      "$value": "{size.560}"
+    }
+  },
+  "radius": {
+    "$type": "dimension",
+    "0": {
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "4": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "6": {
+      "$value": {
+        "value": 6,
+        "unit": "px"
+      }
+    },
+    "8": {
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "12": {
+      "$value": {
+        "value": 12,
+        "unit": "px"
+      }
+    },
+    "16": {
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "24": {
+      "$value": {
+        "value": 24,
+        "unit": "px"
+      }
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      },
+      "$description": "Pill / circle."
+    },
+    "xs": {
+      "$value": "{radius.4}"
+    },
+    "sm": {
+      "$value": "{radius.6}"
+    },
+    "pill": {
+      "$value": "{radius.full}"
+    },
+    "control": {
+      "$value": "{radius.6}"
+    },
+    "card": {
+      "$value": "{radius.8}"
+    },
+    "modal": {
+      "$value": "{radius.12}",
+      "$description": "Mobile modals render as bottom sheets (top corners only)."
+    }
+  },
+  "border-width": {
+    "$type": "dimension",
+    "0": {
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "1": {
+      "$value": {
+        "value": 1,
+        "unit": "px"
+      }
+    },
+    "2": {
+      "$value": {
+        "value": 2,
+        "unit": "px"
+      }
+    },
+    "3": {
+      "$value": {
+        "value": 3,
+        "unit": "px"
+      }
+    },
+    "4": {
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    }
+  },
+  "stroke-style": {
+    "$type": "strokeStyle",
+    "solid": {
+      "$value": "solid"
+    },
+    "dashed": {
+      "$type": "strokeStyle",
+      "$value": "dashed",
+      "$description": "Reserved for tentative/pending holds so pending is distinguishable without color."
+    }
+  },
+  "shadow": {
+    "$type": "shadow",
+    "$description": "Two-layer shadows (tight contact + soft ambient). 'soft' tuned for light surfaces, 'strong' for dark.",
+    "soft": {
+      "1": {
+        "$value": [
+          {
+            "color": "{color.slate-alpha.8}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 2,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": "{color.slate-alpha.8}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 3,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ]
+      },
+      "2": {
+        "$value": [
+          {
+            "color": "{color.slate-alpha.8}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 4,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": "{color.slate-alpha.12}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 4,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 12,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -2,
+              "unit": "px"
+            }
+          }
+        ]
+      },
+      "3": {
+        "$value": [
+          {
+            "color": "{color.slate-alpha.12}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 4,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 8,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -2,
+              "unit": "px"
+            }
+          },
+          {
+            "color": "{color.slate-alpha.16}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 16,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 32,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -4,
+              "unit": "px"
+            }
+          }
+        ]
+      }
+    },
+    "strong": {
+      "1": {
+        "$value": [
+          {
+            "color": "{color.black-alpha.32}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 2,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": "{color.black-alpha.32}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 1,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 3,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          }
+        ]
+      },
+      "2": {
+        "$value": [
+          {
+            "color": "{color.black-alpha.32}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 2,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 4,
+              "unit": "px"
+            },
+            "spread": {
+              "value": 0,
+              "unit": "px"
+            }
+          },
+          {
+            "color": "{color.black-alpha.48}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 4,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 12,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -2,
+              "unit": "px"
+            }
+          }
+        ]
+      },
+      "3": {
+        "$value": [
+          {
+            "color": "{color.black-alpha.48}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 4,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 8,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -2,
+              "unit": "px"
+            }
+          },
+          {
+            "color": "{color.black-alpha.72}",
+            "offsetX": {
+              "value": 0,
+              "unit": "px"
+            },
+            "offsetY": {
+              "value": 16,
+              "unit": "px"
+            },
+            "blur": {
+              "value": 32,
+              "unit": "px"
+            },
+            "spread": {
+              "value": -4,
+              "unit": "px"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "opacity": {
+    "$type": "number",
+    "$description": "Opacity multipliers 0–1.",
+    "0": {
+      "$value": 0
+    },
+    "8": {
+      "$value": 0.08
+    },
+    "16": {
+      "$value": 0.16
+    },
+    "38": {
+      "$value": 0.38
+    },
+    "64": {
+      "$value": 0.64
+    },
+    "100": {
+      "$value": 1
+    },
+    "disabled-media": {
+      "$value": "{opacity.38}",
+      "$description": "Images/avatars inside disabled rows. Never used for text."
+    }
+  },
+  "duration": {
+    "$type": "duration",
+    "0": {
+      "$value": {
+        "value": 0,
+        "unit": "ms"
+      }
+    },
+    "100": {
+      "$value": {
+        "value": 100,
+        "unit": "ms"
+      }
+    },
+    "150": {
+      "$value": {
+        "value": 150,
+        "unit": "ms"
+      }
+    },
+    "200": {
+      "$value": {
+        "value": 200,
+        "unit": "ms"
+      }
+    },
+    "300": {
+      "$value": {
+        "value": 300,
+        "unit": "ms"
+      }
+    },
+    "400": {
+      "$value": {
+        "value": 400,
+        "unit": "ms"
+      }
+    }
+  },
+  "easing": {
+    "$type": "cubicBezier",
+    "standard": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.2,
+        0,
+        0,
+        1
+      ],
+      "$description": "Default for state changes."
+    },
+    "decelerate": {
+      "$type": "cubicBezier",
+      "$value": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "$description": "Elements entering (sheets, modals)."
+    },
+    "accelerate": {
+      "$type": "cubicBezier",
+      "$value": [
+        0.3,
+        0,
+        1,
+        1
+      ],
+      "$description": "Elements leaving."
+    },
+    "linear": {
+      "$value": [
+        0,
+        0,
+        1,
+        1
+      ]
+    }
+  },
+  "breakpoint": {
+    "$type": "dimension",
+    "$description": "Min-width breakpoints. Patient app is designed at 360–430; admin is designed at ≥1200.",
+    "sm": {
+      "$value": {
+        "value": 600,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$value": {
+        "value": 900,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$value": {
+        "value": 1200,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$value": {
+        "value": 1440,
+        "unit": "px"
+      }
+    }
+  },
+  "grid": {
+    "columns": {
+      "$type": "number",
+      "4": {
+        "$value": 4
+      },
+      "8": {
+        "$value": 8
+      },
+      "12": {
+        "$value": 12
+      }
+    }
+  },
+  "z-index": {
+    "$type": "number",
+    "$description": "Stacking order. Unitless numbers.",
+    "base": {
+      "$value": 0
+    },
+    "sticky": {
+      "$value": 100
+    },
+    "dropdown": {
+      "$value": 1000
+    },
+    "overlay": {
+      "$value": 1200
+    },
+    "modal": {
+      "$value": 1300
+    },
+    "toast": {
+      "$value": 1400
+    },
+    "tooltip": {
+      "$value": 1500
+    }
+  },
+  "stroke": {
+    "default": {
+      "$value": "{border-width.1}"
+    },
+    "focus": {
+      "$value": "{border-width.2}",
+      "$description": "Focus ring thickness (≥2px CSS px for WCAG 2.4.13-style visibility)."
+    },
+    "indicator": {
+      "$value": "{border-width.3}",
+      "$description": "Active tab underline, calendar event status bar."
+    }
+  },
+  "focus-ring": {
+    "$root": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.interaction.focus.ring}",
+        "width": "{stroke.focus}",
+        "style": "{stroke-style.solid}"
+      },
+      "$description": "Focus indicator for every interactive element. Applied as an outline with an offset."
+    },
+    "offset": {
+      "$value": "{space.2}"
+    }
+  },
+  "motion": {
+    "control": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.150}",
+        "delay": "{duration.0}",
+        "timingFunction": "{easing.standard}"
+      },
+      "$description": "Hover/press/selection feedback. Reduced-motion users get duration 0 (see CSS)."
+    },
+    "enter": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.300}",
+        "delay": "{duration.0}",
+        "timingFunction": "{easing.decelerate}"
+      }
+    },
+    "exit": {
+      "$type": "transition",
+      "$value": {
+        "duration": "{duration.200}",
+        "delay": "{duration.0}",
+        "timingFunction": "{easing.accelerate}"
+      }
+    },
+    "tooltip-delay": {
+      "$value": "{duration.400}"
+    }
+  },
+  "layer": {
+    "sticky": {
+      "$value": "{z-index.sticky}"
+    },
+    "dropdown": {
+      "$value": "{z-index.dropdown}"
+    },
+    "overlay": {
+      "$value": "{z-index.overlay}"
+    },
+    "modal": {
+      "$value": "{z-index.modal}"
+    },
+    "toast": {
+      "$value": "{z-index.toast}"
+    },
+    "tooltip": {
+      "$value": "{z-index.tooltip}"
+    }
+  },
+  "elevation": {
+    "$type": "shadow",
+    "$description": "Theme-aware elevation. Dark theme uses stronger shadows plus lighter surfaces.",
+    "raised": {
+      "$value": "{shadow.strong.1}"
+    },
+    "popover": {
+      "$value": "{shadow.strong.2}"
+    },
+    "overlay": {
+      "$value": "{shadow.strong.3}"
+    }
+  },
+  "layout": {
+    "columns": {
+      "$value": "{grid.columns.12}"
+    },
+    "gutter": {
+      "$value": "{space.24}"
+    },
+    "margin": {
+      "$value": "{space.32}"
+    }
+  },
+  "text-style": {
+    "$description": "Role-based type. Same role names on both platforms; values differ by density.",
+    "page-title": {
+      "$value": "{typography.heading.md}"
+    },
+    "section-title": {
+      "$value": "{typography.heading.xs}"
+    },
+    "card-title": {
+      "$value": "{typography.body.md-strong}"
+    },
+    "provider-name": {
+      "$value": "{typography.body.md-strong}"
+    },
+    "body": {
+      "$value": "{typography.body.sm}"
+    },
+    "body-strong": {
+      "$value": "{typography.body.sm-strong}"
+    },
+    "supporting": {
+      "$value": "{typography.body.sm}"
+    },
+    "label": {
+      "$value": "{typography.label.md}"
+    },
+    "input": {
+      "$value": "{typography.body.sm}",
+      "$description": "Mobile inputs stay at 16px so iOS Safari does not zoom on focus."
+    },
+    "button": {
+      "$value": "{typography.label.md}"
+    },
+    "caption": {
+      "$value": "{typography.caption}"
+    },
+    "badge": {
+      "$value": "{typography.label.sm}"
+    },
+    "appointment-time": {
+      "$value": "{typography.body.md-strong}"
+    },
+    "table-cell": {
+      "$value": "{typography.body.sm}"
+    },
+    "table-header": {
+      "$value": "{typography.label.md}"
+    },
+    "calendar-event": {
+      "$value": "{typography.label.sm}"
+    },
+    "calendar-time": {
+      "$value": "{typography.caption}"
+    },
+    "metric-value": {
+      "$value": "{typography.heading.xl}"
+    },
+    "alert-title": {
+      "$value": "{typography.body.sm-strong}"
+    },
+    "alert-body": {
+      "$value": "{typography.body.sm}"
+    }
+  },
+  "button": {
+    "$description": "Primary/secondary/tertiary/destructive buttons. Variant colors come straight from color.action.*; only geometry is tokenised here.",
+    "height": {
+      "sm": {
+        "$value": "{size.control.sm}"
+      },
+      "md": {
+        "$value": "{size.control.md}"
+      },
+      "lg": {
+        "$value": "{size.control.lg}"
+      }
+    },
+    "padding-x": {
+      "$value": "{space.inset.control-x}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "text-style": {
+      "$value": "{text-style.button}"
+    },
+    "min-target": {
+      "$value": "{size.touch-target}"
+    },
+    "transition": {
+      "$value": "{motion.control}"
+    }
+  },
+  "field": {
+    "$description": "Shared by text input, search field and dropdown trigger.",
+    "height": {
+      "$value": "{size.control.md}"
+    },
+    "padding-x": {
+      "$value": "{space.inset.control-x}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "text-style": {
+      "$value": "{text-style.input}"
+    },
+    "label-style": {
+      "$value": "{text-style.label}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "fg": {
+      "$value": "{color.text.primary}"
+    },
+    "placeholder": {
+      "$value": "{color.text.muted}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "border-hover": {
+      "$value": "{color.border.hover}"
+    },
+    "border-focus": {
+      "$value": "{color.border.focus}"
+    },
+    "border-error": {
+      "$value": "{color.border.error}"
+    },
+    "helper": {
+      "$value": "{color.text.secondary}"
+    },
+    "error-text": {
+      "$value": "{color.feedback.error.fg}"
+    },
+    "label-gap": {
+      "$value": "{space.stack.xs}"
+    }
+  },
+  "search": {
+    "bg": {
+      "$value": "{color.surface.subtle}"
+    },
+    "icon": {
+      "$value": "{color.text.secondary}"
+    },
+    "radius": {
+      "$value": "{radius.pill}"
+    },
+    "height": {
+      "$value": "{size.control.lg}"
+    }
+  },
+  "dropdown": {
+    "menu-bg": {
+      "$value": "{color.surface.elevated}"
+    },
+    "menu-shadow": {
+      "$value": "{elevation.popover}"
+    },
+    "menu-radius": {
+      "$value": "{radius.control}"
+    },
+    "menu-layer": {
+      "$value": "{layer.dropdown}"
+    },
+    "option-height": {
+      "$value": "{size.control.md}"
+    },
+    "option-hover": {
+      "$value": "{color.interaction.hover}"
+    },
+    "option-selected-bg": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "option-selected-fg": {
+      "$value": "{color.interaction.selected.fg}"
+    }
+  },
+  "checkbox": {
+    "size": {
+      "$value": "{size.selection-control}"
+    },
+    "radius": {
+      "$value": "{radius.xs}"
+    },
+    "target": {
+      "$value": "{size.touch-target}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "checked-bg": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "checked-fg": {
+      "$value": "{color.action.primary.fg}"
+    }
+  },
+  "radio": {
+    "size": {
+      "$value": "{size.selection-control}"
+    },
+    "target": {
+      "$value": "{size.touch-target}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "checked": {
+      "$value": "{color.action.primary.bg}"
+    }
+  },
+  "badge": {
+    "$description": "Status badge = icon + label on tinted fill. Colors read directly from color.status.<status>.* (no per-status component tokens; they would duplicate the semantic layer).",
+    "height": {
+      "$value": "{size.badge}"
+    },
+    "padding-x": {
+      "$value": "{space.inset.sm}"
+    },
+    "gap": {
+      "$value": "{space.inline.xs}"
+    },
+    "radius": {
+      "$value": "{radius.pill}"
+    },
+    "text-style": {
+      "$value": "{text-style.badge}"
+    },
+    "icon-size": {
+      "$value": "{size.icon.sm}"
+    }
+  },
+  "card": {
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "border-hover": {
+      "$value": "{color.border.hover}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "gap": {
+      "$value": "{space.stack.sm}"
+    },
+    "shadow": {
+      "$value": "{elevation.raised}"
+    }
+  },
+  "tabs": {
+    "height": {
+      "$value": "{size.control.md}"
+    },
+    "gap": {
+      "$value": "{space.inline.lg}"
+    },
+    "text-style": {
+      "$value": "{text-style.label}"
+    },
+    "fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "fg-selected": {
+      "$value": "{color.text.primary}"
+    },
+    "indicator": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "indicator-height": {
+      "$value": "{stroke.indicator}"
+    },
+    "divider": {
+      "$value": "{color.border.default}"
+    }
+  },
+  "alert": {
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "gap": {
+      "$value": "{space.inline.md}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "border-width": {
+      "$value": "{stroke.default}"
+    },
+    "icon-size": {
+      "$value": "{size.icon.md}"
+    },
+    "title-style": {
+      "$value": "{text-style.alert-title}"
+    },
+    "body-style": {
+      "$value": "{text-style.alert-body}"
+    }
+  },
+  "modal": {
+    "bg": {
+      "$value": "{color.surface.elevated}"
+    },
+    "scrim": {
+      "$value": "{color.surface.overlay}"
+    },
+    "radius": {
+      "$value": "{radius.modal}"
+    },
+    "padding": {
+      "$value": "{space.inset.modal}"
+    },
+    "shadow": {
+      "$value": "{elevation.overlay}"
+    },
+    "max-width": {
+      "$value": "{size.modal-max}"
+    },
+    "layer": {
+      "$value": "{layer.modal}"
+    },
+    "enter": {
+      "$value": "{motion.enter}"
+    }
+  },
+  "tooltip": {
+    "bg": {
+      "$value": "{color.surface.inverse}"
+    },
+    "fg": {
+      "$value": "{color.text.inverse}"
+    },
+    "radius": {
+      "$value": "{radius.sm}"
+    },
+    "padding-x": {
+      "$value": "{space.inset.sm}"
+    },
+    "padding-y": {
+      "$value": "{space.inset.xs}"
+    },
+    "text-style": {
+      "$value": "{text-style.caption}"
+    },
+    "max-width": {
+      "$value": "{size.tooltip-max}"
+    },
+    "delay": {
+      "$value": "{motion.tooltip-delay}"
+    },
+    "layer": {
+      "$value": "{layer.tooltip}"
+    }
+  },
+  "nav-item": {
+    "height": {
+      "$value": "{size.control.md}"
+    },
+    "gap": {
+      "$value": "{space.inline.md}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "fg-active": {
+      "$value": "{color.interaction.selected.fg}"
+    },
+    "bg-hover": {
+      "$value": "{color.interaction.hover}"
+    },
+    "bg-active": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "icon-size": {
+      "$value": "{size.icon.md}"
+    }
+  },
+  "date-picker": {
+    "day-size": {
+      "$value": "{size.day-cell}"
+    },
+    "day-radius": {
+      "$value": "{radius.pill}"
+    },
+    "day-target": {
+      "$value": "{size.touch-target}"
+    },
+    "day-fg": {
+      "$value": "{color.text.primary}"
+    },
+    "day-muted": {
+      "$value": "{color.text.muted}"
+    },
+    "day-unavailable": {
+      "$value": "{color.text.disabled}"
+    },
+    "day-selected-bg": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "day-selected-fg": {
+      "$value": "{color.action.primary.fg}"
+    },
+    "today-ring": {
+      "$value": "{color.border.selected}"
+    },
+    "availability-dot": {
+      "$value": "{color.status.available.icon}"
+    }
+  },
+  "time-selector": {
+    "$description": "Time picker list (admin) / wheel (mobile). Slot buttons are a separate mobile component.",
+    "option-height": {
+      "$value": "{size.control.md}"
+    },
+    "text-style": {
+      "$value": "{text-style.input}"
+    },
+    "option-selected-bg": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "option-selected-fg": {
+      "$value": "{color.interaction.selected.fg}"
+    }
+  },
+  "provider-card": {
+    "avatar-size": {
+      "$value": "{size.avatar}"
+    },
+    "gap": {
+      "$value": "{space.inline.md}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "name-style": {
+      "$value": "{text-style.provider-name}"
+    },
+    "meta-style": {
+      "$value": "{text-style.supporting}"
+    },
+    "meta-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "next-available-fg": {
+      "$value": "{color.status.available.fg}"
+    },
+    "next-available-bg": {
+      "$value": "{color.status.available.bg}"
+    }
+  },
+  "availability-card": {
+    "$description": "Search result card that leads with the soonest open time.",
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "slot-gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "time-style": {
+      "$value": "{text-style.appointment-time}"
+    }
+  },
+  "booking-card": {
+    "bg": {
+      "$value": "{color.surface.elevated}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "shadow": {
+      "$value": "{elevation.popover}"
+    },
+    "section-gap": {
+      "$value": "{space.section}"
+    }
+  },
+  "date-strip": {
+    "item-width": {
+      "$value": "{size.56}"
+    },
+    "item-height": {
+      "$value": "{size.72}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "weekday-style": {
+      "$value": "{text-style.caption}"
+    },
+    "date-style": {
+      "$value": "{text-style.section-title}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "selected-bg": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "selected-fg": {
+      "$value": "{color.action.primary.fg}"
+    },
+    "availability-dot": {
+      "$value": "{color.status.available.icon}"
+    },
+    "unavailable-fg": {
+      "$value": "{color.text.disabled}"
+    }
+  },
+  "time-slot": {
+    "$description": "Bookable time button. Selected = filled + check icon; booked = disabled fill + struck-through time + 'Booked' a11y label.",
+    "height": {
+      "$value": "{size.time-slot}"
+    },
+    "min-width": {
+      "$value": "{size.88}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "text-style": {
+      "$value": "{text-style.button}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "fg": {
+      "$value": "{color.action.secondary.fg}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "bg-hover": {
+      "$value": "{color.action.secondary.bg-hover}"
+    },
+    "selected-bg": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "selected-fg": {
+      "$value": "{color.action.primary.fg}"
+    },
+    "disabled-bg": {
+      "$value": "{color.interaction.disabled.bg}"
+    },
+    "disabled-fg": {
+      "$value": "{color.interaction.disabled.fg}"
+    },
+    "disabled-border": {
+      "$value": "{color.interaction.disabled.border}"
+    }
+  },
+  "summary-card": {
+    "bg": {
+      "$value": "{color.surface.subtle}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "row-gap": {
+      "$value": "{space.stack.sm}"
+    },
+    "divider": {
+      "$value": "{color.border.default}"
+    },
+    "label-style": {
+      "$value": "{text-style.supporting}"
+    },
+    "label-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "value-style": {
+      "$value": "{text-style.body-strong}"
+    }
+  },
+  "bottom-nav": {
+    "height": {
+      "$value": "{size.nav-bar}"
+    },
+    "bg": {
+      "$value": "{color.surface.elevated}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "fg-active": {
+      "$value": "{color.interaction.selected.fg}"
+    },
+    "indicator": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "label-style": {
+      "$value": "{text-style.caption}"
+    },
+    "icon-size": {
+      "$value": "{size.icon.md}"
+    },
+    "layer": {
+      "$value": "{layer.sticky}"
+    }
+  },
+  "calendar-cell": {
+    "slot-height": {
+      "$value": "{size.48}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "bg-off-hours": {
+      "$value": "{color.surface.subtle}"
+    },
+    "border": {
+      "$value": "{color.border.subtle}"
+    },
+    "today-bg": {
+      "$value": "{color.surface.selected}"
+    },
+    "time-style": {
+      "$value": "{text-style.calendar-time}"
+    },
+    "time-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "now-line": {
+      "$value": "{color.accent.solid}"
+    }
+  },
+  "calendar-event": {
+    "$description": "Event chip. Fill/text/bar come from color.status.<status>.*; pending adds a dashed outline; conflicts add an error outline + icon + 'Conflict' label.",
+    "radius": {
+      "$value": "{radius.sm}"
+    },
+    "padding": {
+      "$value": "{space.inset.xs}"
+    },
+    "text-style": {
+      "$value": "{text-style.calendar-event}"
+    },
+    "bar-width": {
+      "$value": "{stroke.indicator}"
+    },
+    "gap": {
+      "$value": "{space.inline.xs}"
+    },
+    "pending-style": {
+      "$value": "{stroke-style.dashed}"
+    },
+    "conflict-outline": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.feedback.error.icon}",
+        "width": "{stroke.focus}",
+        "style": "{stroke-style.solid}"
+      }
+    }
+  },
+  "table": {
+    "row-height": {
+      "$value": "{size.table-row}"
+    },
+    "header-height": {
+      "$value": "{size.table-header}"
+    },
+    "cell-padding-x": {
+      "$value": "{space.inset.cell-x}"
+    },
+    "header-bg": {
+      "$value": "{color.surface.subtle}"
+    },
+    "header-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "header-style": {
+      "$value": "{text-style.table-header}"
+    },
+    "cell-style": {
+      "$value": "{text-style.table-cell}"
+    },
+    "row-border": {
+      "$value": "{color.border.subtle}"
+    },
+    "row-hover": {
+      "$value": "{color.interaction.hover}"
+    },
+    "row-selected": {
+      "$value": "{color.interaction.selected.bg}"
+    }
+  },
+  "status-indicator": {
+    "dot-size": {
+      "$value": "{size.status-dot}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "text-style": {
+      "$value": "{text-style.body}"
+    }
+  },
+  "filter-chip": {
+    "height": {
+      "$value": "{size.control.sm}"
+    },
+    "padding-x": {
+      "$value": "{space.inset.md}"
+    },
+    "radius": {
+      "$value": "{radius.pill}"
+    },
+    "text-style": {
+      "$value": "{text-style.label}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "selected-bg": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "selected-fg": {
+      "$value": "{color.interaction.selected.fg}"
+    },
+    "selected-border": {
+      "$value": "{color.interaction.selected.border}"
+    }
+  },
+  "pagination": {
+    "item-size": {
+      "$value": "{size.control.sm}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "gap": {
+      "$value": "{space.inline.xs}"
+    },
+    "fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "current-bg": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "current-fg": {
+      "$value": "{color.interaction.selected.fg}"
+    }
+  },
+  "metric-card": {
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "value-style": {
+      "$value": "{text-style.metric-value}"
+    },
+    "label-style": {
+      "$value": "{text-style.supporting}"
+    },
+    "label-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "delta-up": {
+      "$value": "{color.feedback.success.fg}"
+    },
+    "delta-down": {
+      "$value": "{color.feedback.error.fg}"
+    }
+  },
+  "sidebar": {
+    "width": {
+      "$value": "{size.256}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "padding": {
+      "$value": "{space.inset.md}"
+    },
+    "section-style": {
+      "$value": "{text-style.caption}"
+    },
+    "section-fg": {
+      "$value": "{color.text.secondary}"
+    }
+  },
+  "$description": "ClearVisit tokens, theme=dark, platform=desktop. Merged per clearvisit.resolver.json; all aliases preserved. Generated by scripts/build.py from DTCG 2025.10 sources. Do not edit by hand."
+}

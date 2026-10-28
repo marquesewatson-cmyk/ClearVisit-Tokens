@@ -1,0 +1,34 @@
+{
+  "inventory": {
+    "primitives": {
+      "color.tokens.json": 91,
+      "typography.tokens.json": 36,
+      "spacing.tokens.json": 13,
+      "sizing.tokens.json": 22,
+      "radius.tokens.json": 8,
+      "border.tokens.json": 7,
+      "elevation.tokens.json": 6,
+      "opacity.tokens.json": 6,
+      "motion.tokens.json": 10,
+      "layout.tokens.json": 14
+    },
+    "semantic": {
+      "base": 34,
+      "theme (per mode)": 99,
+      "platform (per mode)": 47
+    },
+    "components": {
+      "shared.tokens.json": 114,
+      "mobile.tokens.json": 62,
+      "desktop.tokens.json": 58
+    },
+    "total_unique_paths": 627
+  },
+  "figma_count": 538,
+  "text_styles": 35,
+  "effect_styles": 13,
+  "min_ratio": {
+    "light": 3.34,
+    "dark": 3.12
+  }
+}

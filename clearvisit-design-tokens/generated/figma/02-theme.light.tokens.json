@@ -1,0 +1,1762 @@
+{
+  "color": {
+    "text": {
+      "primary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1765,
+            0.2118,
+            0.251
+          ],
+          "hex": "#2D3640"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/900"
+          }
+        },
+        "$description": "Body copy, headings, data."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3255,
+            0.3725,
+            0.4235
+          ],
+          "hex": "#535F6C"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/700"
+          }
+        },
+        "$description": "Supporting copy, table headers, meta."
+      },
+      "muted": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3647,
+            0.4196,
+            0.4745
+          ],
+          "hex": "#5D6B79"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/600"
+          }
+        },
+        "$description": "Placeholders, timestamps. Still meets 4.5:1 on default and subtle surfaces."
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6,
+            0.651,
+            0.7059
+          ],
+          "hex": "#99A6B4"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/400"
+          }
+        },
+        "$description": "Disabled text. Exempt from WCAG 1.4.3 but always paired with a disabled container."
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9608,
+            0.9686,
+            0.9765
+          ],
+          "hex": "#F5F7F9"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/50"
+          }
+        },
+        "$description": "Text on inverse surfaces (tooltips, toasts)."
+      },
+      "link": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.3686,
+            0.6706
+          ],
+          "hex": "#005EAB"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/blue/700"
+          }
+        }
+      },
+      "link-hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.2941,
+            0.5412
+          ],
+          "hex": "#004B8A"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/blue/800"
+          }
+        }
+      }
+    },
+    "surface": {
+      "app": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9608,
+            0.9686,
+            0.9765
+          ],
+          "hex": "#F5F7F9"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/50"
+          }
+        },
+        "$description": "Page/app background."
+      },
+      "default": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/white"
+          }
+        },
+        "$description": "Cards, tables, inputs."
+      },
+      "elevated": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "hex": "#FFFFFF"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/white"
+          }
+        },
+        "$description": "Menus, modals, sheets. In dark mode elevation is expressed by lightness."
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9137,
+            0.9294,
+            0.9451
+          ],
+          "hex": "#E9EDF1"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/100"
+          }
+        },
+        "$description": "Table headers, search fields, off-hours calendar cells."
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9451,
+            0.9725,
+            1.0
+          ],
+          "hex": "#F1F8FF"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/blue/50"
+          }
+        },
+        "$description": "Selected rows, active nav items."
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.1765,
+            0.2118,
+            0.251
+          ],
+          "hex": "#2D3640"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/900"
+          }
+        }
+      },
+      "overlay": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0706,
+            0.0941,
+            0.1176
+          ],
+          "alpha": 0.48,
+          "hex": "#12181E"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate-alpha/48"
+          }
+        },
+        "$description": "Modal scrim."
+      }
+    },
+    "border": {
+      "subtle": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9137,
+            0.9294,
+            0.9451
+          ],
+          "hex": "#E9EDF1"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/100"
+          }
+        },
+        "$description": "Dividers inside a surface. Decorative."
+      },
+      "default": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8392,
+            0.8667,
+            0.898
+          ],
+          "hex": "#D6DDE5"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/200"
+          }
+        },
+        "$description": "Card and container edges. Decorative; containers are also separated by surface color."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.4549,
+            0.5098,
+            0.5686
+          ],
+          "hex": "#748291"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/500"
+          }
+        },
+        "$description": "Boundaries of interactive controls (inputs, checkboxes, chips). Meets 3:1 (WCAG 1.4.11)."
+      },
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.3647,
+            0.4196,
+            0.4745
+          ],
+          "hex": "#5D6B79"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/600"
+          }
+        }
+      },
+      "focus": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4157,
+            0.7451
+          ],
+          "hex": "#006ABE"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/blue/600"
+          }
+        },
+        "$description": "Focus ring color. Meets 3:1 against all surfaces."
+      },
+      "error": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7451,
+            0.1333,
+            0.1647
+          ],
+          "hex": "#BE222A"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/red/600"
+          }
+        }
+      },
+      "selected": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4157,
+            0.7451
+          ],
+          "hex": "#006ABE"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/blue/600"
+          }
+        }
+      }
+    },
+    "action": {
+      "primary": {
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.4157,
+              0.7451
+            ],
+            "hex": "#006ABE"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/600"
+            }
+          }
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.3686,
+              0.6706
+            ],
+            "hex": "#005EAB"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/700"
+            }
+          }
+        },
+        "bg-pressed": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.2941,
+              0.5412
+            ],
+            "hex": "#004B8A"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/800"
+            }
+          }
+        },
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/white"
+            }
+          }
+        }
+      },
+      "secondary": {
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/white"
+            }
+          }
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9451,
+              0.9725,
+              1.0
+            ],
+            "hex": "#F1F8FF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/50"
+            }
+          }
+        },
+        "bg-pressed": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8784,
+              0.9373,
+              1.0
+            ],
+            "hex": "#E0EFFF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/100"
+            }
+          }
+        },
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.3686,
+              0.6706
+            ],
+            "hex": "#005EAB"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/700"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.4157,
+              0.7451
+            ],
+            "hex": "#006ABE"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/600"
+            }
+          }
+        }
+      },
+      "tertiary": {
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "alpha": 0,
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/transparent"
+            }
+          }
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9137,
+              0.9294,
+              0.9451
+            ],
+            "hex": "#E9EDF1"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/slate/100"
+            }
+          }
+        },
+        "bg-pressed": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8392,
+              0.8667,
+              0.898
+            ],
+            "hex": "#D6DDE5"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/slate/200"
+            }
+          }
+        },
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.3686,
+              0.6706
+            ],
+            "hex": "#005EAB"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/700"
+            }
+          }
+        }
+      },
+      "destructive": {
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7451,
+              0.1333,
+              0.1647
+            ],
+            "hex": "#BE222A"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/600"
+            }
+          }
+        },
+        "bg-hover": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.6745,
+              0.0941,
+              0.1333
+            ],
+            "hex": "#AC1822"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/700"
+            }
+          }
+        },
+        "bg-pressed": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5569,
+              0.0314,
+              0.0863
+            ],
+            "hex": "#8E0816"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/800"
+            }
+          }
+        },
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "hex": "#FFFFFF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/white"
+            }
+          }
+        }
+      }
+    },
+    "interaction": {
+      "hover": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9137,
+            0.9294,
+            0.9451
+          ],
+          "hex": "#E9EDF1"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/100"
+          }
+        },
+        "$description": "Hover fill for rows, list items, ghost controls."
+      },
+      "pressed": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.8392,
+            0.8667,
+            0.898
+          ],
+          "hex": "#D6DDE5"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/slate/200"
+          }
+        }
+      },
+      "selected": {
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9451,
+              0.9725,
+              1.0
+            ],
+            "hex": "#F1F8FF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/50"
+            }
+          }
+        },
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.2941,
+              0.5412
+            ],
+            "hex": "#004B8A"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/800"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.4157,
+              0.7451
+            ],
+            "hex": "#006ABE"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/600"
+            }
+          }
+        }
+      },
+      "focus": {
+        "ring": {
+          "$type": "color",
+          "$value": "{color.border.focus}"
+        },
+        "offset": {
+          "$type": "color",
+          "$value": "{color.surface.default}",
+          "$description": "Gap between control and ring so the ring reads on any fill."
+        }
+      },
+      "disabled": {
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9137,
+              0.9294,
+              0.9451
+            ],
+            "hex": "#E9EDF1"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/slate/100"
+            }
+          }
+        },
+        "fg": {
+          "$type": "color",
+          "$value": "{color.text.disabled}"
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8392,
+              0.8667,
+              0.898
+            ],
+            "hex": "#D6DDE5"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/slate/200"
+            }
+          }
+        }
+      }
+    },
+    "status": {
+      "available": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.3529,
+              0.1686
+            ],
+            "hex": "#005A2B"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/green/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9333,
+              0.9843,
+              0.9451
+            ],
+            "hex": "#EEFBF1"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/green/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7373,
+              0.9176,
+              0.7804
+            ],
+            "hex": "#BCEAC7"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/green/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.4941,
+              0.2471
+            ],
+            "hex": "#007E3F"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/green/600"
+            }
+          }
+        }
+      },
+      "confirmed": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.2941,
+              0.5412
+            ],
+            "hex": "#004B8A"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9451,
+              0.9725,
+              1.0
+            ],
+            "hex": "#F1F8FF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7686,
+              0.8745,
+              1.0
+            ],
+            "hex": "#C4DFFF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.4157,
+              0.7451
+            ],
+            "hex": "#006ABE"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/600"
+            }
+          }
+        }
+      },
+      "pending": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4039,
+              0.2549,
+              0.0
+            ],
+            "hex": "#674100"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/amber/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              0.9608,
+              0.9137
+            ],
+            "hex": "#FFF5E9"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/amber/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9843,
+              0.8353,
+              0.6588
+            ],
+            "hex": "#FBD5A8"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/amber/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5647,
+              0.3608,
+              0.0
+            ],
+            "hex": "#905C00"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/amber/600"
+            }
+          }
+        }
+      },
+      "completed": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3255,
+              0.3725,
+              0.4235
+            ],
+            "hex": "#535F6C"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/slate/700"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9137,
+              0.9294,
+              0.9451
+            ],
+            "hex": "#E9EDF1"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/slate/100"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7333,
+              0.7725,
+              0.8196
+            ],
+            "hex": "#BBC5D1"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/slate/300"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4549,
+              0.5098,
+              0.5686
+            ],
+            "hex": "#748291"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/slate/500"
+            }
+          }
+        }
+      },
+      "cancelled": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5569,
+              0.0314,
+              0.0863
+            ],
+            "hex": "#8E0816"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              0.9569,
+              0.9529
+            ],
+            "hex": "#FFF4F3"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              0.8118,
+              0.7922
+            ],
+            "hex": "#FFCFCA"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7451,
+              0.1333,
+              0.1647
+            ],
+            "hex": "#BE222A"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/600"
+            }
+          }
+        }
+      },
+      "rescheduled": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.3255,
+              0.2039,
+              0.549
+            ],
+            "hex": "#53348C"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/violet/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9686,
+              0.9608,
+              1.0
+            ],
+            "hex": "#F7F5FF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/violet/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.8745,
+              0.8353,
+              1.0
+            ],
+            "hex": "#DFD5FF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/violet/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4549,
+              0.3059,
+              0.7333
+            ],
+            "hex": "#744EBB"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/violet/600"
+            }
+          }
+        }
+      }
+    },
+    "feedback": {
+      "success": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.3529,
+              0.1686
+            ],
+            "hex": "#005A2B"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/green/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9333,
+              0.9843,
+              0.9451
+            ],
+            "hex": "#EEFBF1"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/green/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7373,
+              0.9176,
+              0.7804
+            ],
+            "hex": "#BCEAC7"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/green/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.4941,
+              0.2471
+            ],
+            "hex": "#007E3F"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/green/600"
+            }
+          }
+        }
+      },
+      "warning": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.4039,
+              0.2549,
+              0.0
+            ],
+            "hex": "#674100"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/amber/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              0.9608,
+              0.9137
+            ],
+            "hex": "#FFF5E9"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/amber/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9843,
+              0.8353,
+              0.6588
+            ],
+            "hex": "#FBD5A8"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/amber/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5647,
+              0.3608,
+              0.0
+            ],
+            "hex": "#905C00"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/amber/600"
+            }
+          }
+        }
+      },
+      "error": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.5569,
+              0.0314,
+              0.0863
+            ],
+            "hex": "#8E0816"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              0.9569,
+              0.9529
+            ],
+            "hex": "#FFF4F3"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              1.0,
+              0.8118,
+              0.7922
+            ],
+            "hex": "#FFCFCA"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7451,
+              0.1333,
+              0.1647
+            ],
+            "hex": "#BE222A"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/red/600"
+            }
+          }
+        }
+      },
+      "info": {
+        "fg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.2941,
+              0.5412
+            ],
+            "hex": "#004B8A"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/800"
+            }
+          }
+        },
+        "bg": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.9451,
+              0.9725,
+              1.0
+            ],
+            "hex": "#F1F8FF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/50"
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.7686,
+              0.8745,
+              1.0
+            ],
+            "hex": "#C4DFFF"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/200"
+            }
+          }
+        },
+        "icon": {
+          "$type": "color",
+          "$value": {
+            "colorSpace": "srgb",
+            "components": [
+              0.0,
+              0.4157,
+              0.7451
+            ],
+            "hex": "#006ABE"
+          },
+          "$extensions": {
+            "com.figma.aliasData": {
+              "targetVariableSetName": "Primitives",
+              "targetVariableName": "color/blue/600"
+            }
+          }
+        }
+      }
+    },
+    "accent": {
+      "bg": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.9294,
+            0.9804,
+            0.9765
+          ],
+          "hex": "#EDFAF9"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/teal/50"
+          }
+        }
+      },
+      "fg": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.3373,
+            0.3294
+          ],
+          "hex": "#005654"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/teal/800"
+          }
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.7137,
+            0.9098,
+            0.898
+          ],
+          "hex": "#B6E8E5"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/teal/200"
+          }
+        }
+      },
+      "solid": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4745,
+            0.4627
+          ],
+          "hex": "#007976"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/teal/600"
+          }
+        },
+        "$description": "Graphic accents, the calendar 'now' line."
+      }
+    },
+    "chart": {
+      "series-1": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.4157,
+            0.7451
+          ],
+          "hex": "#006ABE"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/blue/600"
+          }
+        }
+      },
+      "series-2": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.0,
+            0.5765,
+            0.5647
+          ],
+          "hex": "#009390"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/teal/500"
+          }
+        }
+      },
+      "series-3": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.5451,
+            0.4039,
+            0.8392
+          ],
+          "hex": "#8B67D6"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/violet/500"
+          }
+        }
+      },
+      "series-4": {
+        "$type": "color",
+        "$value": {
+          "colorSpace": "srgb",
+          "components": [
+            0.6863,
+            0.4431,
+            0.0
+          ],
+          "hex": "#AF7100"
+        },
+        "$extensions": {
+          "com.figma.aliasData": {
+            "targetVariableSetName": "Primitives",
+            "targetVariableName": "color/amber/500"
+          }
+        }
+      }
+    }
+  }
+}

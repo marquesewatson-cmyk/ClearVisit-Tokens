@@ -1,0 +1,168 @@
+{
+  "size": {
+    "control": {
+      "$description": "Control heights. Mobile = touch-first, desktop = density-first.",
+      "sm": {
+        "$value": "{size.28}"
+      },
+      "md": {
+        "$value": "{size.36}"
+      },
+      "lg": {
+        "$value": "{size.44}"
+      }
+    },
+    "touch-target": {
+      "$value": "{size.24}",
+      "$description": "Minimum hit area. Mobile 48 exceeds WCAG 2.5.8 (24) and matches platform HIG guidance; desktop uses the 24px AA minimum for pointer input."
+    },
+    "icon": {
+      "sm": {
+        "$value": "{size.16}"
+      },
+      "md": {
+        "$value": "{size.20}"
+      },
+      "lg": {
+        "$value": "{size.24}"
+      }
+    },
+    "avatar": {
+      "$value": "{size.32}"
+    },
+    "selection-control": {
+      "$value": "{size.18}",
+      "$description": "Checkbox/radio visual size (hit area is touch-target)."
+    },
+    "nav-bar": {
+      "$value": "{size.56}",
+      "$description": "Mobile bottom nav height / desktop top bar height."
+    },
+    "table-row": {
+      "$value": "{size.40}"
+    },
+    "table-header": {
+      "$value": "{size.40}"
+    },
+    "day-cell": {
+      "$value": "{size.32}",
+      "$description": "Date picker day."
+    },
+    "time-slot": {
+      "$value": "{size.32}"
+    },
+    "modal-max": {
+      "$value": "{size.560}"
+    }
+  },
+  "space": {
+    "inset": {
+      "control-x": {
+        "$value": "{space.12}"
+      },
+      "card": {
+        "$value": "{space.20}"
+      },
+      "modal": {
+        "$value": "{space.32}"
+      },
+      "cell-x": {
+        "$value": "{space.12}",
+        "$description": "Table/list cell horizontal padding."
+      },
+      "page": {
+        "$value": "{space.32}"
+      }
+    },
+    "section": {
+      "$value": "{space.32}"
+    }
+  },
+  "radius": {
+    "control": {
+      "$value": "{radius.6}"
+    },
+    "card": {
+      "$value": "{radius.8}"
+    },
+    "modal": {
+      "$value": "{radius.12}",
+      "$description": "Mobile modals render as bottom sheets (top corners only)."
+    }
+  },
+  "layout": {
+    "columns": {
+      "$value": "{grid.columns.12}"
+    },
+    "gutter": {
+      "$value": "{space.24}"
+    },
+    "margin": {
+      "$value": "{space.32}"
+    }
+  },
+  "text-style": {
+    "$description": "Role-based type. Same role names on both platforms; values differ by density.",
+    "page-title": {
+      "$value": "{typography.heading.md}"
+    },
+    "section-title": {
+      "$value": "{typography.heading.xs}"
+    },
+    "card-title": {
+      "$value": "{typography.body.md-strong}"
+    },
+    "provider-name": {
+      "$value": "{typography.body.md-strong}"
+    },
+    "body": {
+      "$value": "{typography.body.sm}"
+    },
+    "body-strong": {
+      "$value": "{typography.body.sm-strong}"
+    },
+    "supporting": {
+      "$value": "{typography.body.sm}"
+    },
+    "label": {
+      "$value": "{typography.label.md}"
+    },
+    "input": {
+      "$value": "{typography.body.sm}",
+      "$description": "Mobile inputs stay at 16px so iOS Safari does not zoom on focus."
+    },
+    "button": {
+      "$value": "{typography.label.md}"
+    },
+    "caption": {
+      "$value": "{typography.caption}"
+    },
+    "badge": {
+      "$value": "{typography.label.sm}"
+    },
+    "appointment-time": {
+      "$value": "{typography.body.md-strong}"
+    },
+    "table-cell": {
+      "$value": "{typography.body.sm}"
+    },
+    "table-header": {
+      "$value": "{typography.label.md}"
+    },
+    "calendar-event": {
+      "$value": "{typography.label.sm}"
+    },
+    "calendar-time": {
+      "$value": "{typography.caption}"
+    },
+    "metric-value": {
+      "$value": "{typography.heading.xl}"
+    },
+    "alert-title": {
+      "$value": "{typography.body.sm-strong}"
+    },
+    "alert-body": {
+      "$value": "{typography.body.sm}"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://www.designtokens.org/schemas/2025.10/resolver.json",
+  "name": "ClearVisit",
+  "version": "2025.10",
+  "description": "ClearVisit token resolution: 2 themes × 2 platforms = 4 permutations.",
+  "sets": {
+    "primitives": {
+      "description": "Raw values. Never referenced by components for color.",
+      "sources": [
+        {
+          "$ref": "primitives/color.tokens.json"
+        },
+        {
+          "$ref": "primitives/typography.tokens.json"
+        },
+        {
+          "$ref": "primitives/spacing.tokens.json"
+        },
+        {
+          "$ref": "primitives/sizing.tokens.json"
+        },
+        {
+          "$ref": "primitives/radius.tokens.json"
+        },
+        {
+          "$ref": "primitives/border.tokens.json"
+        },
+        {
+          "$ref": "primitives/elevation.tokens.json"
+        },
+        {
+          "$ref": "primitives/opacity.tokens.json"
+        },
+        {
+          "$ref": "primitives/motion.tokens.json"
+        },
+        {
+          "$ref": "primitives/layout.tokens.json"
+        }
+      ]
+    },
+    "semantic-base": {
+      "description": "Theme- and platform-independent semantic tokens.",
+      "sources": [
+        {
+          "$ref": "semantic/base.tokens.json"
+        }
+      ]
+    },
+    "components": {
+      "description": "Component tokens. Reference semantic tokens.",
+      "sources": [
+        {
+          "$ref": "components/shared.tokens.json"
+        },
+        {
+          "$ref": "components/mobile.tokens.json"
+        },
+        {
+          "$ref": "components/desktop.tokens.json"
+        }
+      ]
+    }
+  },
+  "modifiers": {
+    "theme": {
+      "description": "Color theme",
+      "default": "light",
+      "contexts": {
+        "light": [
+          {
+            "$ref": "semantic/light.tokens.json"
+          }
+        ],
+        "dark": [
+          {
+            "$ref": "semantic/dark.tokens.json"
+          }
+        ]
+      }
+    },
+    "platform": {
+      "description": "Density/platform. Orthogonal to theme: no token is defined by both modifiers.",
+      "default": "desktop",
+      "contexts": {
+        "mobile": [
+          {
+            "$ref": "semantic/platform/mobile.tokens.json"
+          }
+        ],
+        "desktop": [
+          {
+            "$ref": "semantic/platform/desktop.tokens.json"
+          }
+        ]
+      }
+    }
+  },
+  "resolutionOrder": [
+    {
+      "$ref": "#/sets/primitives"
+    },
+    {
+      "$ref": "#/sets/semantic-base"
+    },
+    {
+      "$ref": "#/modifiers/theme"
+    },
+    {
+      "$ref": "#/modifiers/platform"
+    },
+    {
+      "$ref": "#/sets/components"
+    }
+  ]
+}

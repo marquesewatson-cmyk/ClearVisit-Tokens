@@ -1,0 +1,198 @@
+{
+  "calendar-cell": {
+    "slot-height": {
+      "$value": "{size.48}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "bg-off-hours": {
+      "$value": "{color.surface.subtle}"
+    },
+    "border": {
+      "$value": "{color.border.subtle}"
+    },
+    "today-bg": {
+      "$value": "{color.surface.selected}"
+    },
+    "time-style": {
+      "$value": "{text-style.calendar-time}"
+    },
+    "time-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "now-line": {
+      "$value": "{color.accent.solid}"
+    }
+  },
+  "calendar-event": {
+    "$description": "Event chip. Fill/text/bar come from color.status.<status>.*; pending adds a dashed outline; conflicts add an error outline + icon + 'Conflict' label.",
+    "radius": {
+      "$value": "{radius.sm}"
+    },
+    "padding": {
+      "$value": "{space.inset.xs}"
+    },
+    "text-style": {
+      "$value": "{text-style.calendar-event}"
+    },
+    "bar-width": {
+      "$value": "{stroke.indicator}"
+    },
+    "gap": {
+      "$value": "{space.inline.xs}"
+    },
+    "pending-style": {
+      "$value": "{stroke-style.dashed}"
+    },
+    "conflict-outline": {
+      "$type": "border",
+      "$value": {
+        "color": "{color.feedback.error.icon}",
+        "width": "{stroke.focus}",
+        "style": "{stroke-style.solid}"
+      }
+    }
+  },
+  "table": {
+    "row-height": {
+      "$value": "{size.table-row}"
+    },
+    "header-height": {
+      "$value": "{size.table-header}"
+    },
+    "cell-padding-x": {
+      "$value": "{space.inset.cell-x}"
+    },
+    "header-bg": {
+      "$value": "{color.surface.subtle}"
+    },
+    "header-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "header-style": {
+      "$value": "{text-style.table-header}"
+    },
+    "cell-style": {
+      "$value": "{text-style.table-cell}"
+    },
+    "row-border": {
+      "$value": "{color.border.subtle}"
+    },
+    "row-hover": {
+      "$value": "{color.interaction.hover}"
+    },
+    "row-selected": {
+      "$value": "{color.interaction.selected.bg}"
+    }
+  },
+  "status-indicator": {
+    "dot-size": {
+      "$value": "{size.status-dot}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "text-style": {
+      "$value": "{text-style.body}"
+    }
+  },
+  "filter-chip": {
+    "height": {
+      "$value": "{size.control.sm}"
+    },
+    "padding-x": {
+      "$value": "{space.inset.md}"
+    },
+    "radius": {
+      "$value": "{radius.pill}"
+    },
+    "text-style": {
+      "$value": "{text-style.label}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "selected-bg": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "selected-fg": {
+      "$value": "{color.interaction.selected.fg}"
+    },
+    "selected-border": {
+      "$value": "{color.interaction.selected.border}"
+    }
+  },
+  "pagination": {
+    "item-size": {
+      "$value": "{size.control.sm}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "gap": {
+      "$value": "{space.inline.xs}"
+    },
+    "fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "current-bg": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "current-fg": {
+      "$value": "{color.interaction.selected.fg}"
+    }
+  },
+  "metric-card": {
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "value-style": {
+      "$value": "{text-style.metric-value}"
+    },
+    "label-style": {
+      "$value": "{text-style.supporting}"
+    },
+    "label-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "delta-up": {
+      "$value": "{color.feedback.success.fg}"
+    },
+    "delta-down": {
+      "$value": "{color.feedback.error.fg}"
+    }
+  },
+  "sidebar": {
+    "width": {
+      "$value": "{size.256}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "padding": {
+      "$value": "{space.inset.md}"
+    },
+    "section-style": {
+      "$value": "{text-style.caption}"
+    },
+    "section-fg": {
+      "$value": "{color.text.secondary}"
+    }
+  }
+}

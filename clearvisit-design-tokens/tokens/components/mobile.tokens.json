@@ -1,0 +1,204 @@
+{
+  "provider-card": {
+    "avatar-size": {
+      "$value": "{size.avatar}"
+    },
+    "gap": {
+      "$value": "{space.inline.md}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "name-style": {
+      "$value": "{text-style.provider-name}"
+    },
+    "meta-style": {
+      "$value": "{text-style.supporting}"
+    },
+    "meta-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "next-available-fg": {
+      "$value": "{color.status.available.fg}"
+    },
+    "next-available-bg": {
+      "$value": "{color.status.available.bg}"
+    }
+  },
+  "availability-card": {
+    "$description": "Search result card that leads with the soonest open time.",
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "slot-gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "time-style": {
+      "$value": "{text-style.appointment-time}"
+    }
+  },
+  "booking-card": {
+    "bg": {
+      "$value": "{color.surface.elevated}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "shadow": {
+      "$value": "{elevation.popover}"
+    },
+    "section-gap": {
+      "$value": "{space.section}"
+    }
+  },
+  "date-strip": {
+    "item-width": {
+      "$value": "{size.56}"
+    },
+    "item-height": {
+      "$value": "{size.72}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "weekday-style": {
+      "$value": "{text-style.caption}"
+    },
+    "date-style": {
+      "$value": "{text-style.section-title}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "selected-bg": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "selected-fg": {
+      "$value": "{color.action.primary.fg}"
+    },
+    "availability-dot": {
+      "$value": "{color.status.available.icon}"
+    },
+    "unavailable-fg": {
+      "$value": "{color.text.disabled}"
+    }
+  },
+  "time-slot": {
+    "$description": "Bookable time button. Selected = filled + check icon; booked = disabled fill + struck-through time + 'Booked' a11y label.",
+    "height": {
+      "$value": "{size.time-slot}"
+    },
+    "min-width": {
+      "$value": "{size.88}"
+    },
+    "radius": {
+      "$value": "{radius.control}"
+    },
+    "gap": {
+      "$value": "{space.inline.sm}"
+    },
+    "text-style": {
+      "$value": "{text-style.button}"
+    },
+    "bg": {
+      "$value": "{color.surface.default}"
+    },
+    "fg": {
+      "$value": "{color.action.secondary.fg}"
+    },
+    "border": {
+      "$value": "{color.border.strong}"
+    },
+    "bg-hover": {
+      "$value": "{color.action.secondary.bg-hover}"
+    },
+    "selected-bg": {
+      "$value": "{color.action.primary.bg}"
+    },
+    "selected-fg": {
+      "$value": "{color.action.primary.fg}"
+    },
+    "disabled-bg": {
+      "$value": "{color.interaction.disabled.bg}"
+    },
+    "disabled-fg": {
+      "$value": "{color.interaction.disabled.fg}"
+    },
+    "disabled-border": {
+      "$value": "{color.interaction.disabled.border}"
+    }
+  },
+  "summary-card": {
+    "bg": {
+      "$value": "{color.surface.subtle}"
+    },
+    "radius": {
+      "$value": "{radius.card}"
+    },
+    "padding": {
+      "$value": "{space.inset.card}"
+    },
+    "row-gap": {
+      "$value": "{space.stack.sm}"
+    },
+    "divider": {
+      "$value": "{color.border.default}"
+    },
+    "label-style": {
+      "$value": "{text-style.supporting}"
+    },
+    "label-fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "value-style": {
+      "$value": "{text-style.body-strong}"
+    }
+  },
+  "bottom-nav": {
+    "height": {
+      "$value": "{size.nav-bar}"
+    },
+    "bg": {
+      "$value": "{color.surface.elevated}"
+    },
+    "border": {
+      "$value": "{color.border.default}"
+    },
+    "fg": {
+      "$value": "{color.text.secondary}"
+    },
+    "fg-active": {
+      "$value": "{color.interaction.selected.fg}"
+    },
+    "indicator": {
+      "$value": "{color.interaction.selected.bg}"
+    },
+    "label-style": {
+      "$value": "{text-style.caption}"
+    },
+    "icon-size": {
+      "$value": "{size.icon.md}"
+    },
+    "layer": {
+      "$value": "{layer.sticky}"
+    }
+  }
+}
